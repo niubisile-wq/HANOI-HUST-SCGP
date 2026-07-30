@@ -1,0 +1,10 @@
+{
+  "protocol_version": "Table 10 confirmatory subset",
+  "qualification_status": "qualified_conditional",
+  "numeric_access_authorized": false,
+  "validation_status": "protocol_mismatch_detected",
+  "drift_codes": [
+    "K006",
+    "KI17"
+  ]
+}

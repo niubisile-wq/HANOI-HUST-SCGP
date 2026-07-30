@@ -1,0 +1,15 @@
+{
+  "dataset": "cbv7jyx4p9",
+  "version": 3,
+  "source_partition": 19,
+  "compound_partition": 14,
+  "source_numeric_parse": true,
+  "compound_numeric_parse": false,
+  "selected_family": "logistic_l2",
+  "selected_representation": "envelope_log_power",
+  "mean_component_auroc": 0.8138447971781305,
+  "mean_component_balanced_accuracy": 0.7427248677248678,
+  "exact_set_accuracy": 0.543859649122807,
+  "dominant_view": "envelope_log_power",
+  "dominant_family": "logistic_l2"
+}

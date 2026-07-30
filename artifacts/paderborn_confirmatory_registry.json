@@ -1,0 +1,71 @@
+{
+  "stage": "paderborn_confirmatory_registry",
+  "schema_version": 1,
+  "candidate_id": "paderborn_bearing_datacenter",
+  "source": "paderborn_official",
+  "qualification": {
+    "status": "qualified_conditional",
+    "role": "primary_confirmatory_subset_pending_pipeline_wiring",
+    "numeric_access_authorized": false
+  },
+  "protocol": {
+    "version": "Table 10 confirmatory subset",
+    "path": "research/PADERBORN_CONFIRMATORY_PROTOCOL_20260727.json",
+    "sha256": "628A3768B4CF7399F54D2C0E9B571FB6EF5553A3A88009F52D3FB1B5210C3DE1",
+    "selected_groups": {
+      "healthy": [
+        "K001",
+        "K002",
+        "K003",
+        "K004",
+        "K005"
+      ],
+      "outer_ring_damage": [
+        "KA04",
+        "KA15",
+        "KA16",
+        "KA22",
+        "KA30"
+      ],
+      "inner_ring_damage": [
+        "KI04",
+        "KI14",
+        "KI16",
+        "KI18",
+        "KI21"
+      ]
+    },
+    "excluded_codes": [
+      "K006",
+      "KI17",
+      "KB23",
+      "KB24",
+      "KB27"
+    ]
+  },
+  "validation": {
+    "path": "results/analysis/paderborn_confirmatory_protocol_validation_report.json",
+    "sha256": "3174E36C55787AEB0502397D9E9D628F412D6F41ADE0A93B673EBF90AA4C0715",
+    "status": "protocol_mismatch_detected",
+    "drift_codes": [
+      "K006",
+      "KI17"
+    ]
+  },
+  "official_freeze": {
+    "path": "research/PADERBORN_OFFICIAL_FREEZE_20260727.md",
+    "sha256": "B89F0BE9D919B6A2BDF935D40293C98F41D60D96A60D1A7B1B00DB9B56699373"
+  },
+  "remapping_standard": {
+    "path": "research/PADERBORN_REMAPPING_STANDARD_20260727.md"
+  },
+  "split_drift_audit": {
+    "path": "research/PADERBORN_SPLIT_DRIFT_AUDIT_20260727.md"
+  },
+  "registry_constraints": [
+    "This registry is the machine-readable entry point for the Paderborn primary confirmatory subset.",
+    "All downstream baselines must refer to the same protocol version.",
+    "The third-party split is not the frozen primary protocol.",
+    "Any alternate split requires a separate registry entry and separate hash."
+  ]
+}
