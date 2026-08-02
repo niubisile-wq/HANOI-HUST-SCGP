@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, please cite the associated manuscript."
+message: "If you use this reproducibility package, please cite this archived software release and the associated manuscript."
 title: "Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization"
 type: software
 authors:
@@ -8,6 +8,7 @@ authors:
     orcid: "https://orcid.org/0009-0008-4941-5641"
 version: 2.1.0
 date-released: 2026-08-02
+doi: 10.5281/zenodo.21754415
 license: MIT
 keywords:
   - bearing fault diagnosis
@@ -16,6 +17,8 @@ keywords:
   - physical-unit split
   - reproducibility
 repository-code: "https://github.com/niubisile-wq/HANOI-HUST-SCGP"
+repository-artifact: "https://doi.org/10.5281/zenodo.21754415"
+url: "https://doi.org/10.5281/zenodo.21754415"
 abstract: >-
   Reproducibility package for SCGP, an evaluation protocol that separates
   development, physical-unit-based nested selection, endpoint aggregation,

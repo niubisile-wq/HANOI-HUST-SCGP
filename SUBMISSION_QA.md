@@ -59,8 +59,8 @@ Repeated evidential caveats were consolidated during the final language pass. Th
 ## Final PDF hashes
 
 ```text
-a3a3071ee6ca334bce6920ebb781f8283a96fdeec93e99f4c1f81b939274fd1e  manuscript.pdf
+61332c342465b9b5bd0ec051986c54bd9b6a1356ff2f84f1cfe32156815ab3c1  manuscript.pdf
 37b37ef4a411c86d5560d80da357b6ca7be6fce1e5e4f8916169dddd6226b95a  supplementary_information.pdf
 ```
 
-Public reproducibility release 2.1.0 is maintained at <https://github.com/niubisile-wq/HANOI-HUST-SCGP>. No Zenodo DOI had been assigned at the time of this QA record.
+Public reproducibility release 2.1.0 is maintained at <https://github.com/niubisile-wq/HANOI-HUST-SCGP> and archived at <https://doi.org/10.5281/zenodo.21754415>. The project concept DOI is <https://doi.org/10.5281/zenodo.21695842>.

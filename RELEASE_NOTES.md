@@ -16,4 +16,4 @@ This release:
 - synchronizes 128 active path/SHA-256 references with the canonical public-repository bytes while retaining the dated G0 manifest as historical provenance; and
 - consolidates repeated defensive wording so that findings lead the Abstract, Results, Discussion, and Conclusion, while full scope conditions remain concentrated in the Limitations subsection.
 
-The metadata files describe the public GitHub release and are ready for a subsequent Zenodo archive. No Zenodo DOI is recorded until the repository assigns one.
+The GitHub release was archived by Zenodo as version 2.1.0 with the version-specific DOI <https://doi.org/10.5281/zenodo.21754415>. The project concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version.
