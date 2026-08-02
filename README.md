@@ -2,7 +2,7 @@
 
 Manuscript source, derived evidence, and reconstruction code for the Sealed Compound Generalization Protocol (SCGP) study in rotating-machinery fault diagnosis.
 
-Current reproducibility release: **2.1.1 (2026-08-02)**. The canonical development repository is <https://github.com/niubisile-wq/HANOI-HUST-SCGP>; the Zenodo concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version.
+Current reproducibility release: **2.1.1 (2026-08-02)**, archived on Zenodo at <https://doi.org/10.5281/zenodo.21755175>. The canonical development repository is <https://github.com/niubisile-wq/HANOI-HUST-SCGP>; the Zenodo concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version.
 
 ## Evidence boundary
 
@@ -87,4 +87,4 @@ python scripts/make_figure4.py
 
 Code is released under the MIT License. Dataset licenses and access terms remain those of the original providers. Cite the original dataset records, the associated manuscript, and the exact archived software release used for analysis:
 
-> Liu, Zixuan (2026). *Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization* (version 2.1.1). Zenodo. <https://doi.org/10.5281/zenodo.21695842>
+> Liu, Zixuan (2026). *Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization* (version 2.1.1). Zenodo. <https://doi.org/10.5281/zenodo.21755175>
