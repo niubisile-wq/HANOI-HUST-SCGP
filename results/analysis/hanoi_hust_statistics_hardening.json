@@ -1,0 +1,146 @@
+{
+  "stage": "hanoi_hust_statistics_hardening",
+  "schema_version": 1,
+  "status": "completed",
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20260728,
+  "prediction_cache": {
+    "path": "results/development/hanoi_hust_source_selected_predictions.npz",
+    "sha256": "258b7cecae77a859de694c2d7253060ba4bfd3175b2bbbc5740a35381677d3c5"
+  },
+  "champion": {
+    "family": "logistic_l2",
+    "representation": "envelope_log_power",
+    "exact_set_accuracy": 0.543859649122807,
+    "group_bootstrap_95_ci": {
+      "mean": 0.5438596491228069,
+      "lower": 0.33333333333333337,
+      "upper": 0.7543859649122806
+    },
+    "worst_groups": [
+      {
+        "group": "B5",
+        "record_count": 3,
+        "exact_set_accuracy": 0.0
+      },
+      {
+        "group": "B6",
+        "record_count": 3,
+        "exact_set_accuracy": 0.0
+      },
+      {
+        "group": "I7",
+        "record_count": 3,
+        "exact_set_accuracy": 0.0
+      },
+      {
+        "group": "O4",
+        "record_count": 3,
+        "exact_set_accuracy": 0.0
+      },
+      {
+        "group": "O5",
+        "record_count": 3,
+        "exact_set_accuracy": 0.0
+      }
+    ]
+  },
+  "leave_one_component_out": {
+    "inner": {
+      "keep_components": [
+        "outer",
+        "ball"
+      ],
+      "exact_set_accuracy": 0.631578947368421,
+      "delta_vs_full_pp": 8.771929824561397,
+      "group_bootstrap_95_ci": {
+        "mean": 0.6315789473684209,
+        "lower": 0.42105263157894735,
+        "upper": 0.8245614035087719
+      }
+    },
+    "outer": {
+      "keep_components": [
+        "inner",
+        "ball"
+      ],
+      "exact_set_accuracy": 0.7719298245614035,
+      "delta_vs_full_pp": 22.807017543859644,
+      "group_bootstrap_95_ci": {
+        "mean": 0.7719298245614034,
+        "lower": 0.5964912280701754,
+        "upper": 0.9298245614035087
+      }
+    },
+    "ball": {
+      "keep_components": [
+        "inner",
+        "outer"
+      ],
+      "exact_set_accuracy": 0.543859649122807,
+      "delta_vs_full_pp": 0.0,
+      "group_bootstrap_95_ci": {
+        "mean": 0.5438596491228069,
+        "lower": 0.3333333333333333,
+        "upper": 0.7543859649122806
+      }
+    }
+  },
+  "comparators": {
+    "noace_classical": {
+      "exact_set_accuracy": 0.5789473684210527,
+      "group_mean_exact_set_accuracy": 0.5789473684210527,
+      "group_level": {
+        "mean_difference": -0.035087719298245626,
+        "mean_difference_pp": -3.5087719298245625,
+        "std_difference": 0.5762237310057085,
+        "cohen_dz": -0.06089252734698291,
+        "wilcoxon_statistic": 15.0,
+        "wilcoxon_pvalue": 0.666632055322476,
+        "bootstrap_95_ci": {
+          "lower": -0.28070175438596495,
+          "upper": 0.21052631578947367
+        },
+        "holm_adjusted_pvalue": 1.0
+      }
+    },
+    "noace_physics": {
+      "exact_set_accuracy": 0.5789473684210527,
+      "group_mean_exact_set_accuracy": 0.5789473684210527,
+      "group_level": {
+        "mean_difference": -0.035087719298245626,
+        "mean_difference_pp": -3.5087719298245625,
+        "std_difference": 0.5762237310057085,
+        "cohen_dz": -0.06089252734698291,
+        "wilcoxon_statistic": 15.0,
+        "wilcoxon_pvalue": 0.666632055322476,
+        "bootstrap_95_ci": {
+          "lower": -0.28070175438596495,
+          "upper": 0.21052631578947367
+        },
+        "holm_adjusted_pvalue": 1.0
+      }
+    },
+    "noace_deep": {
+      "exact_set_accuracy": 0.543859649122807,
+      "group_mean_exact_set_accuracy": 0.5438596491228069,
+      "group_level": {
+        "mean_difference": -5.843279076974508e-18,
+        "mean_difference_pp": -5.843279076974508e-16,
+        "std_difference": 0.36851386559504445,
+        "cohen_dz": -1.5856334381175275e-17,
+        "wilcoxon_statistic": 6.5,
+        "wilcoxon_pvalue": 0.7864570351373764,
+        "bootstrap_95_ci": {
+          "lower": -0.1754385964912281,
+          "upper": 0.15789473684210525
+        },
+        "holm_adjusted_pvalue": 1.0
+      }
+    }
+  },
+  "provenance": {
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+    "builder": "src/analyze_hanoi_hust_statistics_hardening.py"
+  }
+}

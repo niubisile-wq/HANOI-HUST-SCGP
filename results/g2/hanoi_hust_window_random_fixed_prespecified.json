@@ -1,0 +1,4621 @@
+{
+  "stage": "hanoi_hust_as_g2_protocol_cell",
+  "schema_version": 1,
+  "status": "completed_descriptive_only",
+  "hierarchy": "window_random",
+  "selection": "fixed_prespecified",
+  "split_count": 100,
+  "cache_sha256": "6ebfb4c7cf5b68ed40825be7584f1bd9f6709df1d593e0b3c1213f5e74f352d6",
+  "manifest_sha256": "d35c20d17cf8a2f34a08d350b3cf300c1c2e702e7257caa057fd56234fc181a3",
+  "representation": "envelope_log_power",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing",
+  "inference_allowed": false,
+  "primary_metric": "bearing_level_macro_component_auroc",
+  "splits": [
+    {
+      "split_id": 0,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00035337867116654086,
+          0.000832737450038953,
+          0.0007594856684302967
+        ],
+        "mean_brier_score": 0.0006485339298785969,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 1,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009381660350239177,
+          0.0010517324520227533,
+          0.0018176924158140601
+        ],
+        "mean_brier_score": 0.0012691969676202437,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 2,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0004324119345912106,
+          0.0006585225477435896,
+          0.0012112829569427487
+        ],
+        "mean_brier_score": 0.0007674058130925163,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 3,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006574290999527721,
+          0.0012631145105399663,
+          0.0012554904801029571
+        ],
+        "mean_brier_score": 0.0010586780301985652,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 4,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0004846477811885388,
+          0.0005702966279654577,
+          0.0023677127270970324
+        ],
+        "mean_brier_score": 0.0011408857120836764,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 5,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008126377893759771,
+          0.0006159968746333154,
+          0.0010179095980938847
+        ],
+        "mean_brier_score": 0.0008155147540343924,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 6,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008539848180500039,
+          0.0004656169721675384,
+          0.0010494275510819853
+        ],
+        "mean_brier_score": 0.0007896764470998425,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 7,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005098749641773106,
+          0.00043928230378599044,
+          0.0013578428720947258
+        ],
+        "mean_brier_score": 0.0007690000466860089,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 8,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008367625791891531,
+          0.0004702693607333207,
+          0.0015823415378140293
+        ],
+        "mean_brier_score": 0.0009631244925788343,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 9,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009462178093801911,
+          0.000763535618937274,
+          0.0009606763498175779
+        ],
+        "mean_brier_score": 0.0008901432593783477,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 10,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00044516876315550956,
+          0.0007523258720869927,
+          0.0009284980836883712
+        ],
+        "mean_brier_score": 0.0007086642396436244,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 11,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006211359252422885,
+          0.0009914683099382796,
+          0.0009019450224569982
+        ],
+        "mean_brier_score": 0.0008381830858791888,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 12,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009530031734097698,
+          0.0007845536075352926,
+          0.0021367561102190215
+        ],
+        "mean_brier_score": 0.001291437630388028,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 13,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007840721092825314,
+          0.0005304628299653539,
+          0.0016965126888653377
+        ],
+        "mean_brier_score": 0.0010036825427044078,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 14,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008219039638215233,
+          0.0009330410126597737,
+          0.0018391186788857554
+        ],
+        "mean_brier_score": 0.001198021218455684,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 15,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00037283080798737914,
+          0.0005218693470392358,
+          0.0009522811557893215
+        ],
+        "mean_brier_score": 0.0006156604369386455,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 16,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006748150756891436,
+          0.0013034735624857065,
+          0.003470341952483488
+        ],
+        "mean_brier_score": 0.0018162101968861126,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 17,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00046692260278279876,
+          0.0006881550344820876,
+          0.0013945153685340985
+        ],
+        "mean_brier_score": 0.0008498643352663282,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 18,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005443012721721924,
+          0.0006408735739528094,
+          0.0013188773989929977
+        ],
+        "mean_brier_score": 0.0008346840817059997,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 19,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005156503080187407,
+          0.0009484053346459409,
+          0.0009131846994491141
+        ],
+        "mean_brier_score": 0.0007924134473712652,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 20,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0010107995370601437,
+          0.0006549917378444373,
+          0.0009968001365212701
+        ],
+        "mean_brier_score": 0.0008875304704752838,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 21,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003198381569654832,
+          0.0006227594051222775,
+          0.0011188451656527632
+        ],
+        "mean_brier_score": 0.0006871475759135081,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 22,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007548572272547794,
+          0.0009737003780371816,
+          0.0008709941419461706
+        ],
+        "mean_brier_score": 0.0008665172490793772,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 23,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005859035664532019,
+          0.0010472104812595617,
+          0.0009146939755467693
+        ],
+        "mean_brier_score": 0.0008492693410865109,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 24,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005723196452822097,
+          0.0010905400556855676,
+          0.0012485562411357481
+        ],
+        "mean_brier_score": 0.0009704719807011752,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 25,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000589778192678115,
+          0.0007247453253965295,
+          0.002087055769348955
+        ],
+        "mean_brier_score": 0.0011338597624745332,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 26,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00046472940269482317,
+          0.0008564767832270947,
+          0.0008216862651881884
+        ],
+        "mean_brier_score": 0.0007142974837033687,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 27,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000439250672966722,
+          0.00026873806414925435,
+          0.0012542638971933737
+        ],
+        "mean_brier_score": 0.00065408421143645,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 28,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0012647365012098935,
+          0.0004910116092451952,
+          0.0019937201622072893
+        ],
+        "mean_brier_score": 0.001249822757554126,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 29,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000650220979182795,
+          0.0007951830691835408,
+          0.0025620014916312877
+        ],
+        "mean_brier_score": 0.0013358018466658745,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 30,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0010224883449688632,
+          0.0006825237843782299,
+          0.0010364858379832101
+        ],
+        "mean_brier_score": 0.0009138326557767678,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 31,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000912743860574124,
+          0.0006701602271881079,
+          0.0017040204627322576
+        ],
+        "mean_brier_score": 0.0010956415168314965,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 32,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0011386421551391863,
+          0.0007312090964778731,
+          0.0012242078874110667
+        ],
+        "mean_brier_score": 0.0010313530463427086,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 33,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003831510514791808,
+          0.0006535260326806271,
+          0.0016515171398294422
+        ],
+        "mean_brier_score": 0.00089606474132975,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 34,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000373587566320795,
+          0.0004952680411615343,
+          0.0009153307839533587
+        ],
+        "mean_brier_score": 0.0005947287971452294,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 35,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0002965109817861825,
+          0.001010839110330344,
+          0.0017303630995568326
+        ],
+        "mean_brier_score": 0.0010125710638911197,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 36,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003080968922190885,
+          0.0008494167941853316,
+          0.0014623515116030865
+        ],
+        "mean_brier_score": 0.0008732883993358355,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 37,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005062287330568211,
+          0.0009713338322777181,
+          0.0018969898771051315
+        ],
+        "mean_brier_score": 0.001124850814146557,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 38,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00036104491786500626,
+          0.0007776190827942377,
+          0.0008683723970512647
+        ],
+        "mean_brier_score": 0.0006690121325701697,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 39,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006609141982730599,
+          0.0003841388827370367,
+          0.0015309317498811246
+        ],
+        "mean_brier_score": 0.0008586616102970738,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 40,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000374062192119269,
+          0.0006910533713526928,
+          0.001390974775225285
+        ],
+        "mean_brier_score": 0.0008186967795657489,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 41,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006424092670711816,
+          0.000787201619835626,
+          0.0016861252495583641
+        ],
+        "mean_brier_score": 0.0010385787121550572,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 42,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009387022846602931,
+          0.0008782094877519475,
+          0.0013854579220581305
+        ],
+        "mean_brier_score": 0.001067456564823457,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 43,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.002789474504573392,
+          0.00041907997311595646,
+          0.0009486719805660105
+        ],
+        "mean_brier_score": 0.0013857421527517864,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 44,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0004866013754600595,
+          0.001119423443619496,
+          0.0011102906443837795
+        ],
+        "mean_brier_score": 0.0009054384878211117,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 45,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005923867071225963,
+          0.0005737009611284729,
+          0.0015809295697542317
+        ],
+        "mean_brier_score": 0.0009156724126684336,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 46,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005244436449000492,
+          0.0004703597409775441,
+          0.0014413262252387115
+        ],
+        "mean_brier_score": 0.0008120432037054349,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 47,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005519051364818886,
+          0.0006865501701184598,
+          0.0009692972728275597
+        ],
+        "mean_brier_score": 0.0007359175264759693,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 48,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005681251605022285,
+          0.0008066058817492368,
+          0.0012021220321735762
+        ],
+        "mean_brier_score": 0.0008589510248083473,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 49,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008273472923956987,
+          0.00047206190660305887,
+          0.0012113276498043654
+        ],
+        "mean_brier_score": 0.0008369122829343743,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 50,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007335008902404983,
+          0.0013504935780286453,
+          0.002233555250091156
+        ],
+        "mean_brier_score": 0.0014391832394534331,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 51,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0010628511990191606,
+          0.0007624703476956325,
+          0.001487494894244683
+        ],
+        "mean_brier_score": 0.001104272146986492,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 52,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006241640019174278,
+          0.0006913851496317805,
+          0.0012563281014780932
+        ],
+        "mean_brier_score": 0.0008572924176757672,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 53,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00041233288914172304,
+          0.0005515532886859474,
+          0.002555661693613925
+        ],
+        "mean_brier_score": 0.0011731826238138652,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 54,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0016633663413104136,
+          0.000946093596722067,
+          0.0017532324249205933
+        ],
+        "mean_brier_score": 0.0014542307876510244,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 55,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008490879573146309,
+          0.0007799620740845648,
+          0.0014582206671297417
+        ],
+        "mean_brier_score": 0.0010290902328429791,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 56,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006570299594290575,
+          0.0004584313063040032,
+          0.0007065361734403499
+        ],
+        "mean_brier_score": 0.0006073324797244701,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 57,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0010827131814450152,
+          0.00074608442841106,
+          0.0011222964829748154
+        ],
+        "mean_brier_score": 0.0009836980309436301,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 58,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006507198566626346,
+          0.00073281099643861,
+          0.0017400908234139606
+        ],
+        "mean_brier_score": 0.0010412072255050683,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 59,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005294885046737522,
+          0.0007014594619330688,
+          0.0013697651751547822
+        ],
+        "mean_brier_score": 0.0008669043805872011,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 60,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006767110115494481,
+          0.00038344345102311477,
+          0.0020972836813569163
+        ],
+        "mean_brier_score": 0.0010524793813098264,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 61,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003755515009011314,
+          0.000726598946770291,
+          0.001244066250740849
+        ],
+        "mean_brier_score": 0.0007820722328040905,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 62,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007562988498297166,
+          0.0006527840076115127,
+          0.0012102342719398022
+        ],
+        "mean_brier_score": 0.0008731057097936772,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 63,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008403377541138398,
+          0.0006551139256877986,
+          0.0009485487352828909
+        ],
+        "mean_brier_score": 0.0008146668050281764,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 64,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005986496286873556,
+          0.000869658005102385,
+          0.0016701396747588492
+        ],
+        "mean_brier_score": 0.00104614910284953,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 65,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000633693362300711,
+          0.000963657557122471,
+          0.0016033028981874756
+        ],
+        "mean_brier_score": 0.0010668846058702192,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 66,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007378565523753329,
+          0.0005461390495866034,
+          0.0007002329823181907
+        ],
+        "mean_brier_score": 0.0006614095280933757,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 67,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005027460800113826,
+          0.0015377375178223095,
+          0.0026445682278103985
+        ],
+        "mean_brier_score": 0.0015616839418813634,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 68,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000673201987167026,
+          0.0006560354007608156,
+          0.0015888478524101817
+        ],
+        "mean_brier_score": 0.0009726950801126744,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 69,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003467157726462688,
+          0.0004936656189679944,
+          0.0011726018904408228
+        ],
+        "mean_brier_score": 0.0006709944273516954,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 70,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00035986645088964525,
+          0.0004910911550395309,
+          0.001122082556218374
+        ],
+        "mean_brier_score": 0.0006576800540491834,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 71,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009600540305003063,
+          0.00042324695933266014,
+          0.0013475906985971845
+        ],
+        "mean_brier_score": 0.000910297229476717,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 72,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005083326826834981,
+          0.0010407484906249588,
+          0.0012768342111163387
+        ],
+        "mean_brier_score": 0.0009419717948082653,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 73,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0014165627915140727,
+          0.0004103633570692109,
+          0.0010752504025355642
+        ],
+        "mean_brier_score": 0.0009673921837062826,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 74,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00028510993719921035,
+          0.0008916602700813415,
+          0.002014286382499944
+        ],
+        "mean_brier_score": 0.001063685529926832,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 75,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003545981365160194,
+          0.0004517943736828025,
+          0.0017055964598807658
+        ],
+        "mean_brier_score": 0.0008373296566931959,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 76,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003720858321187784,
+          0.000760021957715827,
+          0.002470318788881817
+        ],
+        "mean_brier_score": 0.001200808859572141,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 77,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0011406742872044227,
+          0.00034487498030690716,
+          0.001248936040406784
+        ],
+        "mean_brier_score": 0.0009114951026393713,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 78,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000755582692253677,
+          0.000679487141096964,
+          0.0017227843904409766
+        ],
+        "mean_brier_score": 0.0010526180745972058,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 79,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0003107788640608432,
+          0.0006156164067981285,
+          0.0011297651407643696
+        ],
+        "mean_brier_score": 0.0006853868038744471,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 80,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0009251020835502941,
+          0.0011818772321484973,
+          0.0023591977907009326
+        ],
+        "mean_brier_score": 0.0014887257021332413,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 81,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006410116746033839,
+          0.0009787196204665575,
+          0.0022470979639009304
+        ],
+        "mean_brier_score": 0.001288943086323624,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 82,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007470468418215922,
+          0.0005793951305586968,
+          0.0011697888533798234
+        ],
+        "mean_brier_score": 0.0008320769419200375,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 83,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005965359602549357,
+          0.0005854410863032883,
+          0.001659306250483348
+        ],
+        "mean_brier_score": 0.0009470944323471906,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 84,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0007107450704613527,
+          0.000545869400316896,
+          0.0012413627515125301
+        ],
+        "mean_brier_score": 0.0008326590740969263,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 85,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0020386491592983263,
+          0.0005197551319409301,
+          0.0011330603373973808
+        ],
+        "mean_brier_score": 0.0012304882095455457,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 86,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006761770134507281,
+          0.0007248343908471183,
+          0.002532409922975489
+        ],
+        "mean_brier_score": 0.0013111404424244449,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 87,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0008594522660769514,
+          0.0003661517453475501,
+          0.0014917004387898633
+        ],
+        "mean_brier_score": 0.0009057681500714549,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 88,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0010477453230548785,
+          0.0006885234127738516,
+          0.0014770308918932492
+        ],
+        "mean_brier_score": 0.0010710998759073263,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 89,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00087765532256781,
+          0.0006111207198424297,
+          0.0011823634434222003
+        ],
+        "mean_brier_score": 0.0008903798286108133,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 90,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00045408114384824365,
+          0.000676835149719756,
+          0.0019346570789960434
+        ],
+        "mean_brier_score": 0.0010218577908546812,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 91,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006522800371317673,
+          0.0005970688167113449,
+          0.0013492437624446337
+        ],
+        "mean_brier_score": 0.0008661975387625819,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 92,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0004840974400594457,
+          0.0005018843679876499,
+          0.0012052481734358444
+        ],
+        "mean_brier_score": 0.0007304099938276466,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 93,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005598343479740559,
+          0.0003816444937394771,
+          0.001044869391763134
+        ],
+        "mean_brier_score": 0.0006621160778255557,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 94,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005618669590773838,
+          0.0006226357023471983,
+          0.0018974260277001816
+        ],
+        "mean_brier_score": 0.0010273095630415879,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 95,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0006829908937112078,
+          0.0006617982021796243,
+          0.0013103348383403442
+        ],
+        "mean_brier_score": 0.0008850413114103922,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 96,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.0005478481353460507,
+          0.0011721595146790308,
+          0.001357217623002644
+        ],
+        "mean_brier_score": 0.0010257417576759085,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 97,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00046256485887418385,
+          0.0007051148111218231,
+          0.0008157775291820747
+        ],
+        "mean_brier_score": 0.0006611523997260273,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 98,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00046026719562197634,
+          0.0010894238979783646,
+          0.0013958225657372922
+        ],
+        "mean_brier_score": 0.0009818378864458778,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    },
+    {
+      "split_id": 99,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.000400180882358368,
+          0.0008976267586049101,
+          0.00128284855896116
+        ],
+        "mean_brier_score": 0.0008602187333081459,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    }
+  ],
+  "predictions": {
+    "path": "results/g2/unit_level_predictions/hanoi_hust_window_random_fixed_prespecified.npz",
+    "sha256": "4dc2c0275f3ae78f5b9983e5337225979e06a6343a8f5a8b5c49fd7057b79cfa"
+  }
+}

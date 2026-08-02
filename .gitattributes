@@ -1,0 +1,26 @@
+* text=auto
+
+*.py text eol=lf
+*.tex text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.cff text eol=lf
+*.txt text eol=lf
+*.ini text eol=lf
+*.cls text eol=lf
+*.sty text eol=lf
+*.bst text eol=lf
+
+*.eps binary
+*.pdf binary
+*.png binary
+*.npz binary
+
+# Preserve the publisher-supplied template files byte-for-byte.
+Definitions/*.tex -text
+Definitions/*.cls -text
+Definitions/*.sty -text
+Definitions/*.bst -text

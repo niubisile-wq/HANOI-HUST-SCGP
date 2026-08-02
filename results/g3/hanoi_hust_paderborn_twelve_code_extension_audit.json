@@ -1,0 +1,34 @@
+{
+  "stage": "hanoi_hust_paderborn_twelve_code_extension_audit",
+  "schema_version": 1,
+  "status": "passed",
+  "result_sha256": "95f04aeb4ea40e285abd5867cb792e9a62b02107ece2c0258650eef9efec1605",
+  "registry_sha256": "0afa4da3b311b3a4ee57853f23294de1d79876029db37beb26eab840135b8dd2",
+  "feature_cache_sha256": "87688a7e0dcb076ef31328d9f182bbba434ad9fb7d54b2bc015b5c7e7420c920",
+  "raw_archives_available": false,
+  "checks": {
+    "registry_hash_matches_result": true,
+    "runner_hash_matches_registry": true,
+    "source_hash_matches_registry": true,
+    "feature_cache_hash_matches_result": true,
+    "twelve_disjoint_codes_registered": true,
+    "external_tuning_prohibited": true,
+    "cache_has_960_records": true,
+    "cache_has_80_records_per_code": true,
+    "cache_targets_match_registry": true,
+    "all_unit_probabilities_rebuilt": true,
+    "all_unit_predictions_rebuilt": true,
+    "headline_metrics_rebuilt": true
+  },
+  "rebuilt_metrics": {
+    "inner_auroc": 0.34375,
+    "outer_auroc": 0.71875,
+    "exact_set_accuracy": 0.25,
+    "exact_set_count": [
+      3,
+      12
+    ],
+    "hamming_loss": 0.3055555555555556
+  },
+  "failures": []
+}

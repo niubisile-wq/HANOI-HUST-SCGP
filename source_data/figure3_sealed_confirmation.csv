@@ -1,0 +1,4 @@
+model,mean_component_auroc,exact_set_accuracy,n_held_out_bearings
+noace_classical,0.6208333333333332,0.0,14
+source_logistic_l2,0.811111111111111,0.14285714285714285,14
+source_mlp_deep,0.8814814814814814,0.0,14

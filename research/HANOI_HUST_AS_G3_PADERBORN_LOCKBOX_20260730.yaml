@@ -1,0 +1,41 @@
+stage: hanoi_hust_as_g3_paderborn_lockbox
+date: 2026-07-30
+status: frozen_before_external_scoring
+source: "https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/data-sets-and-download"
+version_note: "official BearingDataCenter directory snapshot; readme_versions.txt dated 2016-07-13"
+archives:
+  - file: K001.rar
+    sha256: 0f119ebdb28fb2f4d9fac1beb1319429f63f7ae1256c23c872f280f3560918e5
+    bytes: 173881721
+    bearing_code: K001
+    label: normal
+  - file: KA01.rar
+    sha256: 6a6be1e11132730cc6f560d51eacedcbfd5fd74b829e9d8d3728c6c8a7cd4c0e
+    bytes: 166571438
+    bearing_code: KA01
+    label: outer_race
+  - file: KI01.rar
+    sha256: b1dd6d99bb64d556f889fefaedb7e6e672900f5f015125615feaae776f055348
+    bytes: 175265779
+    bearing_code: KI01
+    label: inner_race
+unit_definition: physical_bearing_code
+record_count_per_bearing: 80
+information_budget: I0_source_only
+model_lock:
+  source_cache: artifacts/hanoi_hust/source_features.npz
+  representation: envelope_log_power
+  classifier: logistic_l2
+  C: 10.0
+  scaler: fit_on_HANOI_source_only
+  threshold: 0.5
+  external_tuning: forbidden
+label_mapping:
+  normal: [0, 0, 0]
+  inner_race: [1, 0, 0]
+  outer_race: [0, 1, 0]
+  ball: [0, 0, 1]
+red_lines:
+  - external scores are boundary checks, not pooled HANOI training
+  - only the two observed external components are inferentially scored
+  - no external model selection or threshold tuning

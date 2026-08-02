@@ -1,0 +1,81 @@
+{
+  "stage": "paderborn_twelve_code_external_extension",
+  "schema_version": 1,
+  "status": "frozen_before_numeric_access",
+  "role": "pre_access_frozen_disjoint_external_extension",
+  "registered_at": "2026-08-02T10:00:00.7243539+08:00",
+  "source": "https://groups.uni-paderborn.de/kat/BearingDataCenter/",
+  "license": "CC BY-NC 4.0; noncommercial academic use with attribution",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing_code",
+  "external_tuning_permitted": false,
+  "access_authorization": {
+    "numeric_access_authorized": true,
+    "authorization_basis": "User requested that the independent-unit experiment be added after the submission audit identified the three-code limitation.",
+    "authorization_message": "那就新增"
+  },
+  "source_model": {
+    "source_cache_path": "artifacts/hanoi_hust/source_features.npz",
+    "source_cache_sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54",
+    "representation": "envelope_log_power",
+    "classifier": "logistic_l2",
+    "C": 10.0,
+    "class_weight": "balanced",
+    "scaler": "fit_on_HANOI_source_only",
+    "threshold": 0.5,
+    "random_state": 20260730
+  },
+  "execution": {
+    "script": "src/run_hanoi_hust_paderborn_twelve_code_extension.py",
+    "script_sha256": "c0059e256d3d2682b4171728767fea9de466c3c64b8fee51eaa50fb4573b663e",
+    "record_count_per_bearing": 80,
+    "record_aggregation": "arithmetic mean of the 80 record probabilities within each bearing code",
+    "bootstrap_seed": 20260802,
+    "bootstrap_resamples": 10000
+  },
+  "boundary_set": {
+    "selection_rule": "Twelve codes retained in the historical unopened registry, balanced 4/4/4 by state and disjoint from K001, KA01, and KI01.",
+    "bearing_codes": {
+      "healthy": [
+        "K002",
+        "K003",
+        "K004",
+        "K005"
+      ],
+      "outer_race_damage": [
+        "KA04",
+        "KA15",
+        "KA16",
+        "KA22"
+      ],
+      "inner_race_damage": [
+        "KI04",
+        "KI14",
+        "KI16",
+        "KI18"
+      ]
+    },
+    "bearing_count": 12,
+    "record_count": 960,
+    "disjoint_from_reported_three_code_boundary": true,
+    "download_urls": {
+      "K002": "https://groups.uni-paderborn.de/kat/BearingDataCenter/K002.rar",
+      "K003": "https://groups.uni-paderborn.de/kat/BearingDataCenter/K003.rar",
+      "K004": "https://groups.uni-paderborn.de/kat/BearingDataCenter/K004.rar",
+      "K005": "https://groups.uni-paderborn.de/kat/BearingDataCenter/K005.rar",
+      "KA04": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KA04.rar",
+      "KA15": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KA15.rar",
+      "KA16": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KA16.rar",
+      "KA22": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KA22.rar",
+      "KI04": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KI04.rar",
+      "KI14": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KI14.rar",
+      "KI16": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KI16.rar",
+      "KI18": "https://groups.uni-paderborn.de/kat/BearingDataCenter/KI18.rar"
+    }
+  },
+  "separation_note": {
+    "reported_pilot_registry": "artifacts/paderborn_three_code_boundary_registry.json",
+    "historical_unopened_registry": "artifacts/paderborn_confirmatory_registry.json",
+    "interpretation": "This extension is a new post-audit experiment. It does not rewrite the access history of either earlier registry and will be reported separately."
+  }
+}

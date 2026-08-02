@@ -1,0 +1,7 @@
+method,representation,mean_component_auroc
+logistic_l2,envelope_log_power,0.8138447971781305
+logistic_l2,all,0.8067019400352734
+logistic_l2,fixed_log_power,0.7525573192239858
+extra_trees,envelope_log_power,0.7471781305114638
+rbf_svm,all,0.7250440917107582
+logistic_l2,statistics,0.7206349206349207

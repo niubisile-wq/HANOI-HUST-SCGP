@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Source-only G3 robustness audit under the identical 100 bearing-grouped outer splits. All scores are computed after aggregation to the physical-bearing unit. The raw-waveform models use a fixed downsampling factor of 64 and are reported as diagnostic R2 implementations; no model was tuned on the outer test bearings.}
+\label{tab:g3-audit}
+\begin{tabular}{l l r r r r r}
+\toprule
+Method & Input / budget & AUROC & AUPR & Bal. Acc. & Macro-F1 & Exact set \\
+\midrule
+Fixed logistic & Envelope features / I0 & 0.862 & 0.835 & 0.742 & 0.704 & 0.490 \\
+Random forest & Envelope features / I0 & 0.785 & 0.750 & 0.666 & 0.628 & 0.458 \\
+GroupDRO-style logistic & Envelope features / I0 & 0.845 & 0.825 & 0.721 & 0.680 & 0.482 \\
+MiniROCKET & Raw waveform / I0 & 0.751 & 0.708 & 0.682 & 0.628 & 0.556 \\
+WDCNN-style & Raw waveform / I0 & 0.630 & 0.608 & 0.530 & 0.386 & 0.116 \\
+ResNet1D & Raw waveform / I0 & 0.609 & 0.607 & 0.521 & 0.373 & 0.120 \\
+InceptionTime-style & Raw waveform / I0 & 0.569 & 0.565 & 0.516 & 0.370 & 0.120 \\
+\bottomrule
+\end{tabular}
+\end{table*}

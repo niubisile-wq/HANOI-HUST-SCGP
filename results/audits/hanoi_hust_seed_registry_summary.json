@@ -1,0 +1,82 @@
+{
+  "stage": "hanoi_hust_seed_registry_summary",
+  "schema_version": 1,
+  "status": "completed",
+  "project": "HANOI_HUST",
+  "dataset_record": {
+    "record": "cbv7jyx4p9",
+    "version": 3,
+    "doi": "10.17632/cbv7jyx4p9.3",
+    "title": "HUST bearing: a practical dataset for ball bearing fault diagnosis",
+    "license": "CC BY 4.0",
+    "sample_rate_hz": 51200,
+    "record_count": 99,
+    "physical_bearings": 33,
+    "source_bearings": 19,
+    "compound_bearings": 14
+  },
+  "seed_list": [
+    42,
+    7,
+    21,
+    84,
+    168
+  ],
+  "repeat_count": 5,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "node": "Eco",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 24
+  },
+  "commit_hash": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+  "config_hash": "08cc11f2c2a7ad1a62f8350974e7d81f1d12df69af4fdcacca28f2e97fca2bb0",
+  "split_hash": "b2902ed4edab239ccbaf43937577901e5c3103e169634ebdbeb955a566f5aee1",
+  "metric_bundle": {
+    "mean_component_auroc": {
+      "mean": 0.8138447971781305,
+      "std": 0.0,
+      "min": 0.8138447971781305,
+      "max": 0.8138447971781305
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.7427248677248678,
+      "std": 0.0,
+      "min": 0.7427248677248678,
+      "max": 0.7427248677248678
+    },
+    "exact_set_accuracy": {
+      "mean": 0.543859649122807,
+      "std": 0.0,
+      "min": 0.543859649122807,
+      "max": 0.543859649122807
+    },
+    "mean_brier_score": {
+      "mean": 0.16050664093995246,
+      "std": 0.0,
+      "min": 0.16050664093995246,
+      "max": 0.16050664093995246
+    },
+    "hamming_loss": {
+      "mean": 0.19883040935672514,
+      "std": 0.0,
+      "min": 0.19883040935672514,
+      "max": 0.19883040935672514
+    }
+  },
+  "artifact_path": "results/development/hanoi_hust_source_multiseed.json",
+  "selected_family": "logistic_l2",
+  "selected_representation": "envelope_log_power",
+  "selected_hyperparameter": {
+    "C": 10.0
+  },
+  "allowed_current_statement": "The HANOI HUST main method and main results are frozen, and a dedicated multi-seed registry is now summarized from completed seed repeats.",
+  "source_registry_sha256": "b2902ed4edab239ccbaf43937577901e5c3103e169634ebdbeb955a566f5aee1",
+  "source_baselines_sha256": "08cc11f2c2a7ad1a62f8350974e7d81f1d12df69af4fdcacca28f2e97fca2bb0",
+  "multiseed_sha256": "332cba3375e207aebc031bdc864a0d826b852c75bc399ad3baee6c184273d5b0",
+  "provenance": {
+    "builder": "src/build_hanoi_hust_seed_registry_summary.py",
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048"
+  }
+}

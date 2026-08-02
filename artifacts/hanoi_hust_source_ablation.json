@@ -4,7 +4,7 @@
   "status": "completed",
   "baseline_result": {
     "path": "results/development/hanoi_hust_source_baselines.json",
-    "sha256": "08cc11f2c2a7ad1a62f8350974e7d81f1d12df69af4fdcacca28f2e97fca2bb0"
+    "sha256": "de0b882a8f5f98b98d57ab47ce70cd46850d7ff31d44788ed40635afd857fe13"
   },
   "selected": {
     "family": "logistic_l2",

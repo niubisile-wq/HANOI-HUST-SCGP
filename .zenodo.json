@@ -1,0 +1,40 @@
+{
+  "title": "Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization",
+  "description": "Reproducibility package for the Sealed Compound Generalization Protocol (SCGP), including manuscript-specific code, derived feature caches, split manifests, unit-level predictions, result files, and audit records. Raw third-party datasets are not redistributed.",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "2.1.0",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Liu, Zixuan",
+      "orcid": "0009-0008-4941-5641",
+      "affiliation": "School of Electrical and Electronic Engineering, Hubei University of Technology"
+    }
+  ],
+  "keywords": [
+    "bearing fault diagnosis",
+    "compound fault diagnosis",
+    "evaluation protocol",
+    "physical-unit split",
+    "nested model selection",
+    "reproducibility"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.17632/cbv7jyx4p9.3",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.36001/phme.2016.v3i1.1577",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/niubisile-wq/HANOI-HUST-SCGP",
+      "relation": "isVersionOf",
+      "scheme": "url"
+    }
+  ]
+}

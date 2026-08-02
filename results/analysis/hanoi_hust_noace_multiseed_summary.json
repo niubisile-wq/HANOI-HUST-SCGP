@@ -1,0 +1,127 @@
+{
+  "stage": "hanoi_hust_noace_multiseed_summary",
+  "schema_version": 1,
+  "status": "completed",
+  "input": "results/analysis/hanoi_hust_source_noace_multiseed.json",
+  "mode": "classical",
+  "seed_count": 3,
+  "seeds": [
+    42,
+    84,
+    20260727
+  ],
+  "aggregates": {
+    "mean_component_auroc": {
+      "mean": 0.8087301587301589,
+      "std": 0.0,
+      "min": 0.8087301587301589,
+      "max": 0.8087301587301589
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.7416666666666667,
+      "std": 0.0,
+      "min": 0.7416666666666667,
+      "max": 0.7416666666666667
+    },
+    "exact_set_accuracy": {
+      "mean": 0.5789473684210527,
+      "std": 0.0,
+      "min": 0.5789473684210527,
+      "max": 0.5789473684210527
+    },
+    "mean_brier_score": {
+      "mean": 0.21600669170702191,
+      "std": 0.0,
+      "min": 0.21600669170702191,
+      "max": 0.21600669170702191
+    },
+    "hamming_loss": {
+      "mean": 0.21052631578947367,
+      "std": 0.0,
+      "min": 0.21052631578947367,
+      "max": 0.21052631578947367
+    }
+  },
+  "champion": {
+    "seed": 20260727,
+    "seed_output": "results/analysis/hanoi_hust_source_noace_multiseed_seed_20260727.json",
+    "candidate_count": 1,
+    "selected_predictions": "results/analysis/hanoi_hust_source_noace_multiseed_seed_20260727_selected_predictions.npz",
+    "selected_family": "noace_classical",
+    "selected_representation": "all",
+    "mean_component_auroc": 0.8087301587301589,
+    "mean_component_balanced_accuracy": 0.7416666666666667,
+    "exact_set_accuracy": 0.5789473684210527,
+    "mean_brier_score": 0.21600669170702191,
+    "hamming_loss": 0.21052631578947367,
+    "status": "completed"
+  },
+  "winner_by_seed": [
+    {
+      "seed": 42,
+      "selected_representation": "all"
+    },
+    {
+      "seed": 84,
+      "selected_representation": "all"
+    },
+    {
+      "seed": 20260727,
+      "selected_representation": "all"
+    }
+  ],
+  "representation_summary": {
+    "all": {
+      "wins": 3,
+      "count": 3,
+      "mean_auroc": 0.8087301587301589,
+      "std_auroc": 0.0,
+      "min_auroc": 0.8087301587301589,
+      "max_auroc": 0.8087301587301589
+    }
+  },
+  "top_runs": [
+    {
+      "seed": 42,
+      "seed_output": "results/analysis/hanoi_hust_source_noace_multiseed_seed_42.json",
+      "candidate_count": 1,
+      "selected_predictions": "results/analysis/hanoi_hust_source_noace_multiseed_seed_42_selected_predictions.npz",
+      "selected_family": "noace_classical",
+      "selected_representation": "all",
+      "mean_component_auroc": 0.8087301587301589,
+      "mean_component_balanced_accuracy": 0.7416666666666667,
+      "exact_set_accuracy": 0.5789473684210527,
+      "mean_brier_score": 0.21600669170702191,
+      "hamming_loss": 0.21052631578947367,
+      "status": "completed"
+    },
+    {
+      "seed": 84,
+      "seed_output": "results/analysis/hanoi_hust_source_noace_multiseed_seed_84.json",
+      "candidate_count": 1,
+      "selected_predictions": "results/analysis/hanoi_hust_source_noace_multiseed_seed_84_selected_predictions.npz",
+      "selected_family": "noace_classical",
+      "selected_representation": "all",
+      "mean_component_auroc": 0.8087301587301589,
+      "mean_component_balanced_accuracy": 0.7416666666666667,
+      "exact_set_accuracy": 0.5789473684210527,
+      "mean_brier_score": 0.21600669170702191,
+      "hamming_loss": 0.21052631578947367,
+      "status": "completed"
+    },
+    {
+      "seed": 20260727,
+      "seed_output": "results/analysis/hanoi_hust_source_noace_multiseed_seed_20260727.json",
+      "candidate_count": 1,
+      "selected_predictions": "results/analysis/hanoi_hust_source_noace_multiseed_seed_20260727_selected_predictions.npz",
+      "selected_family": "noace_classical",
+      "selected_representation": "all",
+      "mean_component_auroc": 0.8087301587301589,
+      "mean_component_balanced_accuracy": 0.7416666666666667,
+      "exact_set_accuracy": 0.5789473684210527,
+      "mean_brier_score": 0.21600669170702191,
+      "hamming_loss": 0.21052631578947367,
+      "status": "completed"
+    }
+  ]
+}

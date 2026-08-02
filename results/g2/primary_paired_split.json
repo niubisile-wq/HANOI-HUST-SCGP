@@ -1,0 +1,118 @@
+{
+  "stage": "hanoi_hust_as_g2_primary_paired_split",
+  "schema_version": 1,
+  "status": "completed",
+  "pre_specified_test_bearings": [
+    "N4",
+    "N5",
+    "I4",
+    "O4",
+    "B5"
+  ],
+  "selection": "fixed_prespecified_logistic_l2_C10",
+  "cache": {
+    "path": "artifacts/hanoi_hust/source_features.npz",
+    "sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54"
+  },
+  "record_grouped": {
+    "train_record_count": 52,
+    "test_record_count": 5
+  },
+  "bearing_grouped": {
+    "train_record_count": 42,
+    "test_record_count": 15
+  },
+  "metrics": {
+    "record_grouped": {
+      "unit_count": 5,
+      "balanced_accuracy_by_component": [
+        1.0,
+        0.875,
+        0.5
+      ],
+      "mean_component_balanced_accuracy": 0.7916666666666666,
+      "auroc_by_component": [
+        1.0,
+        0.75,
+        1.0
+      ],
+      "mean_component_auroc": 0.9166666666666666,
+      "aupr_by_component": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "mean_component_aupr": 0.8333333333333334,
+      "brier_by_component": [
+        3.856298825627171e-05,
+        0.19417486343491816,
+        0.11681300564127076
+      ],
+      "mean_brier_score": 0.10367547735481507,
+      "macro_f1_by_component": [
+        1.0,
+        0.7619047619047619,
+        0.4444444444444444
+      ],
+      "mean_component_macro_f1": 0.7354497354497355,
+      "exact_set_accuracy": 0.8,
+      "hamming_loss": 0.13333333333333333
+    },
+    "bearing_grouped": {
+      "unit_count": 5,
+      "balanced_accuracy_by_component": [
+        1.0,
+        0.75,
+        0.5
+      ],
+      "mean_component_balanced_accuracy": 0.75,
+      "auroc_by_component": [
+        1.0,
+        0.5,
+        1.0
+      ],
+      "mean_component_auroc": 0.8333333333333334,
+      "aupr_by_component": [
+        1.0,
+        0.3333333333333333,
+        1.0
+      ],
+      "mean_component_aupr": 0.7777777777777777,
+      "brier_by_component": [
+        0.014708468293882282,
+        0.3046474227739955,
+        0.18807437012565584
+      ],
+      "mean_brier_score": 0.16914342039784455,
+      "macro_f1_by_component": [
+        1.0,
+        0.5833333333333333,
+        0.4444444444444444
+      ],
+      "mean_component_macro_f1": 0.6759259259259259,
+      "exact_set_accuracy": 0.6,
+      "hamming_loss": 0.2
+    },
+    "paired_unit_differences": {
+      "bearing_minus_record_exact_indicator": [
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bearing_minus_record_hamming_loss": [
+        0.0,
+        0.3333333333333333,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "paired_sign_permutation": {
+      "exact_indicator_p": 1.0,
+      "hamming_loss_p": 1.0
+    }
+  },
+  "interpretation": "paired comparison on the same five pre-specified physical bearings; small-sample exact sign permutation"
+}

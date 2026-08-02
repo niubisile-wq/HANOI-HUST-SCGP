@@ -91,11 +91,11 @@ for ax, values, title, panel in [
         fontsize=8.5, fontweight="bold", color=DARK
     )
 
-axes[1].set_xlabel("Metric value on the sealed 14-bearing partition")
+axes[1].set_xlabel("Metric value on the documented 14-bearing holdout")
 
 fig.text(
     0.39, 0.045,
-    "The panels use the same 0–1 scale but quantify different prediction endpoints.",
+    "The panels use the same 0-1 scale but quantify different prediction endpoints.",
     ha="left", va="bottom", fontsize=5.9, color="#586870"
 )
 

@@ -1,0 +1,7 @@
+protocol,endpoint,mean_component_auroc,exact_set_accuracy
+Record-grouped fixed,Record,0.951,0.776
+Record-grouped fixed,Bearing aggregated,0.959,0.791
+Bearing-grouped fixed,Record,0.828,0.510
+Bearing-grouped fixed,Bearing aggregated,0.860,0.490
+Bearing-grouped nested,Record,0.777,0.420
+Bearing-grouped nested,Bearing aggregated,0.803,0.406

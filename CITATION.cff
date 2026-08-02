@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, please cite the associated manuscript."
+title: "Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Zixuan
+    orcid: "https://orcid.org/0009-0008-4941-5641"
+version: 2.1.0
+date-released: 2026-08-02
+license: MIT
+keywords:
+  - bearing fault diagnosis
+  - compound faults
+  - evaluation protocol
+  - physical-unit split
+  - reproducibility
+repository-code: "https://github.com/niubisile-wq/HANOI-HUST-SCGP"
+abstract: >-
+  Reproducibility package for SCGP, an evaluation protocol that separates
+  development, physical-unit-based nested selection, endpoint aggregation,
+  and controlled confirmation in rotating-machinery fault diagnosis.

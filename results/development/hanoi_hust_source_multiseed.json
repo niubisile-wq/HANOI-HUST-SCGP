@@ -1,0 +1,146 @@
+{
+  "stage": "hanoi_hust_source_multiseed",
+  "schema_version": 1,
+  "status": "completed",
+  "seed_count": 5,
+  "seeds": [
+    42,
+    7,
+    21,
+    84,
+    168
+  ],
+  "champion": {
+    "seed": 168,
+    "output": "results/development/hanoi_hust_source_multiseed_seed_168.json",
+    "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_168_selected_predictions.npz",
+    "selected_family": "logistic_l2",
+    "selected_representation": "envelope_log_power",
+    "selected_hyperparameter": {
+      "C": 10.0
+    },
+    "mean_component_auroc": 0.8138447971781305,
+    "mean_component_balanced_accuracy": 0.7427248677248678,
+    "exact_set_accuracy": 0.543859649122807,
+    "mean_brier_score": 0.16050664093995246,
+    "hamming_loss": 0.19883040935672514,
+    "status": "completed"
+  },
+  "aggregates": {
+    "mean_component_auroc": {
+      "mean": 0.8138447971781305,
+      "std": 0.0,
+      "min": 0.8138447971781305,
+      "max": 0.8138447971781305
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.7427248677248678,
+      "std": 0.0,
+      "min": 0.7427248677248678,
+      "max": 0.7427248677248678
+    },
+    "exact_set_accuracy": {
+      "mean": 0.543859649122807,
+      "std": 0.0,
+      "min": 0.543859649122807,
+      "max": 0.543859649122807
+    },
+    "mean_brier_score": {
+      "mean": 0.16050664093995246,
+      "std": 0.0,
+      "min": 0.16050664093995246,
+      "max": 0.16050664093995246
+    },
+    "hamming_loss": {
+      "mean": 0.19883040935672514,
+      "std": 0.0,
+      "min": 0.19883040935672514,
+      "max": 0.19883040935672514
+    }
+  },
+  "runs": [
+    {
+      "seed": 42,
+      "output": "results/development/hanoi_hust_source_multiseed_seed_42.json",
+      "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_42_selected_predictions.npz",
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "mean_component_auroc": 0.8138447971781305,
+      "mean_component_balanced_accuracy": 0.7427248677248678,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.16050664093995246,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    },
+    {
+      "seed": 7,
+      "output": "results/development/hanoi_hust_source_multiseed_seed_7.json",
+      "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_7_selected_predictions.npz",
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "mean_component_auroc": 0.8138447971781305,
+      "mean_component_balanced_accuracy": 0.7427248677248678,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.16050664093995246,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    },
+    {
+      "seed": 21,
+      "output": "results/development/hanoi_hust_source_multiseed_seed_21.json",
+      "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_21_selected_predictions.npz",
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "mean_component_auroc": 0.8138447971781305,
+      "mean_component_balanced_accuracy": 0.7427248677248678,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.16050664093995246,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    },
+    {
+      "seed": 84,
+      "output": "results/development/hanoi_hust_source_multiseed_seed_84.json",
+      "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_84_selected_predictions.npz",
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "mean_component_auroc": 0.8138447971781305,
+      "mean_component_balanced_accuracy": 0.7427248677248678,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.16050664093995246,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    },
+    {
+      "seed": 168,
+      "output": "results/development/hanoi_hust_source_multiseed_seed_168.json",
+      "selected_predictions": "results/development/hanoi_hust_source_multiseed_seed_168_selected_predictions.npz",
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "mean_component_auroc": 0.8138447971781305,
+      "mean_component_balanced_accuracy": 0.7427248677248678,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.16050664093995246,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    }
+  ],
+  "provenance": {
+    "builder": "src/run_hanoi_hust_source_multiseed.py"
+  }
+}

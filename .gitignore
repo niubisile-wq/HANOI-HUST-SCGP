@@ -1,0 +1,46 @@
+# Python environments and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local data, scratch space, and submission-package copies.
+data/
+tmp/
+release/
+$checkDir/
+*.rar
+*.7z
+*.zip
+*.mat
+*.h5
+*.hdf5
+
+# LaTeX build products.
+*.aux
+*.log
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.spl
+*.out
+
+# Reproducible rendered formats that are unnecessary in Git history.
+*.docx
+*.svg
+*.tif
+*.tiff
+
+# Keep compact publication previews and required PDFs under version control.
+*.pdf
+!manuscript.pdf
+!supplementary_information.pdf
+!figures/*.pdf
+!Definitions/*.pdf
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{5pt}
+\renewcommand{\arraystretch}{1.10}
+\caption{Legacy endpoint differences from the AUROC-selected source representation under \texttt{logistic\_l2}.}
+\label{tab:hanoi_view_ablation}
+\begin{tabular}{lrrrr}
+\toprule
+View & $C$ & $\Delta$ AUROC & $\Delta$ Exact-set & $\Delta$ Brier \\
+\midrule
+\texttt{envelope\_log\_power} & 10.00 & 0.000 & 0.000 & 0.000 \\
+\texttt{all} & 0.10 & $-0.007$ & $+0.053$ & $-0.020$ \\
+\texttt{fixed\_log\_power} & 0.01 & $-0.061$ & $-0.140$ & $+0.008$ \\
+\texttt{statistics} & 10.00 & $-0.093$ & 0.000 & $+0.038$ \\
+\bottomrule
+\end{tabular}
+\vspace{0.4em}
+\par\small\noindent
+Each $\Delta$ is the view minus \texttt{envelope\_log\_power}; lower Brier score is better. Table~\ref{tab:hanoi_main_results} reports the full point estimates.
+\end{table}

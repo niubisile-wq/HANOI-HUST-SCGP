@@ -1,0 +1,269 @@
+{
+  "stage": "hanoi_hust_calibration_rejection",
+  "schema_version": 1,
+  "status": "completed",
+  "prediction_cache": {
+    "path": "results/development/hanoi_hust_source_selected_predictions.npz",
+    "sha256": "258b7cecae77a859de694c2d7253060ba4bfd3175b2bbbc5740a35381677d3c5"
+  },
+  "champion": {
+    "family": "logistic_l2",
+    "representation": "envelope_log_power",
+    "exact_set_accuracy": 0.543859649122807
+  },
+  "calibration": {
+    "overall_exact_set_accuracy": 0.543859649122807,
+    "overall_hamming_loss": 0.19883040935672514,
+    "inner_ece": 0.1685871330068789,
+    "outer_ece": 0.2963116308560487,
+    "ball_ece": 0.06806633511252742
+  },
+  "risk_coverage": {
+    "aurc": 0.3093857963774632,
+    "ece": 0.29822651648764814,
+    "curve": [
+      {
+        "coverage": 0.10526315789473684,
+        "threshold": 0.9927252377383411,
+        "selective_accuracy": 0.8333333333333334,
+        "risk": 0.16666666666666663
+      },
+      {
+        "coverage": 0.21052631578947367,
+        "threshold": 0.9816444832831621,
+        "selective_accuracy": 0.9166666666666666,
+        "risk": 0.08333333333333337
+      },
+      {
+        "coverage": 0.3157894736842105,
+        "threshold": 0.9647219069302082,
+        "selective_accuracy": 0.7777777777777778,
+        "risk": 0.2222222222222222
+      },
+      {
+        "coverage": 0.40350877192982454,
+        "threshold": 0.9223388433456421,
+        "selective_accuracy": 0.782608695652174,
+        "risk": 0.21739130434782605
+      },
+      {
+        "coverage": 0.5087719298245614,
+        "threshold": 0.902326337993145,
+        "selective_accuracy": 0.7931034482758621,
+        "risk": 0.2068965517241379
+      },
+      {
+        "coverage": 0.6140350877192983,
+        "threshold": 0.8289099931716919,
+        "selective_accuracy": 0.6857142857142857,
+        "risk": 0.3142857142857143
+      },
+      {
+        "coverage": 0.7017543859649122,
+        "threshold": 0.7829490453004837,
+        "selective_accuracy": 0.625,
+        "risk": 0.375
+      },
+      {
+        "coverage": 0.8070175438596491,
+        "threshold": 0.6840854585170746,
+        "selective_accuracy": 0.6304347826086957,
+        "risk": 0.3695652173913043
+      },
+      {
+        "coverage": 0.9122807017543859,
+        "threshold": 0.6080933809280396,
+        "selective_accuracy": 0.5769230769230769,
+        "risk": 0.42307692307692313
+      },
+      {
+        "coverage": 1.0,
+        "threshold": 0.5153201520442963,
+        "selective_accuracy": 0.543859649122807,
+        "risk": 0.45614035087719296
+      }
+    ]
+  },
+  "failure_groups": [
+    {
+      "group": "B5",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.927501047650973,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "B6",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.8344441056251526,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "I7",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.7558586001396179,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O4",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.7561269154151281,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O5",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.8876072367032369,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O7",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.6909310221672058,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O8",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.595121850570043,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "B7",
+      "record_count": 3,
+      "exact_set_accuracy": 0.3333333333333333,
+      "mean_confidence": 0.7417770301302274,
+      "failure_rate": 0.6666666666666667
+    },
+    {
+      "group": "I8",
+      "record_count": 3,
+      "exact_set_accuracy": 0.3333333333333333,
+      "mean_confidence": 0.7977665712436041,
+      "failure_rate": 0.6666666666666667
+    },
+    {
+      "group": "O6",
+      "record_count": 3,
+      "exact_set_accuracy": 0.6666666666666666,
+      "mean_confidence": 0.8688228030999502,
+      "failure_rate": 0.33333333333333337
+    },
+    {
+      "group": "B8",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.9944171242356815,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "I4",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.8288378318150839,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "I5",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.8977769032741586,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "I6",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.8466579988598824,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "N4",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.9435380498568217,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "N5",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.9810552553584179,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "N6",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.9668658891071876,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "N7",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.9453820747633775,
+      "failure_rate": 0.0
+    },
+    {
+      "group": "N8",
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "mean_confidence": 0.7391488365828991,
+      "failure_rate": 0.0
+    }
+  ],
+  "top_failures": [
+    {
+      "group": "B5",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.927501047650973,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "B6",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.8344441056251526,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "I7",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.7558586001396179,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O4",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.7561269154151281,
+      "failure_rate": 1.0
+    },
+    {
+      "group": "O5",
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "mean_confidence": 0.8876072367032369,
+      "failure_rate": 1.0
+    }
+  ],
+  "refutation_pack": {
+    "path": "results/analysis/hanoi_hust_refutation_pack.json",
+    "sha256": "3786b9ff91e4e7cd5a1291287ec46a8067a021a100d46403e05e8dd17bd60995",
+    "label_shuffle_mean_aurc": null,
+    "label_shuffle_mean_exact_set": 0.2350877192982456
+  },
+  "provenance": {
+    "builder": "src/run_hanoi_hust_calibration_rejection_audit.py",
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048"
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "stage": "hanoi_hust_trustworthiness",
+  "schema_version": 1,
+  "status": "completed",
+  "artifact_path": "results/development/hanoi_hust_source_selected_predictions.npz",
+  "overall": {
+    "record_count": 57,
+    "exact_set_accuracy": 0.543859649122807,
+    "hamming_loss": 0.19883040935672514,
+    "component_accuracy": {
+      "inner": 0.8421052631578947,
+      "outer": 0.631578947368421,
+      "ball": 0.9298245614035088
+    },
+    "component_ece": {
+      "inner": 0.1685871330068789,
+      "outer": 0.2963116308560487,
+      "ball": 0.06806633511252742
+    }
+  },
+  "groups": {
+    "B5": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.6666666666666666,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.0,
+        "ball": 0.0
+      },
+      "component_ece": {
+        "inner": 0.0016392092378130958,
+        "outer": 0.948004404703776,
+        "ball": 0.974830408663062
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "B6": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.3333333333333333,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 2.6311142846681305e-06,
+        "outer": 0.8344441056251525,
+        "ball": 7.947285973752827e-08
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "B7": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.3333333333333333,
+      "hamming_loss": 0.2222222222222222,
+      "component_accuracy": {
+        "inner": 0.3333333333333333,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.4247485464438796,
+        "outer": 0.051620540519555405,
+        "ball": 0.004459023475646973
+      },
+      "exact_set_error_rate": 0.6666666666666667
+    },
+    "B8": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.00011964848575503192,
+        "outer": 0.00558287576431855,
+        "ball": 0.0001709461212158203
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "I4": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.17116216818491617,
+        "outer": 0.018685606463501852,
+        "ball": 0.00011275258899938005
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "I5": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.09854163726170857,
+        "outer": 0.011247366453365734,
+        "ball": 0.006573851065089305
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "I6": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.0005325675010681152,
+        "outer": 0.13695654024680454,
+        "ball": 0.05904449212054411
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "I7": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.6666666666666666,
+      "component_accuracy": {
+        "inner": 0.0,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.990307793331643,
+        "outer": 0.7558586001396179,
+        "ball": 0.00035672013473231345
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "I8": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.3333333333333333,
+      "hamming_loss": 0.2222222222222222,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.3333333333333333,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.0902787446975708,
+        "outer": 0.657104526956876,
+        "ball": 5.982810277297782e-05
+      },
+      "exact_set_error_rate": 0.6666666666666667
+    },
+    "N4": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.0006914842282791748,
+        "outer": 0.0372146541873614,
+        "ball": 0.023935779885505326
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "N5": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.0014902896073181182,
+        "outer": 0.018944744641582172,
+        "ball": 1.7253921550756484e-08
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "N6": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.03294373909011483,
+        "outer": 0.003719467289859798,
+        "ball": 0.0011539730079069461
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "N7": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.05461792523662248,
+        "outer": 5.762554754558853e-06,
+        "ball": 6.161592743107273e-05
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "N8": {
+      "record_count": 3,
+      "exact_set_accuracy": 1.0,
+      "hamming_loss": 0.0,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.25109196205933887,
+        "outer": 0.0420544259250164,
+        "ball": 9.220707276350974e-05
+      },
+      "exact_set_error_rate": 0.0
+    },
+    "O4": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.3333333333333333,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.004506908842207243,
+        "outer": 0.8305051469554503,
+        "ball": 0.10541613392221431
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "O5": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.3333333333333333,
+      "component_accuracy": {
+        "inner": 0.0,
+        "outer": 1.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.9805075724919637,
+        "outer": 0.11219567060470581,
+        "ball": 0.00239943383106341
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "O6": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.6666666666666666,
+      "hamming_loss": 0.1111111111111111,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.6666666666666666,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.10008870375653107,
+        "outer": 0.4425941289712985,
+        "ball": 0.010559313164170211
+      },
+      "exact_set_error_rate": 0.33333333333333337
+    },
+    "O7": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.4444444444444444,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.0,
+        "ball": 0.6666666666666666
+      },
+      "component_ece": {
+        "inner": 0.1484171226620674,
+        "outer": 0.8448088672012091,
+        "ball": 0.3377330116927624
+      },
+      "exact_set_error_rate": 1.0
+    },
+    "O8": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.4444444444444444,
+      "component_accuracy": {
+        "inner": 0.6666666666666666,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.4769404033819834,
+        "outer": 0.8100439806779225,
+        "ball": 0.07680012658238411
+      },
+      "exact_set_error_rate": 1.0
+    }
+  },
+  "worst_group_exact_set": {
+    "group": "B6",
+    "summary": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.3333333333333333,
+      "component_accuracy": {
+        "inner": 1.0,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 2.6311142846681305e-06,
+        "outer": 0.8344441056251525,
+        "ball": 7.947285973752827e-08
+      },
+      "exact_set_error_rate": 1.0
+    }
+  },
+  "worst_group_inner_accuracy": {
+    "group": "I7",
+    "summary": {
+      "record_count": 3,
+      "exact_set_accuracy": 0.0,
+      "hamming_loss": 0.6666666666666666,
+      "component_accuracy": {
+        "inner": 0.0,
+        "outer": 0.0,
+        "ball": 1.0
+      },
+      "component_ece": {
+        "inner": 0.990307793331643,
+        "outer": 0.7558586001396179,
+        "ball": 0.00035672013473231345
+      },
+      "exact_set_error_rate": 1.0
+    }
+  },
+  "bearing_types": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "loads_w": [
+    0,
+    200,
+    400
+  ],
+  "provenance": {
+    "builder": "src/analyze_hanoi_hust_trustworthiness.py"
+  }
+}

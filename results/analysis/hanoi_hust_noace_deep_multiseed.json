@@ -1,0 +1,116 @@
+{
+  "seed_count": 3,
+  "seeds": [
+    20260727,
+    42,
+    84
+  ],
+  "champion": {
+    "seed": 20260727,
+    "seed_output": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_20260727.json",
+    "candidate_count": 16,
+    "selected_predictions": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_20260727_selected_predictions.npz",
+    "selected_family": "mlp_deep",
+    "selected_representation": "statistics",
+    "mean_component_auroc": 0.8903880070546736,
+    "mean_component_balanced_accuracy": 0.7000000000000001,
+    "exact_set_accuracy": 0.543859649122807,
+    "mean_brier_score": 0.13361465930434063,
+    "hamming_loss": 0.17543859649122806,
+    "status": "completed"
+  },
+  "champion_selection": {
+    "metric_order": [
+      "mean_component_auroc",
+      "exact_set_accuracy",
+      "-mean_brier_score",
+      "seed"
+    ]
+  },
+  "aggregates": {
+    "mean_component_auroc": {
+      "mean": 0.8674603174603175,
+      "std": 0.016655387191915977,
+      "min": 0.8513227513227514,
+      "max": 0.8903880070546736
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.6973985890652558,
+      "std": 0.011541758026084963,
+      "min": 0.682142857142857,
+      "max": 0.71005291005291
+    },
+    "exact_set_accuracy": {
+      "mean": 0.543859649122807,
+      "std": 0.0,
+      "min": 0.543859649122807,
+      "max": 0.543859649122807
+    },
+    "mean_brier_score": {
+      "mean": 0.14479325343777946,
+      "std": 0.008124906000817902,
+      "min": 0.13361465930434063,
+      "max": 0.1526848148644444
+    },
+    "hamming_loss": {
+      "mean": 0.1929824561403509,
+      "std": 0.012633022803913957,
+      "min": 0.17543859649122806,
+      "max": 0.2046783625730994
+    }
+  },
+  "runs": [
+    {
+      "seed": 20260727,
+      "seed_output": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_20260727.json",
+      "candidate_count": 16,
+      "selected_predictions": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_20260727_selected_predictions.npz",
+      "selected_family": "mlp_deep",
+      "selected_representation": "statistics",
+      "mean_component_auroc": 0.8903880070546736,
+      "mean_component_balanced_accuracy": 0.7000000000000001,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.13361465930434063,
+      "hamming_loss": 0.17543859649122806,
+      "status": "completed"
+    },
+    {
+      "seed": 42,
+      "seed_output": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_42.json",
+      "candidate_count": 16,
+      "selected_predictions": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_42_selected_predictions.npz",
+      "selected_family": "mlp_deep",
+      "selected_representation": "all",
+      "mean_component_auroc": 0.8606701940035274,
+      "mean_component_balanced_accuracy": 0.71005291005291,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.14808028614455335,
+      "hamming_loss": 0.19883040935672514,
+      "status": "completed"
+    },
+    {
+      "seed": 84,
+      "seed_output": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_84.json",
+      "candidate_count": 16,
+      "selected_predictions": "results/analysis/hanoi_hust_noace_deep_multiseed_seed_84_selected_predictions.npz",
+      "selected_family": "mlp_deep",
+      "selected_representation": "all",
+      "mean_component_auroc": 0.8513227513227514,
+      "mean_component_balanced_accuracy": 0.682142857142857,
+      "exact_set_accuracy": 0.543859649122807,
+      "mean_brier_score": 0.1526848148644444,
+      "hamming_loss": 0.2046783625730994,
+      "status": "completed"
+    }
+  ],
+  "stage": "hanoi_hust_noace_deep_multiseed",
+  "schema_version": 1,
+  "status": "completed",
+  "cache": {
+    "path": "artifacts/hanoi_hust/source_features.npz",
+    "sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54"
+  },
+  "provenance": {
+    "builder": "src/run_hanoi_hust_source_noace_deep_multiseed.py"
+  }
+}

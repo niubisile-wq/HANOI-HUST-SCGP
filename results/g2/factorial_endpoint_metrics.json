@@ -1,0 +1,2708 @@
+{
+  "hanoi_hust_record_grouped_fixed_prespecified": [
+    {
+      "split": 0,
+      "record_auroc": 0.9760101010101009,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9675925925925926,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 1,
+      "record_auroc": 0.9166666666666666,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9375,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 2,
+      "record_auroc": 0.9166666666666666,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9375,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 3,
+      "record_auroc": 1.0,
+      "record_exact": 1.0,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 1.0,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 4,
+      "record_auroc": 0.9666666666666668,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9841269841269842,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 5,
+      "record_auroc": 0.9259259259259259,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9583333333333334,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 6,
+      "record_auroc": 0.764520202020202,
+      "record_exact": 0.35714285714285715,
+      "bearing_auroc": 0.7648809523809524,
+      "bearing_exact": 0.4,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 7,
+      "record_auroc": 0.9851851851851853,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 8,
+      "record_auroc": 0.9629629629629629,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9583333333333334,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 9,
+      "record_auroc": 0.9444444444444445,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.951388888888889,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 10,
+      "record_auroc": 0.9728535353535354,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9657848324514992,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 11,
+      "record_auroc": 1.0,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 12,
+      "record_auroc": 0.9795918367346937,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9777777777777779,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 13,
+      "record_auroc": 0.9472222222222223,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9729166666666668,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 14,
+      "record_auroc": 0.9583333333333334,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9629629629629629,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 15,
+      "record_auroc": 1.0,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 16,
+      "record_auroc": 0.8916666666666666,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9278549382716049,
+      "bearing_exact": 0.6666666666666666,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 17,
+      "record_auroc": 0.9861111111111112,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 0.9761904761904763,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 18,
+      "record_auroc": 0.9861111111111112,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 0.9761904761904763,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 19,
+      "record_auroc": 0.964983164983165,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9861111111111112,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 20,
+      "record_auroc": 0.9628942486085345,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9611111111111111,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 21,
+      "record_auroc": 0.936111111111111,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9632936507936508,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 22,
+      "record_auroc": 0.9777777777777779,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 0.9695767195767195,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 23,
+      "record_auroc": 0.8828282828282829,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9424603174603176,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 24,
+      "record_auroc": 0.8828282828282829,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9424603174603176,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 25,
+      "record_auroc": 1.0,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 26,
+      "record_auroc": 0.9833333333333334,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 1.0,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 27,
+      "record_auroc": 0.9305555555555557,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9259259259259259,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 28,
+      "record_auroc": 0.9250000000000002,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9642857142857143,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 29,
+      "record_auroc": 0.986111111111111,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9666666666666667,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 30,
+      "record_auroc": 0.9863945578231292,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 31,
+      "record_auroc": 0.9249999999999999,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9523809523809524,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 32,
+      "record_auroc": 0.9732323232323233,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9722222222222222,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 33,
+      "record_auroc": 0.9113636363636365,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9682539682539684,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 34,
+      "record_auroc": 0.9494949494949495,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9761904761904763,
+      "bearing_exact": 0.7777777777777778,
+      "n_records": 14,
+      "n_bearings": 9
+    },
+    {
+      "split": 35,
+      "record_auroc": 0.9743589743589745,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 0.9629629629629629,
+      "bearing_exact": 0.9,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 36,
+      "record_auroc": 0.8512626262626263,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.861111111111111,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 37,
+      "record_auroc": 0.9622895622895623,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9722222222222222,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 38,
+      "record_auroc": 0.9266414141414141,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9146825396825397,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 39,
+      "record_auroc": 0.907051282051282,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9212962962962963,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 40,
+      "record_auroc": 0.9446969696969697,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9259259259259259,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 41,
+      "record_auroc": 0.9345959595959595,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9135802469135803,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 42,
+      "record_auroc": 0.9286616161616162,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9464285714285715,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 43,
+      "record_auroc": 0.9547979797979798,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9666666666666667,
+      "bearing_exact": 0.7692307692307693,
+      "n_records": 14,
+      "n_bearings": 13
+    },
+    {
+      "split": 44,
+      "record_auroc": 0.9638888888888889,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9523809523809524,
+      "bearing_exact": 0.6363636363636364,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 45,
+      "record_auroc": 0.9833333333333334,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9895833333333334,
+      "bearing_exact": 0.9166666666666666,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 46,
+      "record_auroc": 0.9291666666666667,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9623015873015873,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 47,
+      "record_auroc": 0.8990740740740741,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9583333333333334,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 48,
+      "record_auroc": 0.9777777777777779,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9895833333333334,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 49,
+      "record_auroc": 0.9595441595441595,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9506493506493506,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 50,
+      "record_auroc": 1.0,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 51,
+      "record_auroc": 0.9743589743589745,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 52,
+      "record_auroc": 0.9305555555555557,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.951388888888889,
+      "bearing_exact": 0.9,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 53,
+      "record_auroc": 1.0,
+      "record_exact": 1.0,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 1.0,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 54,
+      "record_auroc": 1.0,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.7777777777777778,
+      "n_records": 14,
+      "n_bearings": 9
+    },
+    {
+      "split": 55,
+      "record_auroc": 1.0,
+      "record_exact": 1.0,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 1.0,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 56,
+      "record_auroc": 0.9494949494949495,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9351851851851851,
+      "bearing_exact": 0.6363636363636364,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 57,
+      "record_auroc": 0.9481481481481482,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.96875,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 58,
+      "record_auroc": 0.9314814814814815,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9355709876543209,
+      "bearing_exact": 0.5833333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 59,
+      "record_auroc": 0.9464646464646465,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9484126984126985,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 60,
+      "record_auroc": 0.9791666666666666,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 61,
+      "record_auroc": 0.9268518518518519,
+      "record_exact": 0.5714285714285714,
+      "bearing_auroc": 0.9791666666666666,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 62,
+      "record_auroc": 0.9222222222222222,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.8670634920634921,
+      "bearing_exact": 0.6,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 63,
+      "record_auroc": 0.9287037037037038,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9315696649029982,
+      "bearing_exact": 0.6666666666666666,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 64,
+      "record_auroc": 0.9629629629629629,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9682539682539684,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 65,
+      "record_auroc": 0.9694444444444444,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9833333333333334,
+      "bearing_exact": 0.8461538461538461,
+      "n_records": 14,
+      "n_bearings": 13
+    },
+    {
+      "split": 66,
+      "record_auroc": 0.9815656565656566,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9753086419753085,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 67,
+      "record_auroc": 0.9175925925925926,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9206349206349206,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 68,
+      "record_auroc": 0.9101851851851852,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.9444444444444443,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 69,
+      "record_auroc": 0.9259259259259259,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9484126984126985,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 70,
+      "record_auroc": 0.898076923076923,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9194444444444446,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 71,
+      "record_auroc": 0.8958333333333334,
+      "record_exact": 0.5,
+      "bearing_auroc": 0.8839285714285715,
+      "bearing_exact": 0.6,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 72,
+      "record_auroc": 0.9064102564102564,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.8981481481481483,
+      "bearing_exact": 0.6666666666666666,
+      "n_records": 14,
+      "n_bearings": 9
+    },
+    {
+      "split": 73,
+      "record_auroc": 0.9429292929292928,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9458333333333333,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 74,
+      "record_auroc": 0.975,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9761904761904763,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 75,
+      "record_auroc": 0.8983164983164983,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9722222222222223,
+      "bearing_exact": 0.9,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 76,
+      "record_auroc": 0.9601851851851851,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9439153439153439,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 77,
+      "record_auroc": 0.9595959595959597,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9583333333333334,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 78,
+      "record_auroc": 0.9652777777777777,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9880952380952381,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 79,
+      "record_auroc": 0.94006734006734,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9388888888888888,
+      "bearing_exact": 0.8461538461538461,
+      "n_records": 14,
+      "n_bearings": 13
+    },
+    {
+      "split": 80,
+      "record_auroc": 0.9393939393939394,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6363636363636364,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 81,
+      "record_auroc": 0.9797979797979798,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9861111111111112,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 82,
+      "record_auroc": 0.9595959595959597,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9583333333333334,
+      "bearing_exact": 0.7,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 83,
+      "record_auroc": 0.9925925925925926,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9907407407407408,
+      "bearing_exact": 0.8461538461538461,
+      "n_records": 14,
+      "n_bearings": 13
+    },
+    {
+      "split": 84,
+      "record_auroc": 0.9833333333333334,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 85,
+      "record_auroc": 0.9851851851851853,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9866666666666667,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 86,
+      "record_auroc": 0.9607535321821037,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9555555555555556,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 87,
+      "record_auroc": 0.9595959595959597,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9722222222222222,
+      "bearing_exact": 0.8181818181818182,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 88,
+      "record_auroc": 0.9012626262626262,
+      "record_exact": 0.6428571428571429,
+      "bearing_auroc": 0.898148148148148,
+      "bearing_exact": 0.7272727272727273,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 89,
+      "record_auroc": 1.0,
+      "record_exact": 0.9285714285714286,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.9166666666666666,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 90,
+      "record_auroc": 0.9696969696969697,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.958641975308642,
+      "bearing_exact": 0.75,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 91,
+      "record_auroc": 1.0,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6363636363636364,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 92,
+      "record_auroc": 0.9833333333333334,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9861111111111112,
+      "bearing_exact": 0.9,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 93,
+      "record_auroc": 0.9925925925925926,
+      "record_exact": 0.8571428571428571,
+      "bearing_auroc": 0.9895833333333334,
+      "bearing_exact": 0.8333333333333334,
+      "n_records": 14,
+      "n_bearings": 12
+    },
+    {
+      "split": 94,
+      "record_auroc": 1.0,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 95,
+      "record_auroc": 0.9703703703703703,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9861111111111112,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    },
+    {
+      "split": 96,
+      "record_auroc": 0.9416666666666668,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9206349206349206,
+      "bearing_exact": 0.8,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 97,
+      "record_auroc": 0.9143939393939394,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.9007936507936508,
+      "bearing_exact": 0.6,
+      "n_records": 14,
+      "n_bearings": 10
+    },
+    {
+      "split": 98,
+      "record_auroc": 0.8942760942760942,
+      "record_exact": 0.7142857142857143,
+      "bearing_auroc": 0.8915343915343916,
+      "bearing_exact": 0.6666666666666666,
+      "n_records": 14,
+      "n_bearings": 9
+    },
+    {
+      "split": 99,
+      "record_auroc": 0.9494949494949495,
+      "record_exact": 0.7857142857142857,
+      "bearing_auroc": 0.9814814814814815,
+      "bearing_exact": 0.9090909090909091,
+      "n_records": 14,
+      "n_bearings": 11
+    }
+  ],
+  "hanoi_hust_bearing_grouped_fixed_prespecified": [
+    {
+      "split": 0,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 1,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 2,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 3,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 4,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 5,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 6,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 7,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 8,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 9,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 10,
+      "record_auroc": 0.9351851851851851,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 11,
+      "record_auroc": 0.9351851851851851,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 12,
+      "record_auroc": 0.9351851851851851,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 13,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 14,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 15,
+      "record_auroc": 0.9629629629629629,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 16,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 17,
+      "record_auroc": 0.9722222222222222,
+      "record_exact": 0.9333333333333333,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 18,
+      "record_auroc": 0.9722222222222222,
+      "record_exact": 0.9333333333333333,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 19,
+      "record_auroc": 0.9722222222222222,
+      "record_exact": 0.9333333333333333,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 20,
+      "record_auroc": 0.9722222222222222,
+      "record_exact": 0.9333333333333333,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 21,
+      "record_auroc": 0.882716049382716,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 22,
+      "record_auroc": 0.882716049382716,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 23,
+      "record_auroc": 0.882716049382716,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 24,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 25,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 26,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 27,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 28,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 29,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 30,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 31,
+      "record_auroc": 0.9074074074074074,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 32,
+      "record_auroc": 0.9074074074074074,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 33,
+      "record_auroc": 0.7407407407407408,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 34,
+      "record_auroc": 0.9537037037037037,
+      "record_exact": 0.8,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 35,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777778,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 36,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777778,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 37,
+      "record_auroc": 0.6358024691358025,
+      "record_exact": 0.3333333333333333,
+      "bearing_auroc": 0.6388888888888888,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 38,
+      "record_auroc": 0.6358024691358025,
+      "record_exact": 0.3333333333333333,
+      "bearing_auroc": 0.6388888888888888,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 39,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.8611111111111112,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 40,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.8611111111111112,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 41,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.8611111111111112,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 42,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.8611111111111112,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 43,
+      "record_auroc": 0.9012345679012346,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 44,
+      "record_auroc": 0.9012345679012346,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 45,
+      "record_auroc": 0.9012345679012346,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 46,
+      "record_auroc": 0.9012345679012346,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 47,
+      "record_auroc": 0.9228395061728395,
+      "record_exact": 0.8,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 48,
+      "record_auroc": 0.9228395061728395,
+      "record_exact": 0.8,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 49,
+      "record_auroc": 0.8518518518518517,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 50,
+      "record_auroc": 0.8518518518518517,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 51,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 52,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 53,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 54,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 55,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 56,
+      "record_auroc": 0.7901234567901234,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777777,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 57,
+      "record_auroc": 0.7901234567901234,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777777,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 58,
+      "record_auroc": 0.7901234567901234,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777777,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 59,
+      "record_auroc": 0.7901234567901234,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777777,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 60,
+      "record_auroc": 0.7901234567901234,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.7777777777777777,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 61,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 62,
+      "record_auroc": 0.8395061728395062,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 63,
+      "record_auroc": 0.8148148148148149,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 64,
+      "record_auroc": 0.8148148148148149,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 65,
+      "record_auroc": 0.8148148148148149,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 66,
+      "record_auroc": 0.888888888888889,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9444444444444445,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 67,
+      "record_auroc": 0.8240740740740741,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 68,
+      "record_auroc": 0.6759259259259259,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.6944444444444445,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 69,
+      "record_auroc": 0.6759259259259259,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.6944444444444445,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 70,
+      "record_auroc": 0.79320987654321,
+      "record_exact": 0.3333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 71,
+      "record_auroc": 0.79320987654321,
+      "record_exact": 0.3333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 72,
+      "record_auroc": 0.79320987654321,
+      "record_exact": 0.3333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 73,
+      "record_auroc": 0.6141975308641975,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.638888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 74,
+      "record_auroc": 0.6141975308641975,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.638888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 75,
+      "record_auroc": 0.6141975308641975,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.638888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 76,
+      "record_auroc": 0.6141975308641975,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.638888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 77,
+      "record_auroc": 0.9444444444444443,
+      "record_exact": 0.6,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 78,
+      "record_auroc": 0.9444444444444443,
+      "record_exact": 0.6,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 79,
+      "record_auroc": 0.9691358024691358,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 80,
+      "record_auroc": 0.9691358024691358,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 81,
+      "record_auroc": 0.8456790123456791,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 82,
+      "record_auroc": 1.0,
+      "record_exact": 0.8,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 83,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 84,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 85,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 86,
+      "record_auroc": 0.941358024691358,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 87,
+      "record_auroc": 0.941358024691358,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 88,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 89,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 90,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 91,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 92,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 93,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 94,
+      "record_auroc": 0.888888888888889,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 95,
+      "record_auroc": 0.888888888888889,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 96,
+      "record_auroc": 0.6882716049382717,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 97,
+      "record_auroc": 0.6882716049382717,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.75,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 98,
+      "record_auroc": 0.7746913580246914,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 99,
+      "record_auroc": 0.8981481481481483,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    }
+  ],
+  "hanoi_hust_bearing_grouped_nested_selection": [
+    {
+      "split": 0,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 1,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 2,
+      "record_auroc": 0.7530864197530865,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 3,
+      "record_auroc": 0.7314814814814815,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 4,
+      "record_auroc": 0.7314814814814815,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 5,
+      "record_auroc": 0.7314814814814815,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 6,
+      "record_auroc": 0.7314814814814815,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 7,
+      "record_auroc": 0.7469135802469135,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 8,
+      "record_auroc": 0.7469135802469135,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 9,
+      "record_auroc": 0.7469135802469135,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 10,
+      "record_auroc": 0.8240740740740741,
+      "record_exact": 0.7333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 11,
+      "record_auroc": 0.9444444444444445,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 12,
+      "record_auroc": 0.9074074074074074,
+      "record_exact": 0.8,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 13,
+      "record_auroc": 0.558641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.5833333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 14,
+      "record_auroc": 0.558641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.5833333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 15,
+      "record_auroc": 0.9382716049382717,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 0.9444444444444445,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 16,
+      "record_auroc": 0.611111111111111,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.6666666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 17,
+      "record_auroc": 0.7777777777777777,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 18,
+      "record_auroc": 0.7777777777777777,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 19,
+      "record_auroc": 0.7777777777777777,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 20,
+      "record_auroc": 0.7777777777777777,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 21,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 22,
+      "record_auroc": 0.7777777777777778,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.7777777777777778,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 23,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 24,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 25,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 26,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 27,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 28,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 29,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 30,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 31,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 32,
+      "record_auroc": 0.8703703703703703,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 33,
+      "record_auroc": 0.404320987654321,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.36111111111111116,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 34,
+      "record_auroc": 0.9166666666666666,
+      "record_exact": 0.8,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 35,
+      "record_auroc": 0.7160493827160495,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 36,
+      "record_auroc": 0.7345679012345679,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 37,
+      "record_auroc": 0.7530864197530863,
+      "record_exact": 0.13333333333333333,
+      "bearing_auroc": 0.7222222222222222,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 38,
+      "record_auroc": 0.7530864197530863,
+      "record_exact": 0.13333333333333333,
+      "bearing_auroc": 0.7222222222222222,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 39,
+      "record_auroc": 0.75,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 40,
+      "record_auroc": 0.8055555555555557,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 41,
+      "record_auroc": 0.8055555555555557,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 42,
+      "record_auroc": 0.8055555555555557,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 43,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 44,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 45,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 46,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 47,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 48,
+      "record_auroc": 0.8796296296296297,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 49,
+      "record_auroc": 0.8148148148148149,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 50,
+      "record_auroc": 0.8148148148148149,
+      "record_exact": 0.2,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 51,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 52,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 53,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 54,
+      "record_auroc": 0.8209876543209876,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 55,
+      "record_auroc": 0.7777777777777778,
+      "record_exact": 0.13333333333333333,
+      "bearing_auroc": 0.7777777777777778,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 56,
+      "record_auroc": 0.5709876543209876,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.47222222222222215,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 57,
+      "record_auroc": 0.5709876543209876,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.47222222222222215,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 58,
+      "record_auroc": 0.5709876543209876,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.47222222222222215,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 59,
+      "record_auroc": 0.5709876543209876,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.47222222222222215,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 60,
+      "record_auroc": 0.5709876543209876,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.47222222222222215,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 61,
+      "record_auroc": 0.8518518518518517,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 62,
+      "record_auroc": 0.8518518518518517,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 63,
+      "record_auroc": 0.8271604938271605,
+      "record_exact": 0.0,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.0,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 64,
+      "record_auroc": 0.8271604938271605,
+      "record_exact": 0.0,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.0,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 65,
+      "record_auroc": 0.8271604938271605,
+      "record_exact": 0.0,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.0,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 66,
+      "record_auroc": 0.7839506172839507,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 67,
+      "record_auroc": 0.8240740740740741,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 68,
+      "record_auroc": 0.5092592592592592,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.5,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 69,
+      "record_auroc": 0.5092592592592592,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.5,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 70,
+      "record_auroc": 0.7962962962962963,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 71,
+      "record_auroc": 0.7962962962962963,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 72,
+      "record_auroc": 0.7962962962962963,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 73,
+      "record_auroc": 0.6141975308641975,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.638888888888889,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 74,
+      "record_auroc": 0.7469135802469137,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 75,
+      "record_auroc": 0.7469135802469137,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 76,
+      "record_auroc": 0.7469135802469137,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.7222222222222223,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 77,
+      "record_auroc": 0.9629629629629629,
+      "record_exact": 0.8,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 78,
+      "record_auroc": 1.0,
+      "record_exact": 0.6666666666666666,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 79,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 80,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.26666666666666666,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 81,
+      "record_auroc": 0.8364197530864198,
+      "record_exact": 0.4666666666666667,
+      "bearing_auroc": 0.8055555555555557,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 82,
+      "record_auroc": 1.0,
+      "record_exact": 0.8,
+      "bearing_auroc": 1.0,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 83,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 84,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 85,
+      "record_auroc": 0.7870370370370371,
+      "record_exact": 0.5333333333333333,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 86,
+      "record_auroc": 0.941358024691358,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 87,
+      "record_auroc": 0.941358024691358,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.9166666666666666,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 88,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 89,
+      "record_auroc": 0.808641975308642,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 90,
+      "record_auroc": 0.6790123456790124,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.6666666666666666,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 91,
+      "record_auroc": 0.8024691358024691,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 92,
+      "record_auroc": 0.8024691358024691,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 93,
+      "record_auroc": 0.8024691358024691,
+      "record_exact": 0.4,
+      "bearing_auroc": 0.8333333333333334,
+      "bearing_exact": 0.4,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 94,
+      "record_auroc": 0.8117283950617283,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 95,
+      "record_auroc": 0.8117283950617283,
+      "record_exact": 0.6,
+      "bearing_auroc": 0.888888888888889,
+      "bearing_exact": 0.6,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 96,
+      "record_auroc": 0.3179012345679012,
+      "record_exact": 0.13333333333333333,
+      "bearing_auroc": 0.25,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 97,
+      "record_auroc": 0.3179012345679012,
+      "record_exact": 0.13333333333333333,
+      "bearing_auroc": 0.25,
+      "bearing_exact": 0.2,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 98,
+      "record_auroc": 0.6327160493827161,
+      "record_exact": 0.0,
+      "bearing_auroc": 0.6666666666666666,
+      "bearing_exact": 0.0,
+      "n_records": 15,
+      "n_bearings": 5
+    },
+    {
+      "split": 99,
+      "record_auroc": 0.8734567901234568,
+      "record_exact": 0.8,
+      "bearing_auroc": 0.8611111111111112,
+      "bearing_exact": 0.8,
+      "n_records": 15,
+      "n_bearings": 5
+    }
+  ]
+}

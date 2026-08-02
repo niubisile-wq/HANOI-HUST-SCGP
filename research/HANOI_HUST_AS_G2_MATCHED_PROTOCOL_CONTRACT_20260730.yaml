@@ -1,0 +1,174 @@
+contract_name: hanoi_hust_as_g2_matched_protocol
+contract_version: 1
+status: design_frozen_pending_implementation
+created_at: '2026-07-30'
+purpose: >-
+  Estimate the effect of split hierarchy and model-selection procedure while
+  holding data universe, representation, candidate pool, compute budget,
+  aggregation and endpoints fixed.
+
+data:
+  dataset: HANOI_HUST_source_numeric_access_frozen
+  record_registry: results/audits/hanoi_hust_source_registry.json
+  feature_cache: artifacts/hanoi_hust/source_features.npz
+  feature_cache_metadata: artifacts/hanoi_hust/source_features_metadata.json
+  information_budget: I0_source_only
+  target_labels_used: false
+  target_numeric_files_opened: false
+  independent_unit: physical_bearing
+  expected_records: 57
+  expected_bearings: 19
+  target_contract: >-
+    Every source record is mapped to exactly one physical bearing; no bearing
+    may occur in more than one outer evaluation partition.
+
+common_preprocessing:
+  representation: envelope_log_power
+  feature_cache_only: true
+  preprocessing_fitted_inside_training_partition: true
+  scaling: StandardScaler_inside_model_pipeline
+  missing_value_rule: fail_if_any_nonfinite_value
+  window_universe: artifacts/hanoi_hust_window/source_window_features.npz
+  current_cache_limitation: resolved_by_window_cache_built_on_2026_07_30
+  threshold: 0.5
+  aggregation:
+    independent_unit: physical_bearing
+    probability_rule: arithmetic_mean_across_records
+    threshold_applied_after_aggregation: true
+    labels_must_be_invariant_within_group: true
+
+primary_endpoints:
+  primary: bearing_level_macro_component_auroc
+  key_compound: bearing_level_exact_set_accuracy
+  secondary:
+    - bearing_level_macro_aupr
+    - bearing_level_macro_balanced_accuracy
+    - bearing_level_macro_f1
+    - bearing_level_brier_score
+    - bearing_level_hamming_loss
+  uncertainty:
+    method: cluster_bootstrap_by_physical_bearing
+    resamples: 10000
+    interval: 95_percent_percentile_interval
+
+protocol_factors:
+  split_hierarchy:
+    - id: window_random
+      grouping_unit: none
+      role: descriptive_leakage_sensitivity_only
+      inference_allowed: false
+    - id: record_grouped
+      grouping_unit: record
+      role: matched_protocol_factor
+      inference_allowed: true
+    - id: bearing_grouped
+      grouping_unit: physical_bearing
+      role: primary_leakage_safe_factor
+      inference_allowed: true
+  model_selection:
+    - id: fixed_prespecified
+      selection_rule: use_the_prespecified_logistic_l2_C_10_candidate
+      selection_data: none
+      inference_allowed: true
+    - id: nested_selection
+      selection_rule: select_on_inner_training_partition_only
+      selection_data: inner_training_partition
+      inference_allowed: true
+  factorial_comparison:
+    factors: [split_hierarchy, model_selection]
+    primary_cells: [record_grouped, bearing_grouped]
+    descriptive_cell: window_random
+    interaction_required: true
+    candidate_pool_must_be_identical_across_cells: true
+
+candidate_pool:
+  pool_id: classical_core_v1
+  representation_fixed: envelope_log_power
+  compute_budget:
+    extra_trees_n_estimators: 100
+    rbf_svm_calibration_cv: 3
+    same_budget_in_all_protocol_cells: true
+  families:
+    - family: empirical_prior
+      hyperparameters: [{}]
+    - family: logistic_l2
+      hyperparameters:
+        - {C: 0.01}
+        - {C: 0.1}
+        - {C: 1.0}
+        - {C: 10.0}
+    - family: rbf_svm
+      hyperparameters:
+        - {C: 0.1, gamma: scale}
+        - {C: 0.1, gamma: auto}
+        - {C: 1.0, gamma: scale}
+        - {C: 1.0, gamma: auto}
+        - {C: 10.0, gamma: scale}
+        - {C: 10.0, gamma: auto}
+    - family: extra_trees
+      hyperparameters:
+        - {min_samples_leaf: 1}
+        - {min_samples_leaf: 2}
+        - {min_samples_leaf: 4}
+  candidate_count: 14
+  selection_primary_metric: bearing_level_macro_component_auroc
+  tie_breakers:
+    - bearing_level_exact_set_accuracy
+    - bearing_level_brier_score_minimize
+    - feature_dimension_minimize
+  no_post_hoc_candidate_deletion: true
+
+repetition:
+  deterministic_model_rule: >-
+    Deterministic candidates are repeated across pre-generated split manifests,
+    not through fake random seeds.
+  random_model_rule: >-
+    Stochastic candidates record every true training seed and retain all
+    successful and technically failed runs.
+  target_split_manifest_count: 100
+  manifest_generation_before_result_access: true
+  seed_registry_required: true
+
+statistics:
+  paired_comparison_unit: physical_bearing
+  primary_delta: paired_cluster_bootstrap_difference_in_macro_auroc
+  exact_set_delta: paired_cluster_bootstrap_difference_in_exact_set_accuracy
+  multiple_comparison_correction: Holm
+  report_effect_size_before_p_value: true
+  no_claim_of_equivalence_from_non_significance: true
+
+required_outputs:
+  - config/g2_matched_protocol_contract.yaml
+  - results/g2/split_manifests/
+  - results/g2/unit_level_predictions/
+  - results/g2/protocol_cell_metrics.json
+  - results/g2/protocol_pairwise_effects.json
+  - results/g2/rank_distributions.json
+  - results/g2/technical_failures.json
+  - research/HANOI_HUST_AS_G2_AUDIT_20260730.md
+
+hard_gates:
+  - id: G2-01
+    rule: same_frozen_feature_universe_in_all_cells
+  - id: G2-02
+    rule: same_candidate_pool_and_search_budget_in_all_cells
+  - id: G2-03
+    rule: no_physical_bearing_crosses_outer_partitions
+  - id: G2-04
+    rule: nested_selection_never_reads_outer_test_labels
+  - id: G2-05
+    rule: all_primary_metrics_are_bearing_level
+  - id: G2-06
+    rule: every_split_seed_and_failure_is_logged
+  - id: G2-07
+    rule: protocol_effect_claims_require_paired_unit_level_comparison
+  - id: G2-08
+    rule: no_result_deletion_without_predefined_technical_failure_reason
+
+definition_of_done:
+  - 6_factor_cells_have_complete_prediction_files
+  - all_hard_gates_pass
+  - protocol_cell_metrics_rebuilds_from_predictions
+  - paired_effects_include_95_percent_intervals
+  - negative_or_null_protocol_effects_are_retained
+  - independent_reviewer_can_reconstruct_the_main_table

@@ -1,0 +1,95 @@
+{
+  "stage": "hanoi_hust_seed_registry_status",
+  "schema_version": 1,
+  "status": "seed_registry_frozen",
+  "scope": {
+    "project": "HANOI_HUST",
+    "dataset_record": "cbv7jyx4p9",
+    "source_partition_bearings": 19,
+    "compound_partition_bearings_sealed": 14
+  },
+  "current_evidence": {
+    "frozen_source_registry": {
+      "path": "results/audits/hanoi_hust_source_registry.json",
+      "sha256": "d69eb257b05d023d0271777486d21ccc4df77f4c8ed5ea1867e988a5cdc3ab41"
+    },
+    "source_baselines": {
+      "path": "results/development/hanoi_hust_source_baselines.json",
+      "sha256": "de0b882a8f5f98b98d57ab47ce70cd46850d7ff31d44788ed40635afd857fe13"
+    },
+    "source_ablation": {
+      "path": "results/analysis/hanoi_hust_source_ablation.json",
+      "sha256": "9d57df95ef70546d447e268c8706abdce59224231e046487f2b854d532a121d3"
+    },
+    "seed_registry_summary": {
+      "path": "results/audits/hanoi_hust_seed_registry_summary.json",
+      "sha256": "4acbbdd62ee60d348853859a86f3c477e7ad328cce29228600c2b8d3bf12cbff"
+    }
+  },
+  "explicit_seed_information_present": true,
+  "seed_list": [
+    42,
+    7,
+    21,
+    84,
+    168
+  ],
+  "repeat_count": 5,
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "machine": "AMD64",
+    "node": "Eco",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 24
+  },
+  "commit_hash": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+  "config_hash": "08cc11f2c2a7ad1a62f8350974e7d81f1d12df69af4fdcacca28f2e97fca2bb0",
+  "split_hash": "d540e82ce8a260b21dbd72f6c25756c8d9c683f5efd5e0448bd5ee3ff67f0c0e",
+  "metric_bundle": {
+    "mean_component_auroc": {
+      "mean": 0.8138447971781305,
+      "std": 0.0,
+      "min": 0.8138447971781305,
+      "max": 0.8138447971781305
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.7427248677248678,
+      "std": 0.0,
+      "min": 0.7427248677248678,
+      "max": 0.7427248677248678
+    },
+    "exact_set_accuracy": {
+      "mean": 0.543859649122807,
+      "std": 0.0,
+      "min": 0.543859649122807,
+      "max": 0.543859649122807
+    },
+    "mean_brier_score": {
+      "mean": 0.16050664093995246,
+      "std": 0.0,
+      "min": 0.16050664093995246,
+      "max": 0.16050664093995246
+    },
+    "hamming_loss": {
+      "mean": 0.19883040935672514,
+      "std": 0.0,
+      "min": 0.19883040935672514,
+      "max": 0.19883040935672514
+    }
+  },
+  "artifact_path": "results/development/hanoi_hust_source_multiseed.json",
+  "seed_order": [
+    42,
+    7,
+    21,
+    84,
+    168
+  ],
+  "timestamp": "2026-07-28T07:40:15.4462563+08:00",
+  "allowed_current_statement": "The HANOI HUST main method and main results are frozen, and a dedicated multi-seed registry is now summarized from completed seed repeats.",
+  "required_next_fields": [],
+  "provenance": {
+    "builder": "manual_seed_status_update",
+    "note": "This file records the explicit completion of multi-seed summary in line with the stage-gated plan."
+  }
+}

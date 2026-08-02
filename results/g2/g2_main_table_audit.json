@@ -1,0 +1,18 @@
+{
+  "stage": "hanoi_hust_as_g2_main_table_audit",
+  "schema_version": 1,
+  "status": "passed",
+  "summary_sha256": "297f40a567ac590c7f7ce295ad3e240a6316ab18c72feb228bbd96b496f1061f",
+  "paired_split_sha256": "0f98d20cf5a093450d1abbeb696789f9bd0aa4fcc0a7dab7058db8ae1a219146",
+  "table_path": "results/g2/g2_main_table.csv",
+  "table_sha256": "a9aaee442646afdb0a85f3045a45d9f904fab77526d0baca21b24c5a3fb7e586",
+  "cell_count": 6,
+  "checks": {
+    "all_six_cells_present": true,
+    "all_cells_have_100_splits": true,
+    "all_prediction_hashes_match": true,
+    "paired_split_locked": true,
+    "table_rebuilt_from_json": true
+  },
+  "failures": []
+}

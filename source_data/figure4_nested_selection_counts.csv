@@ -1,0 +1,6 @@
+family,representation,count,outer_folds
+logistic_l2,all,10,19
+logistic_l2,statistics,4,19
+extra_trees,statistics,2,19
+extra_trees,all,2,19
+logistic_l2,fixed_log_power,1,19

@@ -1,0 +1,66 @@
+{
+  "stage": "hanoi_hust_as_g2_protocol_cell",
+  "schema_version": 1,
+  "status": "smoke_partial_not_for_manuscript",
+  "hierarchy": "record_grouped",
+  "selection": "fixed_prespecified",
+  "split_count": 1,
+  "cache_sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54",
+  "manifest_sha256": "d902643fc0fe0a0c7083e3c4e753a825a4ba3fcc5e299fd3fc2f77736db513ba",
+  "representation": "envelope_log_power",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing",
+  "primary_metric": "bearing_level_macro_component_auroc",
+  "splits": [
+    {
+      "split_id": 0,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 43,
+      "outer_test_record_count": 14,
+      "metrics": {
+        "unit_count": 11,
+        "balanced_accuracy_by_component": [
+          0.8333333333333333,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.861111111111111,
+        "auroc_by_component": [
+          0.9583333333333334,
+          0.9444444444444444,
+          1.0
+        ],
+        "mean_component_auroc": 0.9675925925925926,
+        "aupr_by_component": [
+          0.9166666666666665,
+          0.8333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.9166666666666666,
+        "brier_by_component": [
+          0.07260617230621753,
+          0.05503564561212734,
+          5.633333990700168e-06
+        ],
+        "mean_brier_score": 0.0425491504174452,
+        "macro_f1_by_component": [
+          0.8705882352941177,
+          0.8070175438596491,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8925352597179222,
+        "exact_set_accuracy": 0.8181818181818182,
+        "hamming_loss": 0.06060606060606061
+      },
+      "inner_selection": []
+    }
+  ],
+  "predictions": {
+    "path": "results/g2/smoke/unit_level_predictions/hanoi_hust_record_grouped_fixed_prespecified.npz",
+    "sha256": "e0e5befe62e8c7d3434e17845f466c689a5e9d7a633f698f6ccc1fdb9d3941da"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "stage": "hanoi_hust_v3_archive_freeze",
+  "schema_version": 1,
+  "status": "opaque_archive_frozen_source_access_not_yet_authorized",
+  "archive": {
+    "path": "data/downloads/hanoi_hust_v3/cbv7jyx4p9-3.zip",
+    "bytes": 696985660,
+    "sha256": "e39f0cdb0d85fbf0e96aa3a3d88c9a9a7ffd1ea7a3e8b09ac3e9b3ef3d97beeb",
+    "etag": "\"9a68020cb207941ced9f6d1af1484ad2-14\""
+  },
+  "information_boundary": {
+    "archive_bytes_hashed": 696985660,
+    "zip_container_opened": 0,
+    "mat_members_opened": 0,
+    "mat_numeric_values_parsed": 0
+  },
+  "source_sha256": {
+    "research/HANOI_HUST_NOACE_PREREGISTRATION.md": "fe759865824612fc085261df6ebc2299ebb8b52c00216ca14f794c2d7ad1d39c",
+    "research/HANOI_HUST_V3_PREACCESS_FREEZE.json": "c5c0a97de8584d6c38469a8c1cca630fb0fb84e2a7d01a4743fb252bb52d74d6",
+    "src/electrical_fm/hanoi_hust.py": "722422e54c46e33446fbde39bce71ef158e1ba0924dcf57891bf023b663a7e56",
+    "src/download_hanoi_hust.py": "24a5e65e01d3e614646d4fc9b79b746d9c387aa8a31da2adc75799ac87946d93",
+    "src/build_hanoi_hust_archive_freeze.py": "d5d8e5b0c373c8b58951ce46e557ed969d18c90161eaed235052dfb8a450cec5",
+    "tests/test_hanoi_hust.py": "c7d67d4676553f9665b750afe165b880bcc45d83db2159b1d296b0b25cd8ab73",
+    "tests/test_download_hanoi_hust.py": "5b7855bde4452d7e8e7b0e550a1d9178ffcf5a0e381dd7fea935bc4081804d7c"
+  },
+  "download_manifest": {
+    "path": "data/downloads/hanoi_hust_v3/archive_download_manifest.json",
+    "sha256": "8687cba9d3de2ed8a625914206a0c4b5e4ac8fb397f253cd232440824050151f"
+  },
+  "authorization": {
+    "source_mat_numeric_parse": false,
+    "source_access_requires_separate_committed_freeze": true,
+    "compound_mat_numeric_parse": false
+  },
+  "provenance": {
+    "git_commit": "ac5c2ebbc0a242eefa9706262f3ae4d164d83b54",
+    "bound_files_clean": true,
+    "whole_worktree_dirty": true,
+    "whole_worktree_status_sha256": "db712927bcb750baa99d09eefcf3fb72686adb3c30cec63c69450c94845e22a8",
+    "builder": "src/build_hanoi_hust_archive_freeze.py"
+  }
+}

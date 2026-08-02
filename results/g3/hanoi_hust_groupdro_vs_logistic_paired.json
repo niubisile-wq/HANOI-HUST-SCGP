@@ -1,0 +1,613 @@
+{
+  "stage": "hanoi_hust_as_g3_groupdro_comparison",
+  "schema_version": 1,
+  "paired_split_count": 100,
+  "groupdro_result_sha256": "b920a28f8237fc55ed9f78fd5811983c0faf64e4636b781926af772605c6bdfa",
+  "logistic_result_sha256": "76a8e31f528d1e904678837f3fa2ceccab1a3cef862fb84a9d87f424d01cc305",
+  "observed_mean_auroc_difference": -0.017222222222222215,
+  "p_two_sided_sign_permutation": 0.00210998945005275,
+  "mean_groupdro_auroc": 0.8447222222222223,
+  "mean_logistic_auroc": 0.8619444444444446,
+  "split_rows": [
+    {
+      "split_id": 0,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 1,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 2,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 3,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 4,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 5,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 6,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 7,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 8,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 9,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 10,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 11,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 12,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 13,
+      "groupdro_auroc": 0.75,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 14,
+      "groupdro_auroc": 0.75,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 15,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 16,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 1.0,
+      "difference": -0.16666666666666663
+    },
+    {
+      "split_id": 17,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 18,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 19,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 20,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 21,
+      "groupdro_auroc": 0.7777777777777778,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.11111111111111116
+    },
+    {
+      "split_id": 22,
+      "groupdro_auroc": 0.7777777777777778,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.11111111111111116
+    },
+    {
+      "split_id": 23,
+      "groupdro_auroc": 0.7777777777777778,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.11111111111111116
+    },
+    {
+      "split_id": 24,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 25,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 26,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 27,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 28,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 29,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 30,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 31,
+      "groupdro_auroc": 0.9444444444444445,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.05555555555555558
+    },
+    {
+      "split_id": 32,
+      "groupdro_auroc": 0.9444444444444445,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.05555555555555558
+    },
+    {
+      "split_id": 33,
+      "groupdro_auroc": 0.6944444444444445,
+      "logistic_auroc": 0.75,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 34,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 35,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.7777777777777778,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 36,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.7777777777777778,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 37,
+      "groupdro_auroc": 0.5555555555555555,
+      "logistic_auroc": 0.6388888888888888,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 38,
+      "groupdro_auroc": 0.5555555555555555,
+      "logistic_auroc": 0.6388888888888888,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 39,
+      "groupdro_auroc": 0.8055555555555557,
+      "logistic_auroc": 0.8611111111111112,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 40,
+      "groupdro_auroc": 0.8055555555555557,
+      "logistic_auroc": 0.8611111111111112,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 41,
+      "groupdro_auroc": 0.8055555555555557,
+      "logistic_auroc": 0.8611111111111112,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 42,
+      "groupdro_auroc": 0.8055555555555557,
+      "logistic_auroc": 0.8611111111111112,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 43,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.9444444444444445,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 44,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.9444444444444445,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 45,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.9444444444444445,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 46,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.9444444444444445,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 47,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 48,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 49,
+      "groupdro_auroc": 0.7777777777777778,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.11111111111111116
+    },
+    {
+      "split_id": 50,
+      "groupdro_auroc": 0.7777777777777778,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.11111111111111116
+    },
+    {
+      "split_id": 51,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 52,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 53,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 54,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 55,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 56,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.7777777777777777,
+      "difference": 0.05555555555555569
+    },
+    {
+      "split_id": 57,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.7777777777777777,
+      "difference": 0.05555555555555569
+    },
+    {
+      "split_id": 58,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.7777777777777777,
+      "difference": 0.05555555555555569
+    },
+    {
+      "split_id": 59,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.7777777777777777,
+      "difference": 0.05555555555555569
+    },
+    {
+      "split_id": 60,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.7777777777777777,
+      "difference": 0.05555555555555569
+    },
+    {
+      "split_id": 61,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 62,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
+    },
+    {
+      "split_id": 63,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.75,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 64,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.75,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 65,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.75,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 66,
+      "groupdro_auroc": 0.888888888888889,
+      "logistic_auroc": 0.9444444444444445,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 67,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 68,
+      "groupdro_auroc": 0.5555555555555556,
+      "logistic_auroc": 0.6944444444444445,
+      "difference": -0.13888888888888895
+    },
+    {
+      "split_id": 69,
+      "groupdro_auroc": 0.5555555555555556,
+      "logistic_auroc": 0.6944444444444445,
+      "difference": -0.13888888888888895
+    },
+    {
+      "split_id": 70,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 71,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 72,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 73,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.638888888888889,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 74,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.638888888888889,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 75,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.638888888888889,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 76,
+      "groupdro_auroc": 0.7222222222222223,
+      "logistic_auroc": 0.638888888888889,
+      "difference": 0.08333333333333337
+    },
+    {
+      "split_id": 77,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 78,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 79,
+      "groupdro_auroc": 0.9444444444444445,
+      "logistic_auroc": 1.0,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 80,
+      "groupdro_auroc": 0.9444444444444445,
+      "logistic_auroc": 1.0,
+      "difference": -0.05555555555555547
+    },
+    {
+      "split_id": 81,
+      "groupdro_auroc": 0.8055555555555557,
+      "logistic_auroc": 0.8055555555555557,
+      "difference": 0.0
+    },
+    {
+      "split_id": 82,
+      "groupdro_auroc": 1.0,
+      "logistic_auroc": 1.0,
+      "difference": 0.0
+    },
+    {
+      "split_id": 83,
+      "groupdro_auroc": 0.75,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 84,
+      "groupdro_auroc": 0.75,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 85,
+      "groupdro_auroc": 0.75,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 86,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 87,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    },
+    {
+      "split_id": 88,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 89,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 90,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 91,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 92,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 93,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.8333333333333334,
+      "difference": 0.0
+    },
+    {
+      "split_id": 94,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 95,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 96,
+      "groupdro_auroc": 0.6666666666666666,
+      "logistic_auroc": 0.75,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 97,
+      "groupdro_auroc": 0.6666666666666666,
+      "logistic_auroc": 0.75,
+      "difference": -0.08333333333333337
+    },
+    {
+      "split_id": 98,
+      "groupdro_auroc": 0.8333333333333334,
+      "logistic_auroc": 0.888888888888889,
+      "difference": -0.05555555555555558
+    },
+    {
+      "split_id": 99,
+      "groupdro_auroc": 0.9166666666666666,
+      "logistic_auroc": 0.9166666666666666,
+      "difference": 0.0
+    }
+  ]
+}

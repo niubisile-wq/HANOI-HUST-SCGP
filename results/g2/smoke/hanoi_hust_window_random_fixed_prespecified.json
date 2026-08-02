@@ -1,0 +1,67 @@
+{
+  "stage": "hanoi_hust_as_g2_protocol_cell",
+  "schema_version": 1,
+  "status": "smoke_partial_not_for_manuscript",
+  "hierarchy": "window_random",
+  "selection": "fixed_prespecified",
+  "split_count": 1,
+  "cache_sha256": "6ebfb4c7cf5b68ed40825be7584f1bd9f6709df1d593e0b3c1213f5e74f352d6",
+  "manifest_sha256": "d35c20d17cf8a2f34a08d350b3cf300c1c2e702e7257caa057fd56234fc181a3",
+  "representation": "envelope_log_power",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing",
+  "inference_allowed": false,
+  "primary_metric": "bearing_level_macro_component_auroc",
+  "splits": [
+    {
+      "split_id": 0,
+      "selected_family": "logistic_l2",
+      "selected_representation": "envelope_log_power",
+      "selected_hyperparameter": {
+        "C": 10.0
+      },
+      "outer_train_count": 1156,
+      "outer_test_record_count": 385,
+      "metrics": {
+        "unit_count": 19,
+        "balanced_accuracy_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 1.0,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.00035337867116654086,
+          0.000832737450038953,
+          0.0007594856684302967
+        ],
+        "mean_brier_score": 0.0006485339298785969,
+        "macro_f1_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 1.0,
+        "exact_set_accuracy": 1.0,
+        "hamming_loss": 0.0
+      },
+      "inner_selection": []
+    }
+  ],
+  "predictions": {
+    "path": "results/g2/smoke/unit_level_predictions/hanoi_hust_window_random_fixed_prespecified.npz",
+    "sha256": "c85c0bff37c2b2c09b9799d029f8d04d9db19fd2c33ee8f67e62121b1504f6fb"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "stage": "hanoi_hust_efficiency_audit",
+  "schema_version": 1,
+  "status": "completed",
+  "cache": {
+    "path": "artifacts/hanoi_hust/source_features.npz",
+    "sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54"
+  },
+  "metadata": {
+    "path": "artifacts/hanoi_hust/source_features_metadata.json",
+    "sha256": "5b5ddf5f38b58f08a49018301da49e72658852d08b3faa4d5dc94335aecbcfa5"
+  },
+  "record_count": 57,
+  "bearing_count": 19,
+  "methods": [
+    {
+      "method_key": "source_champion",
+      "method_label": "Source champion",
+      "kind": "supervised",
+      "representation": "envelope_log_power",
+      "candidate": {
+        "C": 10.0
+      },
+      "feature_dimension": 384,
+      "repeats": 3,
+      "evaluation_seconds": {
+        "mean": 1.8443756000027254,
+        "median": 1.889991000003647,
+        "p95": 1.8953444700040563,
+        "min": 1.7471965000004275,
+        "max": 1.8959393000041018
+      },
+      "peak_tracemalloc_mib": {
+        "mean": 3.1938393910725913,
+        "median": 3.2288808822631836,
+        "p95": 3.2291160583496095,
+        "min": 3.123495101928711,
+        "max": 3.229142189025879
+      },
+      "metrics": {
+        "mean_component_auroc": 0.8138447971781305,
+        "mean_component_balanced_accuracy": 0.7427248677248678,
+        "exact_set_accuracy": 0.543859649122807,
+        "mean_brier_score": 0.16050664093995246,
+        "hamming_loss": 0.19883040935672514
+      }
+    },
+    {
+      "method_key": "noace_classical",
+      "method_label": "NOACE classical",
+      "kind": "noace",
+      "representation": "all",
+      "candidate": {},
+      "feature_dimension": 852,
+      "repeats": 3,
+      "evaluation_seconds": {
+        "mean": 0.13260283333511325,
+        "median": 0.1290251000027638,
+        "p95": 0.14758940000101575,
+        "min": 0.11913130000175443,
+        "max": 0.14965210000082152
+      },
+      "peak_tracemalloc_mib": {
+        "mean": 2.113480567932129,
+        "median": 2.113224983215332,
+        "p95": 2.1151304244995117,
+        "min": 2.111874580383301,
+        "max": 2.115342140197754
+      },
+      "metrics": {
+        "mean_component_auroc": 0.811904761904762,
+        "mean_component_balanced_accuracy": 0.7416666666666667,
+        "exact_set_accuracy": 0.5789473684210527,
+        "mean_brier_score": 0.21247861881596372,
+        "hamming_loss": 0.21052631578947367
+      }
+    },
+    {
+      "method_key": "noace_deep",
+      "method_label": "NOACE deep",
+      "kind": "supervised",
+      "representation": "statistics",
+      "candidate": {
+        "hidden_layer_sizes": [
+          64,
+          64,
+          32
+        ],
+        "alpha": 0.0001,
+        "learning_rate_init": 0.001,
+        "early_stopping": true
+      },
+      "feature_dimension": 84,
+      "repeats": 3,
+      "evaluation_seconds": {
+        "mean": 8.990674799999397,
+        "median": 8.79118429999653,
+        "p95": 9.456781910001883,
+        "min": 8.650102899999183,
+        "max": 9.530737200002477
+      },
+      "peak_tracemalloc_mib": {
+        "mean": 0.6674846013387045,
+        "median": 0.6234283447265625,
+        "p95": 0.7575679779052734,
+        "min": 0.6065530776977539,
+        "max": 0.7724723815917969
+      },
+      "metrics": {
+        "mean_component_auroc": 0.8903880070546736,
+        "mean_component_balanced_accuracy": 0.7000000000000001,
+        "exact_set_accuracy": 0.543859649122807,
+        "mean_brier_score": 0.13361465930434063,
+        "hamming_loss": 0.17543859649122806
+      }
+    }
+  ],
+  "provenance": {
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+    "builder": "src/run_hanoi_hust_efficiency_audit.py",
+    "random_state": 20260727,
+    "repeats": 3
+  }
+}

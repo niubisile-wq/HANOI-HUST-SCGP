@@ -1,0 +1,778 @@
+{
+  "stage": "hanoi_hust_as_g2_protocol_summary",
+  "schema_version": 1,
+  "status": "completed",
+  "cell_count": 6,
+  "cells": {
+    "record_grouped__fixed_prespecified": {
+      "hierarchy": "record_grouped",
+      "selection": "fixed_prespecified",
+      "inference_allowed": true,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 0.9584939714606382,
+          "std": 0.03749870075668774,
+          "split_sensitivity_interval": [
+            0.9509801251102293,
+            0.9654304013848806
+          ],
+          "min": 0.7648809523809524,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 0.9180921957671958,
+          "std": 0.07382005202832073,
+          "split_sensitivity_interval": [
+            0.9033791435185184,
+            0.9321980390211639
+          ],
+          "min": 0.687037037037037,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 0.8688887686387687,
+          "std": 0.07851096167430381,
+          "split_sensitivity_interval": [
+            0.853310364057239,
+            0.8839837376743624
+          ],
+          "min": 0.6458333333333334,
+          "max": 1.0
+        },
+        "mean_component_macro_f1": {
+          "mean": 0.8652904453840482,
+          "std": 0.0770231357949635,
+          "split_sensitivity_interval": [
+            0.8501082534857629,
+            0.8802021428321749
+          ],
+          "min": 0.628482972136223,
+          "max": 1.0
+        },
+        "mean_brier_score": {
+          "mean": 0.06515159212424457,
+          "std": 0.02806281728441782,
+          "split_sensitivity_interval": [
+            0.05985286601590436,
+            0.07082538748995736
+          ],
+          "min": 0.007944931305248181,
+          "max": 0.19236020096154358
+        },
+        "exact_set_accuracy": {
+          "mean": 0.7907082362082362,
+          "std": 0.10110928398670269,
+          "split_sensitivity_interval": [
+            0.7705025932400933,
+            0.8100569347319349
+          ],
+          "min": 0.4,
+          "max": 1.0
+        },
+        "hamming_loss": {
+          "mean": 0.08726715876715878,
+          "std": 0.04214536165505518,
+          "split_sensitivity_interval": [
+            0.07915424760424761,
+            0.09561503172753173
+          ],
+          "min": 0.0,
+          "max": 0.23333333333333334
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 10.0}}": 100
+      },
+      "normalized_selection_entropy": 0.0,
+      "rank_stability": {
+        "status": "not_applicable",
+        "reason": "no_nested_rankings"
+      },
+      "outer_test_regret": {
+        "status": "completed",
+        "mean_outer_test_regret_macro_auroc": 0.029395468574635236,
+        "split_sensitivity_interval": [
+          0.02327709350448933,
+          0.03593204720819305
+        ]
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 99993,
+        "macro_auroc_mean": 0.9584008762728191,
+        "macro_auroc_interval": [
+          0.7936507936507936,
+          1.0
+        ],
+        "exact_set_mean": 0.7900563733488734,
+        "exact_set_interval": [
+          0.4444444444444444,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_record_grouped_fixed_prespecified.npz",
+        "sha256": "222e984940b2c9fb6e4910c8f3a57ce2767174619bf6701660e7fea1bd6abfa3"
+      }
+    },
+    "record_grouped__nested_selection": {
+      "hierarchy": "record_grouped",
+      "selection": "nested_selection",
+      "inference_allowed": true,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 0.9728077841911174,
+          "std": 0.028844032311488094,
+          "split_sensitivity_interval": [
+            0.9671641989838866,
+            0.978395210537919
+          ],
+          "min": 0.861111111111111,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 0.9441322751322752,
+          "std": 0.06520778900448111,
+          "split_sensitivity_interval": [
+            0.9311679232804234,
+            0.9564477513227513
+          ],
+          "min": 0.6944444444444443,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 0.8742128427128428,
+          "std": 0.08965636256899141,
+          "split_sensitivity_interval": [
+            0.8565193753006253,
+            0.8914450171356421
+          ],
+          "min": 0.6458333333333334,
+          "max": 1.0
+        },
+        "mean_component_macro_f1": {
+          "mean": 0.8674612504679976,
+          "std": 0.09230183317350837,
+          "split_sensitivity_interval": [
+            0.8496691775631252,
+            0.8853091585582192
+          ],
+          "min": 0.6140350877192983,
+          "max": 1.0
+        },
+        "mean_brier_score": {
+          "mean": 0.06659670457759813,
+          "std": 0.026256478123194427,
+          "split_sensitivity_interval": [
+            0.06152238814639577,
+            0.07176308611212236
+          ],
+          "min": 0.011362893199704812,
+          "max": 0.155183336943811
+        },
+        "exact_set_accuracy": {
+          "mean": 0.8070986790986789,
+          "std": 0.1375692659709064,
+          "split_sensitivity_interval": [
+            0.7799771853146854,
+            0.8334307012432012
+          ],
+          "min": 0.4,
+          "max": 1.0
+        },
+        "hamming_loss": {
+          "mean": 0.0833115773115773,
+          "std": 0.05090591209576993,
+          "split_sensitivity_interval": [
+            0.0732986013986014,
+            0.09329461603211602
+          ],
+          "min": 0.0,
+          "max": 0.21212121212121213
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 1, \"n_estimators\": 100}}": 27,
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 2, \"n_estimators\": 100}}": 19,
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 4, \"n_estimators\": 100}}": 2,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 0.01}}": 1,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 0.1}}": 4,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 1.0}}": 13,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 10.0}}": 23,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 10.0, \"calibration_cv\": 3, \"gamma\": \"auto\"}}": 7,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 10.0, \"calibration_cv\": 3, \"gamma\": \"scale\"}}": 4
+      },
+      "normalized_selection_entropy": 0.8375400293801352,
+      "rank_stability": {
+        "status": "completed",
+        "ranking_count": 100,
+        "top_k": 3,
+        "mean_top_k_jaccard": 0.33218181818181824,
+        "mean_spearman_rho": 0.6021969141969142,
+        "mean_kendall_tau": 0.47174159174159175,
+        "outer_test_regret": {
+          "status": "not_available",
+          "reason": "outer_predictions_for_all_candidates_not_saved_in_current_runner"
+        }
+      },
+      "outer_test_regret": {
+        "status": "completed",
+        "mean_outer_test_regret_macro_auroc": 0.015081655844155844,
+        "split_sensitivity_interval": [
+          0.011257467682780188,
+          0.019215094145823314
+        ]
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 99993,
+        "macro_auroc_mean": 0.9725677064800742,
+        "macro_auroc_interval": [
+          0.8333333333333334,
+          1.0
+        ],
+        "exact_set_mean": 0.8064000652680654,
+        "exact_set_interval": [
+          0.36363636363636365,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_record_grouped_nested_selection.npz",
+        "sha256": "df51993aa9d91773788c7035a9d0a0ee5387086843a5ff9e91ecfeeb786b9824"
+      }
+    },
+    "bearing_grouped__fixed_prespecified": {
+      "hierarchy": "bearing_grouped",
+      "selection": "fixed_prespecified",
+      "inference_allowed": true,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 0.8619444444444446,
+          "std": 0.09204001783681878,
+          "split_sensitivity_interval": [
+            0.8438888888888889,
+            0.8797222222222222
+          ],
+          "min": 0.6388888888888888,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 0.8444814814814815,
+          "std": 0.09951802905362811,
+          "split_sensitivity_interval": [
+            0.8253143518518516,
+            0.8635930555555554
+          ],
+          "min": 0.611111111111111,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 0.7118055555555555,
+          "std": 0.1253716106101215,
+          "split_sensitivity_interval": [
+            0.6872222222222222,
+            0.7355555555555554
+          ],
+          "min": 0.4444444444444444,
+          "max": 0.9583333333333334
+        },
+        "mean_component_macro_f1": {
+          "mean": 0.6747830687830688,
+          "std": 0.13037849605589186,
+          "split_sensitivity_interval": [
+            0.649402447089947,
+            0.6994433201058199
+          ],
+          "min": 0.39153439153439146,
+          "max": 0.9206349206349206
+        },
+        "mean_brier_score": {
+          "mean": 0.16225475888838925,
+          "std": 0.06482230754150958,
+          "split_sensitivity_interval": [
+            0.14977099093222862,
+            0.17484876773984315
+          ],
+          "min": 0.024093005445192828,
+          "max": 0.3318388961719438
+        },
+        "exact_set_accuracy": {
+          "mean": 0.49,
+          "std": 0.1914854215512676,
+          "split_sensitivity_interval": [
+            0.45399999999999996,
+            0.528
+          ],
+          "min": 0.2,
+          "max": 0.8
+        },
+        "hamming_loss": {
+          "mean": 0.21866666666666665,
+          "std": 0.09092614879247443,
+          "split_sensitivity_interval": [
+            0.20133333333333328,
+            0.23600000000000002
+          ],
+          "min": 0.06666666666666667,
+          "max": 0.4666666666666667
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 10.0}}": 100
+      },
+      "normalized_selection_entropy": 0.0,
+      "rank_stability": {
+        "status": "not_applicable",
+        "reason": "no_nested_rankings"
+      },
+      "outer_test_regret": {
+        "status": "completed",
+        "mean_outer_test_regret_macro_auroc": 0.03666666666666668,
+        "split_sensitivity_interval": [
+          0.026111111111111127,
+          0.047777777777777794
+        ]
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 97979,
+        "macro_auroc_mean": 0.8575684018457471,
+        "macro_auroc_interval": [
+          0.5,
+          1.0
+        ],
+        "exact_set_mean": 0.490426,
+        "exact_set_interval": [
+          0.0,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_bearing_grouped_fixed_prespecified.npz",
+        "sha256": "76a8e31f528d1e904678837f3fa2ceccab1a3cef862fb84a9d87f424d01cc305"
+      }
+    },
+    "bearing_grouped__nested_selection": {
+      "hierarchy": "bearing_grouped",
+      "selection": "nested_selection",
+      "inference_allowed": true,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 0.8033333333333336,
+          "std": 0.15401271116825616,
+          "split_sensitivity_interval": [
+            0.7719444444444445,
+            0.8319444444444444
+          ],
+          "min": 0.25,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 0.7794351851851851,
+          "std": 0.1243776191401251,
+          "split_sensitivity_interval": [
+            0.7542222222222221,
+            0.8029539351851851
+          ],
+          "min": 0.3537037037037037,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 0.6520833333333332,
+          "std": 0.12592987157118204,
+          "split_sensitivity_interval": [
+            0.6277777777777779,
+            0.6763888888888888
+          ],
+          "min": 0.40277777777777773,
+          "max": 0.9583333333333334
+        },
+        "mean_component_macro_f1": {
+          "mean": 0.6000489417989416,
+          "std": 0.13854039011489092,
+          "split_sensitivity_interval": [
+            0.573026058201058,
+            0.6271155092592593
+          ],
+          "min": 0.39153439153439146,
+          "max": 0.9206349206349206
+        },
+        "mean_brier_score": {
+          "mean": 0.1817225127661475,
+          "std": 0.06671870850723205,
+          "split_sensitivity_interval": [
+            0.1688462738506646,
+            0.19521912189503798
+          ],
+          "min": 0.062014854772757706,
+          "max": 0.37395554204158005
+        },
+        "exact_set_accuracy": {
+          "mean": 0.4059999999999999,
+          "std": 0.2019200761977797,
+          "split_sensitivity_interval": [
+            0.3660000000000001,
+            0.446
+          ],
+          "min": 0.0,
+          "max": 0.8
+        },
+        "hamming_loss": {
+          "mean": 0.27399999999999997,
+          "std": 0.10882290311521854,
+          "split_sensitivity_interval": [
+            0.2526666666666666,
+            0.29533333333333334
+          ],
+          "min": 0.06666666666666667,
+          "max": 0.5333333333333333
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 1, \"n_estimators\": 100}}": 3,
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 2, \"n_estimators\": 100}}": 16,
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 4, \"n_estimators\": 100}}": 10,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 0.01}}": 11,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 0.1}}": 12,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 1.0}}": 10,
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 10.0}}": 21,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 0.1, \"calibration_cv\": 3, \"gamma\": \"auto\"}}": 9,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 0.1, \"calibration_cv\": 3, \"gamma\": \"scale\"}}": 1,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 1.0, \"calibration_cv\": 3, \"gamma\": \"auto\"}}": 2,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 1.0, \"calibration_cv\": 3, \"gamma\": \"scale\"}}": 2,
+        "{\"family\": \"rbf_svm\", \"hyperparameter\": {\"C\": 10.0, \"calibration_cv\": 3, \"gamma\": \"auto\"}}": 3
+      },
+      "normalized_selection_entropy": 0.8887010486338703,
+      "rank_stability": {
+        "status": "completed",
+        "ranking_count": 100,
+        "top_k": 3,
+        "mean_top_k_jaccard": 0.19454545454545455,
+        "mean_spearman_rho": 0.2015877455877456,
+        "mean_kendall_tau": 0.15116883116883117,
+        "outer_test_regret": {
+          "status": "not_available",
+          "reason": "outer_predictions_for_all_candidates_not_saved_in_current_runner"
+        }
+      },
+      "outer_test_regret": {
+        "status": "completed",
+        "mean_outer_test_regret_macro_auroc": 0.09527777777777777,
+        "split_sensitivity_interval": [
+          0.07333333333333336,
+          0.11833680555555554
+        ]
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 97979,
+        "macro_auroc_mean": 0.7990847812059501,
+        "macro_auroc_interval": [
+          0.08333333333333333,
+          1.0
+        ],
+        "exact_set_mean": 0.40713600000000005,
+        "exact_set_interval": [
+          0.0,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_bearing_grouped_nested_selection.npz",
+        "sha256": "9da267e706473cc5953d5aa68b97ed17e0f81506cda54467f96ebeae392f444e"
+      }
+    },
+    "window_random__fixed_prespecified": {
+      "hierarchy": "window_random",
+      "selection": "fixed_prespecified",
+      "inference_allowed": false,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_macro_f1": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_brier_score": {
+          "mean": 0.0009566265573823815,
+          "std": 0.00022766728927334386,
+          "split_sensitivity_interval": [
+            0.0009134663655158902,
+            0.0010018080631802727
+          ],
+          "min": 0.0005947287971452294,
+          "max": 0.0018162101968861126
+        },
+        "exact_set_accuracy": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "hamming_loss": {
+          "mean": 0.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"logistic_l2\", \"hyperparameter\": {\"C\": 10.0}}": 100
+      },
+      "normalized_selection_entropy": 0.0,
+      "rank_stability": {
+        "status": "not_applicable",
+        "reason": "no_nested_rankings"
+      },
+      "outer_test_regret": {
+        "status": "not_available",
+        "mean_outer_test_regret_macro_auroc": null,
+        "split_sensitivity_interval": null
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 100000,
+        "macro_auroc_mean": 1.0,
+        "macro_auroc_interval": [
+          1.0,
+          1.0
+        ],
+        "exact_set_mean": 1.0,
+        "exact_set_interval": [
+          1.0,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_window_random_fixed_prespecified.npz",
+        "sha256": "4dc2c0275f3ae78f5b9983e5337225979e06a6343a8f5a8b5c49fd7057b79cfa"
+      }
+    },
+    "window_random__nested_selection": {
+      "hierarchy": "window_random",
+      "selection": "nested_selection",
+      "inference_allowed": false,
+      "split_count": 100,
+      "metrics": {
+        "mean_component_auroc": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_aupr": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_balanced_accuracy": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_component_macro_f1": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "mean_brier_score": {
+          "mean": 0.00012411747311493656,
+          "std": 4.875989264007772e-05,
+          "split_sensitivity_interval": [
+            0.00011501194143394016,
+            0.00013417365247834996
+          ],
+          "min": 5.244903620459609e-05,
+          "max": 0.0003037386287847814
+        },
+        "exact_set_accuracy": {
+          "mean": 1.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            1.0,
+            1.0
+          ],
+          "min": 1.0,
+          "max": 1.0
+        },
+        "hamming_loss": {
+          "mean": 0.0,
+          "std": 0.0,
+          "split_sensitivity_interval": [
+            0.0,
+            0.0
+          ],
+          "min": 0.0,
+          "max": 0.0
+        }
+      },
+      "selection_frequency": {
+        "{\"family\": \"extra_trees\", \"hyperparameter\": {\"min_samples_leaf\": 1, \"n_estimators\": 100}}": 100
+      },
+      "normalized_selection_entropy": 0.0,
+      "rank_stability": {
+        "status": "completed",
+        "ranking_count": 100,
+        "top_k": 3,
+        "mean_top_k_jaccard": 0.9172727272727272,
+        "mean_spearman_rho": 0.9836652236652236,
+        "mean_kendall_tau": 0.9436075036075039,
+        "outer_test_regret": {
+          "status": "not_available",
+          "reason": "outer_predictions_for_all_candidates_not_saved_in_current_runner"
+        }
+      },
+      "outer_test_regret": {
+        "status": "not_available",
+        "mean_outer_test_regret_macro_auroc": null,
+        "split_sensitivity_interval": null
+      },
+      "unit_cluster_bootstrap": {
+        "status": "completed",
+        "draws_per_split": 1000,
+        "bootstrap_draw_count": 100000,
+        "macro_auroc_mean": 1.0,
+        "macro_auroc_interval": [
+          1.0,
+          1.0
+        ],
+        "exact_set_mean": 1.0,
+        "exact_set_interval": [
+          1.0,
+          1.0
+        ],
+        "interpretation": "unit_cluster_bootstrap_within_each_repeated_split"
+      },
+      "prediction_artifact": {
+        "path": "results/g2/unit_level_predictions/hanoi_hust_window_random_nested_selection.npz",
+        "sha256": "c87b4199a86d720cf88131a795be8e855847049fab801295195c839bdf32e924"
+      }
+    }
+  },
+  "paired_hierarchy_effects": {
+    "fixed_prespecified": {
+      "mean_component_auroc": {
+        "bearing_minus_record_mean": -0.09654952701619367,
+        "split_paired_bootstrap_interval": [
+          -0.11533920514670513,
+          -0.07834364598364599
+        ]
+      },
+      "exact_set_accuracy": {
+        "bearing_minus_record_mean": -0.30070823620823617,
+        "split_paired_bootstrap_interval": [
+          -0.3403947163947165,
+          -0.2616925310800311
+        ]
+      },
+      "hamming_loss": {
+        "bearing_minus_record_mean": 0.1313995078995079,
+        "split_paired_bootstrap_interval": [
+          0.11400934667184666,
+          0.14940085146335147
+        ]
+      }
+    },
+    "nested_selection": {
+      "mean_component_auroc": {
+        "bearing_minus_record_mean": -0.16947445085778415,
+        "split_paired_bootstrap_interval": [
+          -0.200684699074074,
+          -0.14049209776334776
+        ]
+      },
+      "exact_set_accuracy": {
+        "bearing_minus_record_mean": -0.4010986790986791,
+        "split_paired_bootstrap_interval": [
+          -0.44640357420357424,
+          -0.35546537490287494
+        ]
+      },
+      "hamming_loss": {
+        "bearing_minus_record_mean": 0.19068842268842268,
+        "split_paired_bootstrap_interval": [
+          0.16898901191401192,
+          0.2125717365967366
+        ]
+      }
+    }
+  },
+  "interpretation_note": "Intervals here quantify repeated-split sensitivity. They are not a substitute for unit-level cluster bootstrap on one prespecified test set."
+}

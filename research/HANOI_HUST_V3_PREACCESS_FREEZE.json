@@ -1,0 +1,1871 @@
+{
+  "stage": "hanoi_hust_v3_preaccess_freeze",
+  "schema_version": 1,
+  "status": "archive_byte_acquisition_authorized_mat_numeric_sealed",
+  "record": "cbv7jyx4p9",
+  "version": 3,
+  "doi": "10.17632/cbv7jyx4p9.3",
+  "title": "HUST bearing: a practical dataset for ball bearing fault diagnosis",
+  "license": "CC BY 4.0",
+  "archive": {
+    "url": "https://data.mendeley.com/public-api/zip/cbv7jyx4p9/download/3",
+    "bytes": 696985660,
+    "etag": "\"9a68020cb207941ced9f6d1af1484ad2-14\"",
+    "last_modified": "Fri, 17 Jan 2025 19:08:06 GMT",
+    "central_directory_tail_bytes_read": 65660,
+    "central_directory_tail_sha256": "298cfcff00589e3c8db0756f1e3e22d3c444ad65ce3b6ba3fd976210c391828c",
+    "mat_payload_bytes_read": 0
+  },
+  "publisher_metadata": {
+    "publish_date": "2023-08-13T06:32:44.009Z",
+    "modified_on": "2023-08-11T10:39:44.906Z",
+    "created_on": "2023-03-13T17:31:45.976Z",
+    "description_sha256": "0e00ccbecf0de68e739e07b301381fc0f48b0f57cd1adaf9da27af7b5bbb55b7"
+  },
+  "file_contracts": [
+    {
+      "archive_index": 9,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B500.mat",
+      "filename": "B500.mat",
+      "uncompressed_bytes": 7450484,
+      "compressed_bytes": 7452755,
+      "crc32": "a06618d6",
+      "compression_method": 8,
+      "local_header_offset": 68773511,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "B5",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 7,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B502.mat",
+      "filename": "B502.mat",
+      "uncompressed_bytes": 6600037,
+      "compressed_bytes": 6602048,
+      "crc32": "ee9ce31e",
+      "compression_method": 8,
+      "local_header_offset": 55532810,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "B5",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 5,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B504.mat",
+      "filename": "B504.mat",
+      "uncompressed_bytes": 6573642,
+      "compressed_bytes": 6575638,
+      "crc32": "87673498",
+      "compression_method": 8,
+      "local_header_offset": 42398461,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "B5",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 11,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B600.mat",
+      "filename": "B600.mat",
+      "uncompressed_bytes": 7469112,
+      "compressed_bytes": 7471387,
+      "crc32": "518bb9e9",
+      "compression_method": 8,
+      "local_header_offset": 83739360,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "B6",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 2,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B602.mat",
+      "filename": "B602.mat",
+      "uncompressed_bytes": 5887202,
+      "compressed_bytes": 5888862,
+      "crc32": "4e4a7d75",
+      "compression_method": 8,
+      "local_header_offset": 25389624,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "B6",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 3,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B604.mat",
+      "filename": "B604.mat",
+      "uncompressed_bytes": 5684550,
+      "compressed_bytes": 5685989,
+      "crc32": "a9d1ebb8",
+      "compression_method": 8,
+      "local_header_offset": 31278627,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "B6",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 10,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B700.mat",
+      "filename": "B700.mat",
+      "uncompressed_bytes": 7510525,
+      "compressed_bytes": 7512812,
+      "crc32": "b3bab0f6",
+      "compression_method": 8,
+      "local_header_offset": 76226407,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "B7",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 8,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B702.mat",
+      "filename": "B702.mat",
+      "uncompressed_bytes": 6636350,
+      "compressed_bytes": 6638371,
+      "crc32": "7b642a95",
+      "compression_method": 8,
+      "local_header_offset": 62134999,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "B7",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 6,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B704.mat",
+      "filename": "B704.mat",
+      "uncompressed_bytes": 6556435,
+      "compressed_bytes": 6558429,
+      "crc32": "654fca1f",
+      "compression_method": 8,
+      "local_header_offset": 48974240,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "B7",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 4,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B800.mat",
+      "filename": "B800.mat",
+      "uncompressed_bytes": 5431906,
+      "compressed_bytes": 5433563,
+      "crc32": "7da42122",
+      "compression_method": 8,
+      "local_header_offset": 36964757,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "B8",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 13,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B802.mat",
+      "filename": "B802.mat",
+      "uncompressed_bytes": 6029263,
+      "compressed_bytes": 6031097,
+      "crc32": "a951a7e6",
+      "compression_method": 8,
+      "local_header_offset": 95279111,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "B8",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 12,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/B804.mat",
+      "filename": "B804.mat",
+      "uncompressed_bytes": 4066850,
+      "compressed_bytes": 4068082,
+      "crc32": "72f2a35f",
+      "compression_method": 8,
+      "local_header_offset": 91210888,
+      "state": "B",
+      "components": [
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "B8",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 14,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I400.mat",
+      "filename": "I400.mat",
+      "uncompressed_bytes": 7421553,
+      "compressed_bytes": 7423811,
+      "crc32": "85225264",
+      "compression_method": 8,
+      "local_header_offset": 101310349,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "I4",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 15,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I402.mat",
+      "filename": "I402.mat",
+      "uncompressed_bytes": 6566469,
+      "compressed_bytes": 6568468,
+      "crc32": "37cf9714",
+      "compression_method": 8,
+      "local_header_offset": 108734301,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "I4",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 16,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I404.mat",
+      "filename": "I404.mat",
+      "uncompressed_bytes": 6547409,
+      "compressed_bytes": 6549400,
+      "crc32": "ee80de3e",
+      "compression_method": 8,
+      "local_header_offset": 115302910,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "I4",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 18,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I500.mat",
+      "filename": "I500.mat",
+      "uncompressed_bytes": 6563519,
+      "compressed_bytes": 6565487,
+      "crc32": "3dbac5a5",
+      "compression_method": 8,
+      "local_header_offset": 128477378,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "I5",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 19,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I502.mat",
+      "filename": "I502.mat",
+      "uncompressed_bytes": 6539699,
+      "compressed_bytes": 6541582,
+      "crc32": "9b7d6b73",
+      "compression_method": 8,
+      "local_header_offset": 135043006,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "I5",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 17,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I504.mat",
+      "filename": "I504.mat",
+      "uncompressed_bytes": 6622776,
+      "compressed_bytes": 6624786,
+      "crc32": "b272c995",
+      "compression_method": 8,
+      "local_header_offset": 121852451,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "I5",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 20,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I600.mat",
+      "filename": "I600.mat",
+      "uncompressed_bytes": 7481722,
+      "compressed_bytes": 7484000,
+      "crc32": "aba36e59",
+      "compression_method": 8,
+      "local_header_offset": 141584729,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "I6",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 21,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I602.mat",
+      "filename": "I602.mat",
+      "uncompressed_bytes": 7464612,
+      "compressed_bytes": 7466885,
+      "crc32": "f4e0798d",
+      "compression_method": 8,
+      "local_header_offset": 149068870,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "I6",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 87,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I604.mat",
+      "filename": "I604.mat",
+      "uncompressed_bytes": 7480152,
+      "compressed_bytes": 7482425,
+      "crc32": "4520b079",
+      "compression_method": 8,
+      "local_header_offset": 600716528,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "I6",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 22,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I700.mat",
+      "filename": "I700.mat",
+      "uncompressed_bytes": 7446556,
+      "compressed_bytes": 7448819,
+      "crc32": "05fe6a3d",
+      "compression_method": 8,
+      "local_header_offset": 156535896,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "I7",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 23,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I702.mat",
+      "filename": "I702.mat",
+      "uncompressed_bytes": 6587705,
+      "compressed_bytes": 6589715,
+      "crc32": "e1dd5480",
+      "compression_method": 8,
+      "local_header_offset": 163984856,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "I7",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 28,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I704.mat",
+      "filename": "I704.mat",
+      "uncompressed_bytes": 7392936,
+      "compressed_bytes": 7395184,
+      "crc32": "05d454c1",
+      "compression_method": 8,
+      "local_header_offset": 197074865,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "I7",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 24,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I800.mat",
+      "filename": "I800.mat",
+      "uncompressed_bytes": 6636062,
+      "compressed_bytes": 6638081,
+      "crc32": "9931d07a",
+      "compression_method": 8,
+      "local_header_offset": 170574712,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "I8",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 25,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I802.mat",
+      "filename": "I802.mat",
+      "uncompressed_bytes": 6625416,
+      "compressed_bytes": 6627430,
+      "crc32": "9797c8d3",
+      "compression_method": 8,
+      "local_header_offset": 177212934,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "I8",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 27,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/I804.mat",
+      "filename": "I804.mat",
+      "uncompressed_bytes": 6594564,
+      "compressed_bytes": 6596573,
+      "crc32": "f081a117",
+      "compression_method": 8,
+      "local_header_offset": 190478151,
+      "state": "I",
+      "components": [
+        "inner"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "I8",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 26,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB500.mat",
+      "filename": "IB500.mat",
+      "uncompressed_bytes": 6635485,
+      "compressed_bytes": 6637504,
+      "crc32": "4ea2cb97",
+      "compression_method": 8,
+      "local_header_offset": 183840505,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 29,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB502.mat",
+      "filename": "IB502.mat",
+      "uncompressed_bytes": 6641740,
+      "compressed_bytes": 6643758,
+      "crc32": "04906218",
+      "compression_method": 8,
+      "local_header_offset": 204470190,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 30,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB504.mat",
+      "filename": "IB504.mat",
+      "uncompressed_bytes": 6631348,
+      "compressed_bytes": 6633366,
+      "crc32": "2e40afed",
+      "compression_method": 8,
+      "local_header_offset": 211114090,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 32,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB600.mat",
+      "filename": "IB600.mat",
+      "uncompressed_bytes": 7815428,
+      "compressed_bytes": 7817779,
+      "crc32": "1e182798",
+      "compression_method": 8,
+      "local_header_offset": 225247026,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 31,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB602.mat",
+      "filename": "IB602.mat",
+      "uncompressed_bytes": 7497004,
+      "compressed_bytes": 7499286,
+      "crc32": "f0a5545d",
+      "compression_method": 8,
+      "local_header_offset": 217747598,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 33,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB604.mat",
+      "filename": "IB604.mat",
+      "uncompressed_bytes": 7481404,
+      "compressed_bytes": 7483687,
+      "crc32": "bf330363",
+      "compression_method": 8,
+      "local_header_offset": 233064947,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 34,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB700.mat",
+      "filename": "IB700.mat",
+      "uncompressed_bytes": 7457228,
+      "compressed_bytes": 7459495,
+      "crc32": "cdcb01b2",
+      "compression_method": 8,
+      "local_header_offset": 240548776,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 38,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB702.mat",
+      "filename": "IB702.mat",
+      "uncompressed_bytes": 7407890,
+      "compressed_bytes": 7410136,
+      "crc32": "4ac05a41",
+      "compression_method": 8,
+      "local_header_offset": 267817089,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 39,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB704.mat",
+      "filename": "IB704.mat",
+      "uncompressed_bytes": 7433298,
+      "compressed_bytes": 7435563,
+      "crc32": "3148591d",
+      "compression_method": 8,
+      "local_header_offset": 275227367,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 36,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB800.mat",
+      "filename": "IB800.mat",
+      "uncompressed_bytes": 6631704,
+      "compressed_bytes": 6633722,
+      "crc32": "8cae9161",
+      "compression_method": 8,
+      "local_header_offset": 254616519,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 35,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB802.mat",
+      "filename": "IB802.mat",
+      "uncompressed_bytes": 6605955,
+      "compressed_bytes": 6607964,
+      "crc32": "28032532",
+      "compression_method": 8,
+      "local_header_offset": 248008413,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 37,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB804.mat",
+      "filename": "IB804.mat",
+      "uncompressed_bytes": 6564565,
+      "compressed_bytes": 6566564,
+      "crc32": "3f6dbe9c",
+      "compression_method": 8,
+      "local_header_offset": 261250383,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 40,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO400.mat",
+      "filename": "IO400.mat",
+      "uncompressed_bytes": 7446077,
+      "compressed_bytes": 7448341,
+      "crc32": "838331a6",
+      "compression_method": 8,
+      "local_header_offset": 282663072,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 41,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO402.mat",
+      "filename": "IO402.mat",
+      "uncompressed_bytes": 7447113,
+      "compressed_bytes": 7449376,
+      "crc32": "0d963719",
+      "compression_method": 8,
+      "local_header_offset": 290111555,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 42,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO404.mat",
+      "filename": "IO404.mat",
+      "uncompressed_bytes": 7431263,
+      "compressed_bytes": 7433524,
+      "crc32": "c919f192",
+      "compression_method": 8,
+      "local_header_offset": 297561073,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 43,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO500.mat",
+      "filename": "IO500.mat",
+      "uncompressed_bytes": 6562837,
+      "compressed_bytes": 6564840,
+      "crc32": "52817abf",
+      "compression_method": 8,
+      "local_header_offset": 304994739,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 44,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO502.mat",
+      "filename": "IO502.mat",
+      "uncompressed_bytes": 6579863,
+      "compressed_bytes": 6581860,
+      "crc32": "b5fc098f",
+      "compression_method": 8,
+      "local_header_offset": 311559721,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 45,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO504.mat",
+      "filename": "IO504.mat",
+      "uncompressed_bytes": 6532250,
+      "compressed_bytes": 6534241,
+      "crc32": "a2f8b088",
+      "compression_method": 8,
+      "local_header_offset": 318141723,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 48,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO600.mat",
+      "filename": "IO600.mat",
+      "uncompressed_bytes": 7442925,
+      "compressed_bytes": 7445191,
+      "crc32": "0c801422",
+      "compression_method": 8,
+      "local_header_offset": 337905505,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 50,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO602.mat",
+      "filename": "IO602.mat",
+      "uncompressed_bytes": 7449450,
+      "compressed_bytes": 7451719,
+      "crc32": "6148798f",
+      "compression_method": 8,
+      "local_header_offset": 352716508,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 49,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO604.mat",
+      "filename": "IO604.mat",
+      "uncompressed_bytes": 7363292,
+      "compressed_bytes": 7365528,
+      "crc32": "f835b743",
+      "compression_method": 8,
+      "local_header_offset": 345350838,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 51,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO700.mat",
+      "filename": "IO700.mat",
+      "uncompressed_bytes": 7467806,
+      "compressed_bytes": 7470083,
+      "crc32": "a145ce8d",
+      "compression_method": 8,
+      "local_header_offset": 360168369,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 46,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO702.mat",
+      "filename": "IO702.mat",
+      "uncompressed_bytes": 6614916,
+      "compressed_bytes": 6616928,
+      "crc32": "83bceeb4",
+      "compression_method": 8,
+      "local_header_offset": 324676106,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 47,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO704.mat",
+      "filename": "IO704.mat",
+      "uncompressed_bytes": 6610181,
+      "compressed_bytes": 6612187,
+      "crc32": "824de515",
+      "compression_method": 8,
+      "local_header_offset": 331293176,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 52,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO800.mat",
+      "filename": "IO800.mat",
+      "uncompressed_bytes": 6628182,
+      "compressed_bytes": 6630205,
+      "crc32": "eed093ac",
+      "compression_method": 8,
+      "local_header_offset": 367638594,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 53,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO802.mat",
+      "filename": "IO802.mat",
+      "uncompressed_bytes": 6572665,
+      "compressed_bytes": 6574663,
+      "crc32": "03c46a74",
+      "compression_method": 8,
+      "local_header_offset": 374268941,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 54,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO804.mat",
+      "filename": "IO804.mat",
+      "uncompressed_bytes": 6580997,
+      "compressed_bytes": 6583001,
+      "crc32": "dd8950d5",
+      "compression_method": 8,
+      "local_header_offset": 380843746,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 55,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N400.mat",
+      "filename": "N400.mat",
+      "uncompressed_bytes": 6572346,
+      "compressed_bytes": 6574345,
+      "crc32": "f5257fca",
+      "compression_method": 8,
+      "local_header_offset": 387426889,
+      "state": "N",
+      "components": [],
+      "bearing_type": 4,
+      "bearing_id": "N4",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 56,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N402.mat",
+      "filename": "N402.mat",
+      "uncompressed_bytes": 6545519,
+      "compressed_bytes": 6547508,
+      "crc32": "7de0fbb0",
+      "compression_method": 8,
+      "local_header_offset": 394001375,
+      "state": "N",
+      "components": [],
+      "bearing_type": 4,
+      "bearing_id": "N4",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 58,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N404.mat",
+      "filename": "N404.mat",
+      "uncompressed_bytes": 6548930,
+      "compressed_bytes": 6550923,
+      "crc32": "13bac72a",
+      "compression_method": 8,
+      "local_header_offset": 407111031,
+      "state": "N",
+      "components": [],
+      "bearing_type": 4,
+      "bearing_id": "N4",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 57,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N500.mat",
+      "filename": "N500.mat",
+      "uncompressed_bytes": 6559874,
+      "compressed_bytes": 6561866,
+      "crc32": "59dfe21c",
+      "compression_method": 8,
+      "local_header_offset": 400549024,
+      "state": "N",
+      "components": [],
+      "bearing_type": 5,
+      "bearing_id": "N5",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 59,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N502.mat",
+      "filename": "N502.mat",
+      "uncompressed_bytes": 6519789,
+      "compressed_bytes": 6521761,
+      "crc32": "e72d51d3",
+      "compression_method": 8,
+      "local_header_offset": 413662095,
+      "state": "N",
+      "components": [],
+      "bearing_type": 5,
+      "bearing_id": "N5",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 60,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N504.mat",
+      "filename": "N504.mat",
+      "uncompressed_bytes": 6461204,
+      "compressed_bytes": 6463157,
+      "crc32": "637c5a33",
+      "compression_method": 8,
+      "local_header_offset": 420183997,
+      "state": "N",
+      "components": [],
+      "bearing_type": 5,
+      "bearing_id": "N5",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 61,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N600.mat",
+      "filename": "N600.mat",
+      "uncompressed_bytes": 7432268,
+      "compressed_bytes": 7434527,
+      "crc32": "8c3c0566",
+      "compression_method": 8,
+      "local_header_offset": 426647295,
+      "state": "N",
+      "components": [],
+      "bearing_type": 6,
+      "bearing_id": "N6",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 62,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N602.mat",
+      "filename": "N602.mat",
+      "uncompressed_bytes": 7373194,
+      "compressed_bytes": 7375436,
+      "crc32": "794f934f",
+      "compression_method": 8,
+      "local_header_offset": 434081963,
+      "state": "N",
+      "components": [],
+      "bearing_type": 6,
+      "bearing_id": "N6",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 63,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N604.mat",
+      "filename": "N604.mat",
+      "uncompressed_bytes": 7423968,
+      "compressed_bytes": 7426228,
+      "crc32": "435bc87d",
+      "compression_method": 8,
+      "local_header_offset": 441457540,
+      "state": "N",
+      "components": [],
+      "bearing_type": 6,
+      "bearing_id": "N6",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 64,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N700.mat",
+      "filename": "N700.mat",
+      "uncompressed_bytes": 7424017,
+      "compressed_bytes": 7426279,
+      "crc32": "1c74e63d",
+      "compression_method": 8,
+      "local_header_offset": 448883909,
+      "state": "N",
+      "components": [],
+      "bearing_type": 7,
+      "bearing_id": "N7",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 65,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N702.mat",
+      "filename": "N702.mat",
+      "uncompressed_bytes": 6570851,
+      "compressed_bytes": 6572848,
+      "crc32": "7463ef99",
+      "compression_method": 8,
+      "local_header_offset": 456310329,
+      "state": "N",
+      "components": [],
+      "bearing_type": 7,
+      "bearing_id": "N7",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 66,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N704.mat",
+      "filename": "N704.mat",
+      "uncompressed_bytes": 6550268,
+      "compressed_bytes": 6552264,
+      "crc32": "0c4fabbc",
+      "compression_method": 8,
+      "local_header_offset": 462883318,
+      "state": "N",
+      "components": [],
+      "bearing_type": 7,
+      "bearing_id": "N7",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 67,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N800.mat",
+      "filename": "N800.mat",
+      "uncompressed_bytes": 6585195,
+      "compressed_bytes": 6587200,
+      "crc32": "91553a65",
+      "compression_method": 8,
+      "local_header_offset": 469435723,
+      "state": "N",
+      "components": [],
+      "bearing_type": 8,
+      "bearing_id": "N8",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 68,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N802.mat",
+      "filename": "N802.mat",
+      "uncompressed_bytes": 6555782,
+      "compressed_bytes": 6557777,
+      "crc32": "c7586b4b",
+      "compression_method": 8,
+      "local_header_offset": 476023064,
+      "state": "N",
+      "components": [],
+      "bearing_type": 8,
+      "bearing_id": "N8",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 69,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/N804.mat",
+      "filename": "N804.mat",
+      "uncompressed_bytes": 6460642,
+      "compressed_bytes": 6462509,
+      "crc32": "c5f81738",
+      "compression_method": 8,
+      "local_header_offset": 482580982,
+      "state": "N",
+      "components": [],
+      "bearing_type": 8,
+      "bearing_id": "N8",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 70,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O400.mat",
+      "filename": "O400.mat",
+      "uncompressed_bytes": 6587908,
+      "compressed_bytes": 6589914,
+      "crc32": "d4c90d5d",
+      "compression_method": 8,
+      "local_header_offset": 489043632,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "O4",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 72,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O402.mat",
+      "filename": "O402.mat",
+      "uncompressed_bytes": 6554615,
+      "compressed_bytes": 6556604,
+      "crc32": "4c9a30b3",
+      "compression_method": 8,
+      "local_header_offset": 502230365,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "O4",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 71,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O404.mat",
+      "filename": "O404.mat",
+      "uncompressed_bytes": 6594529,
+      "compressed_bytes": 6596537,
+      "crc32": "22a3bfa5",
+      "compression_method": 8,
+      "local_header_offset": 495633687,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "O4",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 73,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O500.mat",
+      "filename": "O500.mat",
+      "uncompressed_bytes": 6527010,
+      "compressed_bytes": 6528891,
+      "crc32": "95b01528",
+      "compression_method": 8,
+      "local_header_offset": 508787110,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "O5",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 75,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O502.mat",
+      "filename": "O502.mat",
+      "uncompressed_bytes": 6552919,
+      "compressed_bytes": 6554901,
+      "crc32": "a01b54ac",
+      "compression_method": 8,
+      "local_header_offset": 521868699,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "O5",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 74,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O504.mat",
+      "filename": "O504.mat",
+      "uncompressed_bytes": 6550430,
+      "compressed_bytes": 6552416,
+      "crc32": "8586dd2e",
+      "compression_method": 8,
+      "local_header_offset": 515316142,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "O5",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 76,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O600.mat",
+      "filename": "O600.mat",
+      "uncompressed_bytes": 7410507,
+      "compressed_bytes": 7412757,
+      "crc32": "c78b1c79",
+      "compression_method": 8,
+      "local_header_offset": 528423741,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "O6",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 77,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O602.mat",
+      "filename": "O602.mat",
+      "uncompressed_bytes": 7423397,
+      "compressed_bytes": 7425657,
+      "crc32": "5582c949",
+      "compression_method": 8,
+      "local_header_offset": 535836639,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "O6",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 78,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O604.mat",
+      "filename": "O604.mat",
+      "uncompressed_bytes": 7447983,
+      "compressed_bytes": 7450245,
+      "crc32": "3fb52731",
+      "compression_method": 8,
+      "local_header_offset": 543262437,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "O6",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 82,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O700.mat",
+      "filename": "O700.mat",
+      "uncompressed_bytes": 7465781,
+      "compressed_bytes": 7468055,
+      "crc32": "bb3051c6",
+      "compression_method": 8,
+      "local_header_offset": 572089282,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "O7",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 80,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O702.mat",
+      "filename": "O702.mat",
+      "uncompressed_bytes": 7424384,
+      "compressed_bytes": 7426637,
+      "crc32": "87ba598b",
+      "compression_method": 8,
+      "local_header_offset": 557242204,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "O7",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 81,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O704.mat",
+      "filename": "O704.mat",
+      "uncompressed_bytes": 7417897,
+      "compressed_bytes": 7420159,
+      "crc32": "76bfe76f",
+      "compression_method": 8,
+      "local_header_offset": 564668982,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "O7",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 79,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O800.mat",
+      "filename": "O800.mat",
+      "uncompressed_bytes": 6527285,
+      "compressed_bytes": 6529240,
+      "crc32": "3415a293",
+      "compression_method": 8,
+      "local_header_offset": 550712823,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "O8",
+      "load_w": 0,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 85,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O802.mat",
+      "filename": "O802.mat",
+      "uncompressed_bytes": 6592743,
+      "compressed_bytes": 6594746,
+      "crc32": "7150e8f9",
+      "compression_method": 8,
+      "local_header_offset": 589693117,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "O8",
+      "load_w": 200,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 83,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/O804.mat",
+      "filename": "O804.mat",
+      "uncompressed_bytes": 6548316,
+      "compressed_bytes": 6550311,
+      "crc32": "0e842dd1",
+      "compression_method": 8,
+      "local_header_offset": 579557478,
+      "state": "O",
+      "components": [
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "O8",
+      "load_w": 400,
+      "access_role": "source"
+    },
+    {
+      "archive_index": 84,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB400.mat",
+      "filename": "OB400.mat",
+      "uncompressed_bytes": 3583953,
+      "compressed_bytes": 3585045,
+      "crc32": "60f9f900",
+      "compression_method": 8,
+      "local_header_offset": 586107930,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 86,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB402.mat",
+      "filename": "OB402.mat",
+      "uncompressed_bytes": 4427041,
+      "compressed_bytes": 4428382,
+      "crc32": "e580b32c",
+      "compression_method": 8,
+      "local_header_offset": 596288004,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 88,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB404.mat",
+      "filename": "OB404.mat",
+      "uncompressed_bytes": 5670367,
+      "compressed_bytes": 5672089,
+      "crc32": "df23a04b",
+      "compression_method": 8,
+      "local_header_offset": 608199094,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 89,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB500.mat",
+      "filename": "OB500.mat",
+      "uncompressed_bytes": 7449734,
+      "compressed_bytes": 7452009,
+      "crc32": "0bbcc67a",
+      "compression_method": 8,
+      "local_header_offset": 613871325,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 90,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB502.mat",
+      "filename": "OB502.mat",
+      "uncompressed_bytes": 7473770,
+      "compressed_bytes": 7476042,
+      "crc32": "7a734c02",
+      "compression_method": 8,
+      "local_header_offset": 621323476,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 91,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB504.mat",
+      "filename": "OB504.mat",
+      "uncompressed_bytes": 7418746,
+      "compressed_bytes": 7421004,
+      "crc32": "eec43f7a",
+      "compression_method": 8,
+      "local_header_offset": 628799660,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 92,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB600.mat",
+      "filename": "OB600.mat",
+      "uncompressed_bytes": 7479837,
+      "compressed_bytes": 7482108,
+      "crc32": "1c566cff",
+      "compression_method": 8,
+      "local_header_offset": 636220806,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 94,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB602.mat",
+      "filename": "OB602.mat",
+      "uncompressed_bytes": 7461326,
+      "compressed_bytes": 7463599,
+      "crc32": "23955b91",
+      "compression_method": 8,
+      "local_header_offset": 650309692,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 96,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB604.mat",
+      "filename": "OB604.mat",
+      "uncompressed_bytes": 7435105,
+      "compressed_bytes": 7437375,
+      "crc32": "346029d6",
+      "compression_method": 8,
+      "local_header_offset": 665275661,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 95,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB700.mat",
+      "filename": "OB700.mat",
+      "uncompressed_bytes": 7499801,
+      "compressed_bytes": 7502086,
+      "crc32": "ed8c0018",
+      "compression_method": 8,
+      "local_header_offset": 657773433,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 93,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB702.mat",
+      "filename": "OB702.mat",
+      "uncompressed_bytes": 6604523,
+      "compressed_bytes": 6606494,
+      "crc32": "20f4b612",
+      "compression_method": 8,
+      "local_header_offset": 643703056,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 97,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB704.mat",
+      "filename": "OB704.mat",
+      "uncompressed_bytes": 6544251,
+      "compressed_bytes": 6546185,
+      "crc32": "78a3856f",
+      "compression_method": 8,
+      "local_header_offset": 672713178,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 100,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB800.mat",
+      "filename": "OB800.mat",
+      "uncompressed_bytes": 6610341,
+      "compressed_bytes": 6612350,
+      "crc32": "98a8d9c1",
+      "compression_method": 8,
+      "local_header_offset": 690358897,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 98,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB802.mat",
+      "filename": "OB802.mat",
+      "uncompressed_bytes": 6545008,
+      "compressed_bytes": 6546995,
+      "crc32": "0125b3e1",
+      "compression_method": 8,
+      "local_header_offset": 679259505,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 99,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB804.mat",
+      "filename": "OB804.mat",
+      "uncompressed_bytes": 4550753,
+      "compressed_bytes": 4552113,
+      "crc32": "f2131c70",
+      "compression_method": 8,
+      "local_header_offset": 685806642,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 400,
+      "access_role": "compound"
+    }
+  ],
+  "partition": {
+    "physical_bearings": 33,
+    "source_bearings": 19,
+    "source_mat_files": 57,
+    "compound_bearings_sealed": 14,
+    "compound_mat_files_sealed": 42,
+    "loads_w": [
+      0,
+      200,
+      400
+    ]
+  },
+  "information_boundary": {
+    "dataset_metadata_requests": 1,
+    "zip_central_directory_requests": 1,
+    "zip_central_directory_bytes_read": 65660,
+    "archive_payload_download_requests": 0,
+    "mat_files_opened": 0,
+    "mat_numeric_values_parsed": 0,
+    "upstream_feature_dataframe_reads": 0
+  },
+  "pre_freeze_incident": {
+    "official_replication_repository_cloned_for_code_review": true,
+    "repository_commit": "4c9fd8cb3cf9d5aa4ef2b653cb314a0727e12f3d",
+    "tracked_hust_feature_blob_was_acquired_but_not_opened": true,
+    "tracked_hust_feature_blob_sha1": "6cf9e9179c9a0ce9dc31819fd2e1f341f05e45d4",
+    "tracked_hust_feature_blob_bytes": 246992,
+    "blob_permanently_excluded_from_all_experiments": true
+  },
+  "source_sha256": {
+    "research/HANOI_HUST_NOACE_PREREGISTRATION.md": "fe759865824612fc085261df6ebc2299ebb8b52c00216ca14f794c2d7ad1d39c",
+    "src/electrical_fm/hanoi_hust.py": "722422e54c46e33446fbde39bce71ef158e1ba0924dcf57891bf023b663a7e56",
+    "src/build_hanoi_hust_preaccess_freeze.py": "18ac86f61b2482fbf6a7b5496bbaa5e20c59d6c8aea6edbc9c2ab7f87425af64",
+    "tests/test_hanoi_hust.py": "c7d67d4676553f9665b750afe165b880bcc45d83db2159b1d296b0b25cd8ab73"
+  },
+  "authorization": {
+    "complete_archive_byte_download": true,
+    "archive_sha256_and_crc_verification": true,
+    "source_mat_numeric_parse": false,
+    "source_parse_requires_committed_access_freeze": true,
+    "compound_mat_numeric_parse": false,
+    "compound_parse_requires_later_committed_confirmation_freeze": true
+  },
+  "provenance": {
+    "git_commit": "d9a389da23296d55d2c073de9643523449396928",
+    "bound_files_clean": true,
+    "whole_worktree_dirty": true,
+    "whole_worktree_status_sha256": "db712927bcb750baa99d09eefcf3fb72686adb3c30cec63c69450c94845e22a8",
+    "builder": "src/build_hanoi_hust_preaccess_freeze.py"
+  }
+}

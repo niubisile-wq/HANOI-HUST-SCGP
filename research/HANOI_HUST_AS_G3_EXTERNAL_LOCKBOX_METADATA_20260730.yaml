@@ -1,0 +1,29 @@
+stage: hanoi_hust_as_g3_external_lockbox_metadata
+date: 2026-07-30
+status: metadata_qualified_numeric_access_pending
+candidate:
+  title: "Dataset of Vibration, Temperature, and Speed Measurements for Spherical Roller Bearings with Single, Dual, and Multi-Bearing Defects Under Variable Loads and Speeds"
+  authors: "Di Maggio, Giorio, Delprete, Brusa"
+  institutional_record: "https://iris.polito.it/handle/11583/2997515"
+  concept_doi: "10.5281/zenodo.14856937"
+  resolved_version_doi: "10.5281/zenodo.14856938"
+  zenodo_api_record: "https://zenodo.org/api/records/14856938"
+  publication_date: "2025-02-12"
+  official_metadata_claims:
+    - spherical roller bearings SKF 22240 CCK/W33
+    - 10 nominal spin speeds
+    - 4 load conditions
+    - single, dual-inner-race, and multi-bearing defect configurations
+information_boundary:
+  waveforms_loaded: false
+  labels_loaded: false
+  numeric_files_found_by_api: false
+  permitted_role: prospective_lockbox_only_after_file_manifest_freeze
+qualification_decision:
+  pass: true
+  reason: official institutional record resolves the DOI and documents unit, operating conditions, and fault configurations
+  hold: numeric evaluation cannot start because the resolved Zenodo record currently exposes zero files through its public API
+red_lines:
+  - do not infer performance from metadata
+  - do not substitute another version without amending this record
+  - do not claim external validation until a file manifest and SHA-256 lockbox exist

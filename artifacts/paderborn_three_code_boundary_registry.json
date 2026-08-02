@@ -1,0 +1,55 @@
+{
+  "stage": "paderborn_three_code_external_boundary",
+  "schema_version": 1,
+  "status": "completed",
+  "role": "one_shot_cross_rig_boundary_check",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing_code",
+  "frozen_before_external_scoring": true,
+  "external_tuning_permitted": false,
+  "source_model": {
+    "representation": "envelope_log_power",
+    "classifier": "logistic_l2",
+    "C": 10.0,
+    "scaler": "fit_on_HANOI_source_only",
+    "threshold": 0.5
+  },
+  "boundary_set": {
+    "source": "https://mb.uni-paderborn.de/en/kat/research/bearing-datacenter/data-sets-and-download",
+    "bearing_codes": {
+      "healthy": [
+        "K001"
+      ],
+      "outer_race_damage": [
+        "KA01"
+      ],
+      "inner_race_damage": [
+        "KI01"
+      ]
+    },
+    "bearing_count": 3,
+    "record_count_per_bearing": 80,
+    "record_count": 240
+  },
+  "result": {
+    "path": "results/g3/hanoi_hust_paderborn_external_lockbox.json",
+    "bearing_code_exact_set_accuracy": 0.3333333333333333,
+    "correct_codes": [
+      "K001"
+    ],
+    "incorrect_codes": [
+      "KA01",
+      "KI01"
+    ]
+  },
+  "derived_feature_cache": {
+    "path": "results/g3/hanoi_hust_paderborn_external_features.npz",
+    "sha256": "683b9682e8cb88199fb7c60d9651f5150c84c8b5dec7d68be7ec0837021d0ea1"
+  },
+  "separation_note": {
+    "historical_registry": "artifacts/paderborn_confirmatory_registry.json",
+    "historical_registry_status": "unscored_numeric_access_not_authorized",
+    "interchangeable": false
+  },
+  "interpretation": "Negative three-unit transport boundary; not a population estimate, pooled replication, or deployment guarantee."
+}

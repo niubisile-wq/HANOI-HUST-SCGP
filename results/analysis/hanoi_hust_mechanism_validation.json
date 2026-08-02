@@ -1,0 +1,343 @@
+{
+  "stage": "hanoi_hust_mechanism_validation",
+  "schema_version": 1,
+  "status": "completed",
+  "source_baselines": {
+    "path": "results/development/hanoi_hust_source_baselines.json",
+    "sha256": "de0b882a8f5f98b98d57ab47ce70cd46850d7ff31d44788ed40635afd857fe13",
+    "candidate_count": 56
+  },
+  "refutation_pack": {
+    "path": "results/analysis/hanoi_hust_refutation_pack.json",
+    "sha256": "3786b9ff91e4e7cd5a1291287ec46a8067a021a100d46403e05e8dd17bd60995",
+    "identity_probes": {
+      "bearing_type_from_features_by_load_split": {
+        "fold_count": 3,
+        "accuracy": 0.8771929824561403,
+        "balanced_accuracy": 0.8722222222222221,
+        "macro_f1": 0.867885225885226
+      },
+      "load_from_features_by_bearing_split": {
+        "fold_count": 5,
+        "accuracy": 0.2807017543859649,
+        "balanced_accuracy": 0.2807017543859649,
+        "macro_f1": 0.2714420592327569
+      }
+    },
+    "label_shuffle": {
+      "best_seed": {
+        "seed": 84,
+        "mean_component_auroc": 0.5652557319223986,
+        "mean_component_balanced_accuracy": 0.526984126984127,
+        "mean_component_aupr": 0.3597274252249482,
+        "mean_brier_score": 0.2635410464036562,
+        "mean_component_macro_f1": 0.5256190481005214,
+        "exact_set_accuracy": 0.3157894736842105,
+        "hamming_loss": 0.3216374269005848
+      },
+      "aggregate_mean_auroc": 0.4537037037037037
+    },
+    "leave_one_bearing_out": {
+      "worst_groups": {
+        "B5": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.6666666666666666
+        },
+        "B6": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.3333333333333333
+        },
+        "B7": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.3333333333333333,
+          "hamming_loss": 0.2222222222222222
+        },
+        "B8": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "I4": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "I5": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "I6": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "I7": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.6666666666666666
+        },
+        "I8": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.3333333333333333,
+          "hamming_loss": 0.2222222222222222
+        },
+        "N4": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "N5": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "N6": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "N7": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "N8": {
+          "record_count": 3,
+          "exact_set_accuracy": 1.0,
+          "hamming_loss": 0.0
+        },
+        "O4": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.3333333333333333
+        },
+        "O5": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.3333333333333333
+        },
+        "O6": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.6666666666666666,
+          "hamming_loss": 0.1111111111111111
+        },
+        "O7": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.4444444444444444
+        },
+        "O8": {
+          "record_count": 3,
+          "exact_set_accuracy": 0.0,
+          "hamming_loss": 0.4444444444444444
+        }
+      }
+    }
+  },
+  "interaction_residuals": {
+    "mean_component_auroc": {
+      "families": [
+        "empirical_prior",
+        "extra_trees",
+        "logistic_l2",
+        "rbf_svm"
+      ],
+      "views": [
+        "all",
+        "envelope_log_power",
+        "fixed_log_power",
+        "statistics"
+      ],
+      "grand_mean": 0.5406084656084655,
+      "matrix": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7238095238095239,
+          0.7471781305114638,
+          0.7135802469135802,
+          0.7126984126984127
+        ],
+        [
+          0.8067019400352734,
+          0.8138447971781305,
+          0.7525573192239858,
+          0.7206349206349207
+        ],
+        [
+          0.7250440917107582,
+          0.7100529100529102,
+          0.6602292768959436,
+          0.5634038800705468
+        ]
+      ],
+      "residual": [
+        [
+          -0.023280423280423346,
+          -0.02716049382716057,
+          0.009016754850088127,
+          0.041424162257495456
+        ],
+        [
+          -0.023787477954144598,
+          -0.004298941798941969,
+          -0.0017195767195767875,
+          0.02980599647266302
+        ],
+        [
+          0.009986772486772488,
+          0.013249559082892381,
+          -0.011860670194003609,
+          -0.011375661375661372
+        ],
+        [
+          0.03708112874779523,
+          0.018209876543209935,
+          0.004563492063492047,
+          -0.05985449735449744
+        ]
+      ],
+      "strongest_positive": {
+        "family": "empirical_prior",
+        "view": "statistics",
+        "residual": 0.041424162257495456
+      },
+      "strongest_negative": {
+        "family": "rbf_svm",
+        "view": "statistics",
+        "residual": -0.05985449735449744
+      }
+    },
+    "exact_set_accuracy": {
+      "families": [
+        "empirical_prior",
+        "extra_trees",
+        "logistic_l2",
+        "rbf_svm"
+      ],
+      "views": [
+        "all",
+        "envelope_log_power",
+        "fixed_log_power",
+        "statistics"
+      ],
+      "grand_mean": 0.4331140350877193,
+      "matrix": [
+        [
+          0.2631578947368421,
+          0.2631578947368421,
+          0.2631578947368421,
+          0.2631578947368421
+        ],
+        [
+          0.5087719298245614,
+          0.5964912280701754,
+          0.49122807017543857,
+          0.49122807017543857
+        ],
+        [
+          0.5964912280701754,
+          0.543859649122807,
+          0.40350877192982454,
+          0.543859649122807
+        ],
+        [
+          0.47368421052631576,
+          0.38596491228070173,
+          0.47368421052631576,
+          0.3684210526315789
+        ]
+      ],
+      "residual": [
+        [
+          -0.027412280701754332,
+          -0.014254385964912242,
+          0.025219298245614086,
+          0.0164473684210526
+        ],
+        [
+          -0.04057017543859637,
+          0.0603070175438597,
+          -0.005482456140350811,
+          -0.014254385964912297
+        ],
+        [
+          0.04714912280701761,
+          0.007675438596491335,
+          -0.09320175438596479,
+          0.038377192982456176
+        ],
+        [
+          0.02083333333333337,
+          -0.05372807017543857,
+          0.07346491228070179,
+          -0.040570175438596534
+        ]
+      ],
+      "strongest_positive": {
+        "family": "rbf_svm",
+        "view": "fixed_log_power",
+        "residual": 0.07346491228070179
+      },
+      "strongest_negative": {
+        "family": "logistic_l2",
+        "view": "fixed_log_power",
+        "residual": -0.09320175438596479
+      }
+    }
+  },
+  "occlusion_and_deletion": {
+    "leave_one_component_out": {
+      "inner": {
+        "keep_components": [
+          "outer",
+          "ball"
+        ],
+        "exact_set_accuracy": 0.631578947368421,
+        "delta_vs_full_pp": 8.771929824561397,
+        "group_bootstrap_95_ci": {
+          "mean": 0.6315789473684209,
+          "lower": 0.42105263157894735,
+          "upper": 0.8245614035087719
+        }
+      },
+      "outer": {
+        "keep_components": [
+          "inner",
+          "ball"
+        ],
+        "exact_set_accuracy": 0.7719298245614035,
+        "delta_vs_full_pp": 22.807017543859644,
+        "group_bootstrap_95_ci": {
+          "mean": 0.7719298245614034,
+          "lower": 0.5964912280701754,
+          "upper": 0.9298245614035087
+        }
+      },
+      "ball": {
+        "keep_components": [
+          "inner",
+          "outer"
+        ],
+        "exact_set_accuracy": 0.543859649122807,
+        "delta_vs_full_pp": 0.0,
+        "group_bootstrap_95_ci": {
+          "mean": 0.5438596491228069,
+          "lower": 0.3333333333333333,
+          "upper": 0.7543859649122806
+        }
+      }
+    }
+  },
+  "provenance": {
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+    "builder": "src/analyze_hanoi_hust_mechanism_validation.py"
+  }
+}

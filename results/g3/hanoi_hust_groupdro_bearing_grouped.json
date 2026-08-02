@@ -1,0 +1,4054 @@
+{
+  "stage": "hanoi_hust_as_g3_groupdro",
+  "schema_version": 1,
+  "status": "completed",
+  "method_level": "R2",
+  "information_budget": "I0_source_only",
+  "independent_metric_unit": "physical_bearing",
+  "candidate": {
+    "family": "GroupDRO_style_logistic",
+    "representation": "envelope_log_power",
+    "rounds": 6,
+    "domain": "load_w",
+    "C": 10.0
+  },
+  "cache_sha256": "95b1b9fef3e75e7049b1e4f5e6f04c61d549936e6840b9cebf0e50cf7fcf9f54",
+  "manifest_sha256": "d35c20d17cf8a2f34a08d350b3cf300c1c2e702e7257caa057fd56234fc181a3",
+  "split_count": 100,
+  "summary": {
+    "mean_component_auroc": {
+      "mean": 0.8447222222222223,
+      "std": 0.09926269844285604
+    },
+    "mean_component_aupr": {
+      "mean": 0.8247592592592592,
+      "std": 0.09476086566953994
+    },
+    "mean_component_balanced_accuracy": {
+      "mean": 0.7208333333333333,
+      "std": 0.13259446183058762
+    },
+    "mean_component_macro_f1": {
+      "mean": 0.6798320105820105,
+      "std": 0.14073407440518204
+    },
+    "mean_brier_score": {
+      "mean": 0.1538903605912552,
+      "std": 0.05477553432526379
+    },
+    "exact_set_accuracy": {
+      "mean": 0.48200000000000004,
+      "std": 0.2090768550393164
+    },
+    "hamming_loss": {
+      "mean": 0.21866666666666665,
+      "std": 0.0952661815247783
+    }
+  },
+  "splits": [
+    {
+      "split_id": 0,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 1,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 2,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 3,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 4,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 5,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 6,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 7,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 8,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 9,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.4444444444444444,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16096048892878018,
+          0.27944928977997274,
+          0.16948479674458497
+        ],
+        "mean_brier_score": 0.2032981918177793,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.39153439153439146,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 10,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.08348305833422164,
+          0.1177750925206674,
+          0.010654705803380939
+        ],
+        "mean_brier_score": 0.07063761888608998,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 11,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.08348305833422164,
+          0.1177750925206674,
+          0.010654705803380939
+        ],
+        "mean_brier_score": 0.07063761888608998,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 12,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.08348305833422164,
+          0.1177750925206674,
+          0.010654705803380939
+        ],
+        "mean_brier_score": 0.07063761888608998,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 13,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.625,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          0.25,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.75,
+        "aupr_by_component": [
+          0.25,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.3830219239990097,
+          0.2792789241434078,
+          0.1877661828587506
+        ],
+        "mean_brier_score": 0.2833556770003894,
+        "macro_f1_by_component": [
+          0.375,
+          0.4,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.5123015873015873,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.4
+      }
+    },
+    {
+      "split_id": 14,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.625,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          0.25,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.75,
+        "aupr_by_component": [
+          0.25,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.3830219239990097,
+          0.2792789241434078,
+          0.1877661828587506
+        ],
+        "mean_brier_score": 0.2833556770003894,
+        "macro_f1_by_component": [
+          0.375,
+          0.4,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.5123015873015873,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.4
+      }
+    },
+    {
+      "split_id": 15,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.10086040370598766,
+          0.15007550152883803,
+          0.025481799351448738
+        ],
+        "mean_brier_score": 0.09213923486209147,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 16,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.375,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.625,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.7777777777777777,
+        "brier_by_component": [
+          0.17154268813087045,
+          0.1596689355344603,
+          0.015630210445859705
+        ],
+        "mean_brier_score": 0.11561394470373015,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6064814814814815,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 17,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.04573932389952969,
+          0.08799605600247488,
+          0.0011032649045251183
+        ],
+        "mean_brier_score": 0.0449462149355099,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 18,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.04573932389952969,
+          0.08799605600247488,
+          0.0011032649045251183
+        ],
+        "mean_brier_score": 0.0449462149355099,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 19,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.04573932389952969,
+          0.08799605600247488,
+          0.0011032649045251183
+        ],
+        "mean_brier_score": 0.0449462149355099,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 20,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.04573932389952969,
+          0.08799605600247488,
+          0.0011032649045251183
+        ],
+        "mean_brier_score": 0.0449462149355099,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 21,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          1.0
+        ],
+        "mean_component_auroc": 0.7777777777777778,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.11676237257034308,
+          0.2732439656881881,
+          0.033527974794063865
+        ],
+        "mean_brier_score": 0.141178104350865,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 22,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          1.0
+        ],
+        "mean_component_auroc": 0.7777777777777778,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.11676237257034308,
+          0.2732439656881881,
+          0.033527974794063865
+        ],
+        "mean_brier_score": 0.141178104350865,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 23,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          1.0
+        ],
+        "mean_component_auroc": 0.7777777777777778,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.11676237257034308,
+          0.2732439656881881,
+          0.033527974794063865
+        ],
+        "mean_brier_score": 0.141178104350865,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 24,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 25,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 26,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 27,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 28,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 29,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 30,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.375,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.5833333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.10296382211659497,
+          0.15227577453325214,
+          0.16583973136646743
+        ],
+        "mean_brier_score": 0.14035977600543817,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5271164021164021,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 31,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.8333333333333333,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.861111111111111,
+        "auroc_by_component": [
+          0.8333333333333334,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.9444444444444445,
+        "aupr_by_component": [
+          0.8333333333333333,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.9444444444444443,
+        "brier_by_component": [
+          0.15207005710673904,
+          0.14926387704455696,
+          0.010809188371587317
+        ],
+        "mean_brier_score": 0.10404770750762778,
+        "macro_f1_by_component": [
+          0.8,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8539682539682539,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 32,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.8333333333333333,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.861111111111111,
+        "auroc_by_component": [
+          0.8333333333333334,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.9444444444444445,
+        "aupr_by_component": [
+          0.8333333333333333,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.9444444444444443,
+        "brier_by_component": [
+          0.15207005710673904,
+          0.14926387704455696,
+          0.010809188371587317
+        ],
+        "mean_brier_score": 0.10404770750762778,
+        "macro_f1_by_component": [
+          0.8,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8539682539682539,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 33,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.3333333333333333,
+          0.75,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          0.33333333333333337,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.6944444444444445,
+        "aupr_by_component": [
+          0.45,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.65,
+        "brier_by_component": [
+          0.34963197639271415,
+          0.23745027739215524,
+          0.18316819988330968
+        ],
+        "mean_brier_score": 0.2567501512227264,
+        "macro_f1_by_component": [
+          0.2857142857142857,
+          0.5833333333333333,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.5436507936507936,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.4
+      }
+    },
+    {
+      "split_id": 34,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          1.0,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.9583333333333334,
+        "auroc_by_component": [
+          0.75,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          0.5,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.16354280972595714,
+          0.0660369939284155,
+          0.0038504344324047047
+        ],
+        "mean_brier_score": 0.07781007936225912,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          1.0,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.9206349206349206,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 35,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.16666666666666666,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.638888888888889,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          0.8333333333333334
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          0.8333333333333333
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.05371408167181192,
+          0.36995482765147747,
+          0.18066726275086847
+        ],
+        "mean_brier_score": 0.20144539069138592,
+        "macro_f1_by_component": [
+          1.0,
+          0.16666666666666666,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.6428571428571429,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 36,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.16666666666666666,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.638888888888889,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          0.8333333333333334
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          0.8333333333333333
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.05371408167181192,
+          0.36995482765147747,
+          0.18066726275086847
+        ],
+        "mean_brier_score": 0.20144539069138592,
+        "macro_f1_by_component": [
+          1.0,
+          0.16666666666666666,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.6428571428571429,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 37,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.6666666666666666,
+          0.25,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6388888888888888,
+        "auroc_by_component": [
+          0.6666666666666666,
+          0.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.5555555555555555,
+        "aupr_by_component": [
+          0.8666666666666667,
+          0.2,
+          1.0
+        ],
+        "mean_component_aupr": 0.6888888888888888,
+        "brier_by_component": [
+          0.2619264885282863,
+          0.3877766359470657,
+          0.016677719890746963
+        ],
+        "mean_brier_score": 0.22212694812203296,
+        "macro_f1_by_component": [
+          0.5833333333333333,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.623015873015873,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 38,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.6666666666666666,
+          0.25,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6388888888888888,
+        "auroc_by_component": [
+          0.6666666666666666,
+          0.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.5555555555555555,
+        "aupr_by_component": [
+          0.8666666666666667,
+          0.2,
+          1.0
+        ],
+        "mean_component_aupr": 0.6888888888888888,
+        "brier_by_component": [
+          0.2619264885282863,
+          0.3877766359470657,
+          0.016677719890746963
+        ],
+        "mean_brier_score": 0.22212694812203296,
+        "macro_f1_by_component": [
+          0.5833333333333333,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.623015873015873,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.3333333333333333
+      }
+    },
+    {
+      "split_id": 39,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          0.875
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          0.6666666666666667,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.8055555555555557,
+        "aupr_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.20092349099267057,
+          0.16925427180040292,
+          0.09699749294184516
+        ],
+        "mean_brier_score": 0.1557250852449729,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 40,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          0.875
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          0.6666666666666667,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.8055555555555557,
+        "aupr_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.20092349099267057,
+          0.16925427180040292,
+          0.09699749294184516
+        ],
+        "mean_brier_score": 0.1557250852449729,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 41,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          0.875
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          0.6666666666666667,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.8055555555555557,
+        "aupr_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.20092349099267057,
+          0.16925427180040292,
+          0.09699749294184516
+        ],
+        "mean_brier_score": 0.1557250852449729,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 42,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          0.875
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          0.6666666666666667,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.8055555555555557,
+        "aupr_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.20092349099267057,
+          0.16925427180040292,
+          0.09699749294184516
+        ],
+        "mean_brier_score": 0.1557250852449729,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 43,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.07196744558029915,
+          0.25169136178051377,
+          0.029671474135268244
+        ],
+        "mean_brier_score": 0.11777676049869372,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 44,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.07196744558029915,
+          0.25169136178051377,
+          0.029671474135268244
+        ],
+        "mean_brier_score": 0.11777676049869372,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 45,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.07196744558029915,
+          0.25169136178051377,
+          0.029671474135268244
+        ],
+        "mean_brier_score": 0.11777676049869372,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 46,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.07196744558029915,
+          0.25169136178051377,
+          0.029671474135268244
+        ],
+        "mean_brier_score": 0.11777676049869372,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 47,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.15838914668485168,
+          0.1621260139136205,
+          0.022453501445923774
+        ],
+        "mean_brier_score": 0.114322887348132,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 48,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.875,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.15838914668485168,
+          0.1621260139136205,
+          0.022453501445923774
+        ],
+        "mean_brier_score": 0.114322887348132,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 49,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          1.0
+        ],
+        "mean_component_auroc": 0.7777777777777778,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.11379733955779911,
+          0.2676409306466449,
+          0.03046206712195342
+        ],
+        "mean_brier_score": 0.13730011244213247,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 50,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.33333333333333337,
+          1.0
+        ],
+        "mean_component_auroc": 0.7777777777777778,
+        "aupr_by_component": [
+          1.0,
+          0.41666666666666663,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.11379733955779911,
+          0.2676409306466449,
+          0.03046206712195342
+        ],
+        "mean_brier_score": 0.13730011244213247,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 51,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1594947642804413,
+          0.25528824128535504,
+          0.01839189656815728
+        ],
+        "mean_brier_score": 0.1443916340446512,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 52,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1594947642804413,
+          0.25528824128535504,
+          0.01839189656815728
+        ],
+        "mean_brier_score": 0.1443916340446512,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 53,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1594947642804413,
+          0.25528824128535504,
+          0.01839189656815728
+        ],
+        "mean_brier_score": 0.1443916340446512,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 54,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1594947642804413,
+          0.25528824128535504,
+          0.01839189656815728
+        ],
+        "mean_brier_score": 0.1443916340446512,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 55,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1594947642804413,
+          0.25528824128535504,
+          0.01839189656815728
+        ],
+        "mean_brier_score": 0.1443916340446512,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 56,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.6388888888888888,
+          1.0
+        ],
+        "mean_component_aupr": 0.8796296296296297,
+        "brier_by_component": [
+          0.08104310171493276,
+          0.5418540748963098,
+          0.032842513110625485
+        ],
+        "mean_brier_score": 0.21857989657395602,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 57,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.6388888888888888,
+          1.0
+        ],
+        "mean_component_aupr": 0.8796296296296297,
+        "brier_by_component": [
+          0.08104310171493276,
+          0.5418540748963098,
+          0.032842513110625485
+        ],
+        "mean_brier_score": 0.21857989657395602,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 58,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.6388888888888888,
+          1.0
+        ],
+        "mean_component_aupr": 0.8796296296296297,
+        "brier_by_component": [
+          0.08104310171493276,
+          0.5418540748963098,
+          0.032842513110625485
+        ],
+        "mean_brier_score": 0.21857989657395602,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 59,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.6388888888888888,
+          1.0
+        ],
+        "mean_component_aupr": 0.8796296296296297,
+        "brier_by_component": [
+          0.08104310171493276,
+          0.5418540748963098,
+          0.032842513110625485
+        ],
+        "mean_brier_score": 0.21857989657395602,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 60,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.6388888888888888,
+          1.0
+        ],
+        "mean_component_aupr": 0.8796296296296297,
+        "brier_by_component": [
+          0.08104310171493276,
+          0.5418540748963098,
+          0.032842513110625485
+        ],
+        "mean_brier_score": 0.21857989657395602,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 61,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.8333333333333333,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.861111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.06173655991687482,
+          0.20961861918244926,
+          0.16013366006724533
+        ],
+        "mean_brier_score": 0.14382961305552314,
+        "macro_f1_by_component": [
+          1.0,
+          0.8,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.8539682539682539,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 62,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.8333333333333333,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.861111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.06173655991687482,
+          0.20961861918244926,
+          0.16013366006724533
+        ],
+        "mean_brier_score": 0.14382961305552314,
+        "macro_f1_by_component": [
+          1.0,
+          0.8,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.8539682539682539,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 63,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.7777777777777777,
+        "brier_by_component": [
+          0.018738153997343125,
+          0.41858609181670997,
+          0.027973837918592682
+        ],
+        "mean_brier_score": 0.15509936124421528,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 64,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.7777777777777777,
+        "brier_by_component": [
+          0.018738153997343125,
+          0.41858609181670997,
+          0.027973837918592682
+        ],
+        "mean_brier_score": 0.15509936124421528,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 65,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.7777777777777777,
+        "brier_by_component": [
+          0.018738153997343125,
+          0.41858609181670997,
+          0.027973837918592682
+        ],
+        "mean_brier_score": 0.15509936124421528,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7619047619047619,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 66,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.888888888888889,
+        "aupr_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_aupr": 0.9166666666666666,
+        "brier_by_component": [
+          0.07547521267991056,
+          0.25111282382749656,
+          0.011838986213466084
+        ],
+        "mean_brier_score": 0.11280900757362439,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 67,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.25,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.6666666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.7777777777777777,
+        "brier_by_component": [
+          0.04648297959925166,
+          0.2707267829718889,
+          0.18999203080960908
+        ],
+        "mean_brier_score": 0.1690672644602499,
+        "macro_f1_by_component": [
+          1.0,
+          0.2857142857142857,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.6825396825396824,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 68,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.6666666666666666,
+          0.5,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.6388888888888888,
+        "auroc_by_component": [
+          1.0,
+          0.0,
+          0.6666666666666667
+        ],
+        "mean_component_auroc": 0.5555555555555556,
+        "aupr_by_component": [
+          1.0,
+          0.2,
+          0.75
+        ],
+        "mean_component_aupr": 0.65,
+        "brier_by_component": [
+          0.13459290626288478,
+          0.45986959980986775,
+          0.18626284805021734
+        ],
+        "mean_brier_score": 0.26024178470765663,
+        "macro_f1_by_component": [
+          0.5833333333333333,
+          0.16666666666666666,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.503968253968254,
+        "exact_set_accuracy": 0.0,
+        "hamming_loss": 0.4666666666666667
+      }
+    },
+    {
+      "split_id": 69,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.6666666666666666,
+          0.5,
+          0.75
+        ],
+        "mean_component_balanced_accuracy": 0.6388888888888888,
+        "auroc_by_component": [
+          1.0,
+          0.0,
+          0.6666666666666667
+        ],
+        "mean_component_auroc": 0.5555555555555556,
+        "aupr_by_component": [
+          1.0,
+          0.2,
+          0.75
+        ],
+        "mean_component_aupr": 0.65,
+        "brier_by_component": [
+          0.13459290626288478,
+          0.45986959980986775,
+          0.18626284805021734
+        ],
+        "mean_brier_score": 0.26024178470765663,
+        "macro_f1_by_component": [
+          0.5833333333333333,
+          0.16666666666666666,
+          0.7619047619047619
+        ],
+        "mean_component_macro_f1": 0.503968253968254,
+        "exact_set_accuracy": 0.0,
+        "hamming_loss": 0.4666666666666667
+      }
+    },
+    {
+      "split_id": 70,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1639697210541458,
+          0.24922480365422955,
+          0.014627095430523379
+        ],
+        "mean_brier_score": 0.14260720671296626,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.5767195767195767,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 71,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1639697210541458,
+          0.24922480365422955,
+          0.014627095430523379
+        ],
+        "mean_brier_score": 0.14260720671296626,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.5767195767195767,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 72,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.5,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1639697210541458,
+          0.24922480365422955,
+          0.014627095430523379
+        ],
+        "mean_brier_score": 0.14260720671296626,
+        "macro_f1_by_component": [
+          0.4444444444444444,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.5767195767195767,
+        "exact_set_accuracy": 0.2,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 73,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6527777777777778,
+        "auroc_by_component": [
+          0.5,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          0.3333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.6388888888888888,
+        "brier_by_component": [
+          0.3541944486395067,
+          0.25863371368271293,
+          0.01225701807060155
+        ],
+        "mean_brier_score": 0.20836172679760703,
+        "macro_f1_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6527777777777778,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 74,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6527777777777778,
+        "auroc_by_component": [
+          0.5,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          0.3333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.6388888888888888,
+        "brier_by_component": [
+          0.3541944486395067,
+          0.25863371368271293,
+          0.01225701807060155
+        ],
+        "mean_brier_score": 0.20836172679760703,
+        "macro_f1_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6527777777777778,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 75,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6527777777777778,
+        "auroc_by_component": [
+          0.5,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          0.3333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.6388888888888888,
+        "brier_by_component": [
+          0.3541944486395067,
+          0.25863371368271293,
+          0.01225701807060155
+        ],
+        "mean_brier_score": 0.20836172679760703,
+        "macro_f1_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6527777777777778,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 76,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.6527777777777778,
+        "auroc_by_component": [
+          0.5,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.7222222222222223,
+        "aupr_by_component": [
+          0.3333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.6388888888888888,
+        "brier_by_component": [
+          0.3541944486395067,
+          0.25863371368271293,
+          0.01225701807060155
+        ],
+        "mean_brier_score": 0.20836172679760703,
+        "macro_f1_by_component": [
+          0.375,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6527777777777778,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 77,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.10196357872983008,
+          0.10243502610454609,
+          0.009867485425786861
+        ],
+        "mean_brier_score": 0.071422030086721,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 78,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.10196357872983008,
+          0.10243502610454609,
+          0.009867485425786861
+        ],
+        "mean_brier_score": 0.071422030086721,
+        "macro_f1_by_component": [
+          1.0,
+          0.4444444444444444,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8148148148148149,
+        "exact_set_accuracy": 0.8,
+        "hamming_loss": 0.06666666666666667
+      }
+    },
+    {
+      "split_id": 79,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          1.0,
+          0.8333333333333334,
+          1.0
+        ],
+        "mean_component_auroc": 0.9444444444444445,
+        "aupr_by_component": [
+          1.0,
+          0.8333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.9444444444444443,
+        "brier_by_component": [
+          0.2075263705872222,
+          0.15130085410277191,
+          0.017930153155296245
+        ],
+        "mean_brier_score": 0.12558579261509678,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 80,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          1.0,
+          0.8333333333333334,
+          1.0
+        ],
+        "mean_component_auroc": 0.9444444444444445,
+        "aupr_by_component": [
+          1.0,
+          0.8333333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.9444444444444443,
+        "brier_by_component": [
+          0.2075263705872222,
+          0.15130085410277191,
+          0.017930153155296245
+        ],
+        "mean_brier_score": 0.12558579261509678,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 81,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.3333333333333333,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.736111111111111,
+        "auroc_by_component": [
+          0.75,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8055555555555557,
+        "aupr_by_component": [
+          0.5,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.6944444444444443,
+        "brier_by_component": [
+          0.12233323331847305,
+          0.24099401847635327,
+          0.016705978066019204
+        ],
+        "mean_brier_score": 0.1266777432869485,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.2857142857142857,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.6825396825396824,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 82,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 1.0,
+        "aupr_by_component": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 1.0,
+        "brier_by_component": [
+          0.06570499364125806,
+          0.13036829910960296,
+          0.03323991360648844
+        ],
+        "mean_brier_score": 0.07643773545244982,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 83,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_auroc": 0.75,
+        "aupr_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.04192501707169245,
+          0.24312916873420726,
+          0.01654101370346079
+        ],
+        "mean_brier_score": 0.10053173316978682,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 84,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_auroc": 0.75,
+        "aupr_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.04192501707169245,
+          0.24312916873420726,
+          0.01654101370346079
+        ],
+        "mean_brier_score": 0.10053173316978682,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 85,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7916666666666666,
+        "auroc_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_auroc": 0.75,
+        "aupr_by_component": [
+          1.0,
+          0.25,
+          1.0
+        ],
+        "mean_component_aupr": 0.75,
+        "brier_by_component": [
+          0.04192501707169245,
+          0.24312916873420726,
+          0.01654101370346079
+        ],
+        "mean_brier_score": 0.10053173316978682,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 86,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          0.75,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          0.5,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1869776460984492,
+          0.12048919701505427,
+          0.009046188940803595
+        ],
+        "mean_brier_score": 0.10550434401810237,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 87,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.875,
+          0.75,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.875,
+        "auroc_by_component": [
+          0.75,
+          1.0,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          0.5,
+          1.0,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.1869776460984492,
+          0.12048919701505427,
+          0.009046188940803595
+        ],
+        "mean_brier_score": 0.10550434401810237,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.7619047619047619,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.8412698412698413,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 88,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 89,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 90,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 91,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 92,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 93,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.75,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.5833333333333333,
+          1.0
+        ],
+        "mean_component_aupr": 0.8055555555555555,
+        "brier_by_component": [
+          0.1933960347950134,
+          0.25624666294804266,
+          0.05300029035451539
+        ],
+        "mean_brier_score": 0.1675476626991905,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.2
+      }
+    },
+    {
+      "split_id": 94,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.0448656370931757,
+          0.29799478078484487,
+          0.013233732990569635
+        ],
+        "mean_brier_score": 0.11869805028953007,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 95,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.8333333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.0448656370931757,
+          0.29799478078484487,
+          0.013233732990569635
+        ],
+        "mean_brier_score": 0.11869805028953007,
+        "macro_f1_by_component": [
+          1.0,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7916666666666666,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.13333333333333333
+      }
+    },
+    {
+      "split_id": 96,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.8333333333333333,
+          0.625,
+          0.375
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          0.25
+        ],
+        "mean_component_auroc": 0.6666666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          0.25
+        ],
+        "mean_component_aupr": 0.5833333333333334,
+        "brier_by_component": [
+          0.1624592147237281,
+          0.3639525643086753,
+          0.23879149145034254
+        ],
+        "mean_brier_score": 0.255067756827582,
+        "macro_f1_by_component": [
+          0.8,
+          0.4,
+          0.375
+        ],
+        "mean_component_macro_f1": 0.525,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.4
+      }
+    },
+    {
+      "split_id": 97,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.8333333333333333,
+          0.625,
+          0.375
+        ],
+        "mean_component_balanced_accuracy": 0.611111111111111,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          0.25
+        ],
+        "mean_component_auroc": 0.6666666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          0.25
+        ],
+        "mean_component_aupr": 0.5833333333333334,
+        "brier_by_component": [
+          0.1624592147237281,
+          0.3639525643086753,
+          0.23879149145034254
+        ],
+        "mean_brier_score": 0.255067756827582,
+        "macro_f1_by_component": [
+          0.8,
+          0.4,
+          0.375
+        ],
+        "mean_component_macro_f1": 0.525,
+        "exact_set_accuracy": 0.4,
+        "hamming_loss": 0.4
+      }
+    },
+    {
+      "split_id": 98,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.6666666666666666,
+          0.5
+        ],
+        "mean_component_balanced_accuracy": 0.6388888888888888,
+        "auroc_by_component": [
+          0.8333333333333334,
+          0.6666666666666667,
+          1.0
+        ],
+        "mean_component_auroc": 0.8333333333333334,
+        "aupr_by_component": [
+          0.8333333333333333,
+          0.75,
+          1.0
+        ],
+        "mean_component_aupr": 0.861111111111111,
+        "brier_by_component": [
+          0.16277401048538456,
+          0.22979415595522582,
+          0.1584370096237598
+        ],
+        "mean_brier_score": 0.1836683920214567,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.5833333333333333,
+          0.4444444444444444
+        ],
+        "mean_component_macro_f1": 0.5965608465608465,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.26666666666666666
+      }
+    },
+    {
+      "split_id": 99,
+      "train_record_count": 42,
+      "test_record_count": 15,
+      "metrics": {
+        "unit_count": 5,
+        "balanced_accuracy_by_component": [
+          0.75,
+          0.375,
+          1.0
+        ],
+        "mean_component_balanced_accuracy": 0.7083333333333334,
+        "auroc_by_component": [
+          1.0,
+          0.75,
+          1.0
+        ],
+        "mean_component_auroc": 0.9166666666666666,
+        "aupr_by_component": [
+          1.0,
+          0.5,
+          1.0
+        ],
+        "mean_component_aupr": 0.8333333333333334,
+        "brier_by_component": [
+          0.16667111065453086,
+          0.18491017761363787,
+          0.00578205449147237
+        ],
+        "mean_brier_score": 0.11912111425321369,
+        "macro_f1_by_component": [
+          0.7619047619047619,
+          0.375,
+          1.0
+        ],
+        "mean_component_macro_f1": 0.7123015873015873,
+        "exact_set_accuracy": 0.6,
+        "hamming_loss": 0.2
+      }
+    }
+  ],
+  "predictions": {
+    "path": "results/g3/unit_level_predictions/hanoi_hust_groupdro_bearing_grouped.npz",
+    "sha256": "b920a28f8237fc55ed9f78fd5811983c0faf64e4636b781926af772605c6bdfa"
+  }
+}

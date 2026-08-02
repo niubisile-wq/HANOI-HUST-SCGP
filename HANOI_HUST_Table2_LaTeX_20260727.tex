@@ -1,0 +1,26 @@
+\begin{table*}[t]
+\centering
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.12}
+\caption{Legacy frozen source comparison on the 19-bearing HANOI HUST partition. These values are retained for audit traceability; the primary matched G2/G3 estimates are reported separately in the manuscript.}
+\label{tab:hanoi_main_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrrrrr}
+\toprule
+Method & Representation & AUROC & BAcc & AUPR & Brier & Macro-F1 & Exact-set & Hamming \\
+\midrule
+\texttt{logistic\_l2} & \texttt{envelope\_log\_power} & 0.814 & 0.743 & 0.661 & 0.161 & 0.743 & 0.544 & 0.199 \\
+\texttt{logistic\_l2} & \texttt{all} & 0.807 & 0.729 & 0.651 & 0.141 & 0.728 & 0.596 & 0.199 \\
+\texttt{logistic\_l2} & \texttt{fixed\_log\_power} & 0.753 & 0.677 & 0.610 & 0.169 & 0.670 & 0.404 & 0.275 \\
+\texttt{logistic\_l2} & \texttt{statistics} & 0.721 & 0.729 & 0.589 & 0.198 & 0.722 & 0.544 & 0.216 \\
+\texttt{extra\_trees} & \texttt{envelope\_log\_power} & 0.747 & 0.658 & 0.536 & 0.172 & 0.656 & 0.596 & 0.251 \\
+\texttt{rbf\_svm} & \texttt{all} & 0.725 & 0.612 & 0.581 & 0.160 & 0.630 & 0.474 & 0.228 \\
+\texttt{empirical\_prior} & \texttt{statistics} & 0.000 & 0.500 & 0.246 & 0.206 & 0.430 & 0.263 & 0.246 \\
+\bottomrule
+\end{tabular}
+}
+\vspace{0.4em}
+\par\small\noindent
+Repeated frozen runs produced the same selected row. Bearing-level uncertainty and paired exact-set comparisons are reported in Supplementary Table~S4.
+\end{table*}

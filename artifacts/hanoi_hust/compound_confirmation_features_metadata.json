@@ -1,0 +1,3577 @@
+{
+  "stage": "hanoi_hust_compound_confirmation_features",
+  "schema_version": 1,
+  "status": "compound_confirmation_features_complete",
+  "source_freeze": {
+    "path": "research/HANOI_HUST_SOURCE_ACCESS_FREEZE.json",
+    "sha256": "f8d725de4ce30cb3c9e6046107cd26c1d3ed326b3617c43194144e29a22c8d4d"
+  },
+  "preaccess_freeze": {
+    "path": "research/HANOI_HUST_V3_PREACCESS_FREEZE.json",
+    "sha256": "d11217650513776651e3e91b9b6f8e555815d4f6a1464a6966496a8bd8b7d854"
+  },
+  "archive_freeze": {
+    "path": "research/HANOI_HUST_V3_ARCHIVE_FREEZE.json",
+    "sha256": "295d662a4e83bb523881f246fa5d9487f8a4d6a4e2154d3239967b8c807440ef"
+  },
+  "record_count": 42,
+  "contracts": [
+    {
+      "archive_index": 26,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB500.mat",
+      "filename": "IB500.mat",
+      "uncompressed_bytes": 6635485,
+      "compressed_bytes": 6637504,
+      "crc32": "4ea2cb97",
+      "compression_method": 8,
+      "local_header_offset": 183840505,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 29,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB502.mat",
+      "filename": "IB502.mat",
+      "uncompressed_bytes": 6641740,
+      "compressed_bytes": 6643758,
+      "crc32": "04906218",
+      "compression_method": 8,
+      "local_header_offset": 204470190,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 30,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB504.mat",
+      "filename": "IB504.mat",
+      "uncompressed_bytes": 6631348,
+      "compressed_bytes": 6633366,
+      "crc32": "2e40afed",
+      "compression_method": 8,
+      "local_header_offset": 211114090,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IB5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 32,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB600.mat",
+      "filename": "IB600.mat",
+      "uncompressed_bytes": 7815428,
+      "compressed_bytes": 7817779,
+      "crc32": "1e182798",
+      "compression_method": 8,
+      "local_header_offset": 225247026,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 31,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB602.mat",
+      "filename": "IB602.mat",
+      "uncompressed_bytes": 7497004,
+      "compressed_bytes": 7499286,
+      "crc32": "f0a5545d",
+      "compression_method": 8,
+      "local_header_offset": 217747598,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 33,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB604.mat",
+      "filename": "IB604.mat",
+      "uncompressed_bytes": 7481404,
+      "compressed_bytes": 7483687,
+      "crc32": "bf330363",
+      "compression_method": 8,
+      "local_header_offset": 233064947,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IB6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 34,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB700.mat",
+      "filename": "IB700.mat",
+      "uncompressed_bytes": 7457228,
+      "compressed_bytes": 7459495,
+      "crc32": "cdcb01b2",
+      "compression_method": 8,
+      "local_header_offset": 240548776,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 38,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB702.mat",
+      "filename": "IB702.mat",
+      "uncompressed_bytes": 7407890,
+      "compressed_bytes": 7410136,
+      "crc32": "4ac05a41",
+      "compression_method": 8,
+      "local_header_offset": 267817089,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 39,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB704.mat",
+      "filename": "IB704.mat",
+      "uncompressed_bytes": 7433298,
+      "compressed_bytes": 7435563,
+      "crc32": "3148591d",
+      "compression_method": 8,
+      "local_header_offset": 275227367,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IB7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 36,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB800.mat",
+      "filename": "IB800.mat",
+      "uncompressed_bytes": 6631704,
+      "compressed_bytes": 6633722,
+      "crc32": "8cae9161",
+      "compression_method": 8,
+      "local_header_offset": 254616519,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 35,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB802.mat",
+      "filename": "IB802.mat",
+      "uncompressed_bytes": 6605955,
+      "compressed_bytes": 6607964,
+      "crc32": "28032532",
+      "compression_method": 8,
+      "local_header_offset": 248008413,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 37,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB804.mat",
+      "filename": "IB804.mat",
+      "uncompressed_bytes": 6564565,
+      "compressed_bytes": 6566564,
+      "crc32": "3f6dbe9c",
+      "compression_method": 8,
+      "local_header_offset": 261250383,
+      "state": "IB",
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IB8",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 40,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO400.mat",
+      "filename": "IO400.mat",
+      "uncompressed_bytes": 7446077,
+      "compressed_bytes": 7448341,
+      "crc32": "838331a6",
+      "compression_method": 8,
+      "local_header_offset": 282663072,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 41,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO402.mat",
+      "filename": "IO402.mat",
+      "uncompressed_bytes": 7447113,
+      "compressed_bytes": 7449376,
+      "crc32": "0d963719",
+      "compression_method": 8,
+      "local_header_offset": 290111555,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 42,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO404.mat",
+      "filename": "IO404.mat",
+      "uncompressed_bytes": 7431263,
+      "compressed_bytes": 7433524,
+      "crc32": "c919f192",
+      "compression_method": 8,
+      "local_header_offset": 297561073,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "IO4",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 43,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO500.mat",
+      "filename": "IO500.mat",
+      "uncompressed_bytes": 6562837,
+      "compressed_bytes": 6564840,
+      "crc32": "52817abf",
+      "compression_method": 8,
+      "local_header_offset": 304994739,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 44,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO502.mat",
+      "filename": "IO502.mat",
+      "uncompressed_bytes": 6579863,
+      "compressed_bytes": 6581860,
+      "crc32": "b5fc098f",
+      "compression_method": 8,
+      "local_header_offset": 311559721,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 45,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO504.mat",
+      "filename": "IO504.mat",
+      "uncompressed_bytes": 6532250,
+      "compressed_bytes": 6534241,
+      "crc32": "a2f8b088",
+      "compression_method": 8,
+      "local_header_offset": 318141723,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "IO5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 48,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO600.mat",
+      "filename": "IO600.mat",
+      "uncompressed_bytes": 7442925,
+      "compressed_bytes": 7445191,
+      "crc32": "0c801422",
+      "compression_method": 8,
+      "local_header_offset": 337905505,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 50,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO602.mat",
+      "filename": "IO602.mat",
+      "uncompressed_bytes": 7449450,
+      "compressed_bytes": 7451719,
+      "crc32": "6148798f",
+      "compression_method": 8,
+      "local_header_offset": 352716508,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 49,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO604.mat",
+      "filename": "IO604.mat",
+      "uncompressed_bytes": 7363292,
+      "compressed_bytes": 7365528,
+      "crc32": "f835b743",
+      "compression_method": 8,
+      "local_header_offset": 345350838,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "IO6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 51,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO700.mat",
+      "filename": "IO700.mat",
+      "uncompressed_bytes": 7467806,
+      "compressed_bytes": 7470083,
+      "crc32": "a145ce8d",
+      "compression_method": 8,
+      "local_header_offset": 360168369,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 46,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO702.mat",
+      "filename": "IO702.mat",
+      "uncompressed_bytes": 6614916,
+      "compressed_bytes": 6616928,
+      "crc32": "83bceeb4",
+      "compression_method": 8,
+      "local_header_offset": 324676106,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 47,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO704.mat",
+      "filename": "IO704.mat",
+      "uncompressed_bytes": 6610181,
+      "compressed_bytes": 6612187,
+      "crc32": "824de515",
+      "compression_method": 8,
+      "local_header_offset": 331293176,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "IO7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 52,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO800.mat",
+      "filename": "IO800.mat",
+      "uncompressed_bytes": 6628182,
+      "compressed_bytes": 6630205,
+      "crc32": "eed093ac",
+      "compression_method": 8,
+      "local_header_offset": 367638594,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 53,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO802.mat",
+      "filename": "IO802.mat",
+      "uncompressed_bytes": 6572665,
+      "compressed_bytes": 6574663,
+      "crc32": "03c46a74",
+      "compression_method": 8,
+      "local_header_offset": 374268941,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 54,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO804.mat",
+      "filename": "IO804.mat",
+      "uncompressed_bytes": 6580997,
+      "compressed_bytes": 6583001,
+      "crc32": "dd8950d5",
+      "compression_method": 8,
+      "local_header_offset": 380843746,
+      "state": "IO",
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "IO8",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 84,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB400.mat",
+      "filename": "OB400.mat",
+      "uncompressed_bytes": 3583953,
+      "compressed_bytes": 3585045,
+      "crc32": "60f9f900",
+      "compression_method": 8,
+      "local_header_offset": 586107930,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 86,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB402.mat",
+      "filename": "OB402.mat",
+      "uncompressed_bytes": 4427041,
+      "compressed_bytes": 4428382,
+      "crc32": "e580b32c",
+      "compression_method": 8,
+      "local_header_offset": 596288004,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 88,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB404.mat",
+      "filename": "OB404.mat",
+      "uncompressed_bytes": 5670367,
+      "compressed_bytes": 5672089,
+      "crc32": "df23a04b",
+      "compression_method": 8,
+      "local_header_offset": 608199094,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 4,
+      "bearing_id": "OB4",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 89,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB500.mat",
+      "filename": "OB500.mat",
+      "uncompressed_bytes": 7449734,
+      "compressed_bytes": 7452009,
+      "crc32": "0bbcc67a",
+      "compression_method": 8,
+      "local_header_offset": 613871325,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 90,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB502.mat",
+      "filename": "OB502.mat",
+      "uncompressed_bytes": 7473770,
+      "compressed_bytes": 7476042,
+      "crc32": "7a734c02",
+      "compression_method": 8,
+      "local_header_offset": 621323476,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 91,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB504.mat",
+      "filename": "OB504.mat",
+      "uncompressed_bytes": 7418746,
+      "compressed_bytes": 7421004,
+      "crc32": "eec43f7a",
+      "compression_method": 8,
+      "local_header_offset": 628799660,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 5,
+      "bearing_id": "OB5",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 92,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB600.mat",
+      "filename": "OB600.mat",
+      "uncompressed_bytes": 7479837,
+      "compressed_bytes": 7482108,
+      "crc32": "1c566cff",
+      "compression_method": 8,
+      "local_header_offset": 636220806,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 94,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB602.mat",
+      "filename": "OB602.mat",
+      "uncompressed_bytes": 7461326,
+      "compressed_bytes": 7463599,
+      "crc32": "23955b91",
+      "compression_method": 8,
+      "local_header_offset": 650309692,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 96,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB604.mat",
+      "filename": "OB604.mat",
+      "uncompressed_bytes": 7435105,
+      "compressed_bytes": 7437375,
+      "crc32": "346029d6",
+      "compression_method": 8,
+      "local_header_offset": 665275661,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 6,
+      "bearing_id": "OB6",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 95,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB700.mat",
+      "filename": "OB700.mat",
+      "uncompressed_bytes": 7499801,
+      "compressed_bytes": 7502086,
+      "crc32": "ed8c0018",
+      "compression_method": 8,
+      "local_header_offset": 657773433,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 93,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB702.mat",
+      "filename": "OB702.mat",
+      "uncompressed_bytes": 6604523,
+      "compressed_bytes": 6606494,
+      "crc32": "20f4b612",
+      "compression_method": 8,
+      "local_header_offset": 643703056,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 97,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB704.mat",
+      "filename": "OB704.mat",
+      "uncompressed_bytes": 6544251,
+      "compressed_bytes": 6546185,
+      "crc32": "78a3856f",
+      "compression_method": 8,
+      "local_header_offset": 672713178,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 7,
+      "bearing_id": "OB7",
+      "load_w": 400,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 100,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB800.mat",
+      "filename": "OB800.mat",
+      "uncompressed_bytes": 6610341,
+      "compressed_bytes": 6612350,
+      "crc32": "98a8d9c1",
+      "compression_method": 8,
+      "local_header_offset": 690358897,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 0,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 98,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB802.mat",
+      "filename": "OB802.mat",
+      "uncompressed_bytes": 6545008,
+      "compressed_bytes": 6546995,
+      "crc32": "0125b3e1",
+      "compression_method": 8,
+      "local_header_offset": 679259505,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 200,
+      "access_role": "compound"
+    },
+    {
+      "archive_index": 99,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB804.mat",
+      "filename": "OB804.mat",
+      "uncompressed_bytes": 4550753,
+      "compressed_bytes": 4552113,
+      "crc32": "f2131c70",
+      "compression_method": 8,
+      "local_header_offset": 685806642,
+      "state": "OB",
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "bearing_type": 8,
+      "bearing_id": "OB8",
+      "load_w": 400,
+      "access_role": "compound"
+    }
+  ],
+  "window_offsets": [
+    0,
+    12800,
+    25600
+  ],
+  "window_starts": [
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400,
+        473600
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200,
+        486400
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000
+      ]
+    ],
+    [
+      [
+        0,
+        51200
+      ],
+      [
+        12800,
+        64000
+      ],
+      [
+        25600
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800,
+        256000,
+        307200,
+        358400,
+        409600,
+        460800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400,
+        217600,
+        268800,
+        320000,
+        371200,
+        422400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200,
+        230400,
+        281600,
+        332800,
+        384000,
+        435200
+      ]
+    ],
+    [
+      [
+        0,
+        51200,
+        102400,
+        153600,
+        204800
+      ],
+      [
+        12800,
+        64000,
+        115200,
+        166400
+      ],
+      [
+        25600,
+        76800,
+        128000,
+        179200
+      ]
+    ]
+  ],
+  "block_shapes": {
+    "statistics": [
+      42,
+      3,
+      28
+    ],
+    "fixed_log_power": [
+      42,
+      3,
+      128
+    ],
+    "envelope_log_power": [
+      42,
+      3,
+      128
+    ]
+  },
+  "parser_schemas": [
+    {
+      "archive_index": 26,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB500.mat",
+      "filename": "IB500.mat",
+      "bearing_id": "IB5",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 29,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB502.mat",
+      "filename": "IB502.mat",
+      "bearing_id": "IB5",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.22,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 30,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB504.mat",
+      "filename": "IB504.mat",
+      "bearing_id": "IB5",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.99,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 32,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB600.mat",
+      "filename": "IB600.mat",
+      "bearing_id": "IB6",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 562001,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 31,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB602.mat",
+      "filename": "IB602.mat",
+      "bearing_id": "IB6",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 24.19,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 33,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB604.mat",
+      "filename": "IB604.mat",
+      "bearing_id": "IB6",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 22.89,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 34,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB700.mat",
+      "filename": "IB700.mat",
+      "bearing_id": "IB7",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 38,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB702.mat",
+      "filename": "IB702.mat",
+      "bearing_id": "IB7",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.01,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 39,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB704.mat",
+      "filename": "IB704.mat",
+      "bearing_id": "IB7",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.68,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 36,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB800.mat",
+      "filename": "IB800.mat",
+      "bearing_id": "IB8",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.78,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 35,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB802.mat",
+      "filename": "IB802.mat",
+      "bearing_id": "IB8",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 23.96,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 37,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IB804.mat",
+      "filename": "IB804.mat",
+      "bearing_id": "IB8",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "ball"
+      ],
+      "state": "IB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.73,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 40,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO400.mat",
+      "filename": "IO400.mat",
+      "bearing_id": "IO4",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 24.88,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 41,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO402.mat",
+      "filename": "IO402.mat",
+      "bearing_id": "IO4",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 24.42,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 42,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO404.mat",
+      "filename": "IO404.mat",
+      "bearing_id": "IO4",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 23.24,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 43,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO500.mat",
+      "filename": "IO500.mat",
+      "bearing_id": "IO5",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.88,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 44,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO502.mat",
+      "filename": "IO502.mat",
+      "bearing_id": "IO5",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.14,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 45,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO504.mat",
+      "filename": "IO504.mat",
+      "bearing_id": "IO5",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.86,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 48,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO600.mat",
+      "filename": "IO600.mat",
+      "bearing_id": "IO6",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.86,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 50,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO602.mat",
+      "filename": "IO602.mat",
+      "bearing_id": "IO6",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.89,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 49,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO604.mat",
+      "filename": "IO604.mat",
+      "bearing_id": "IO6",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.89,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 51,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO700.mat",
+      "filename": "IO700.mat",
+      "bearing_id": "IO7",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 46,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO702.mat",
+      "filename": "IO702.mat",
+      "bearing_id": "IO7",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.01,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 47,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO704.mat",
+      "filename": "IO704.mat",
+      "bearing_id": "IO7",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 23.09,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 52,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO800.mat",
+      "filename": "IO800.mat",
+      "bearing_id": "IO8",
+      "load_w": 0,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.73,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 53,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO802.mat",
+      "filename": "IO802.mat",
+      "bearing_id": "IO8",
+      "load_w": 200,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.06,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 54,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/IO804.mat",
+      "filename": "IO804.mat",
+      "bearing_id": "IO8",
+      "load_w": 400,
+      "components": [
+        "inner",
+        "outer"
+      ],
+      "state": "IO",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.73,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 84,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB400.mat",
+      "filename": "OB400.mat",
+      "bearing_id": "OB4",
+      "load_w": 0,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 465242,
+      "finite": true,
+      "fs_value": 24.96,
+      "mat_keys": [
+        "data",
+        "fs"
+      ],
+      "auxiliary_shapes": {},
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 86,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB402.mat",
+      "filename": "OB402.mat",
+      "bearing_id": "OB4",
+      "load_w": 200,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 121082,
+      "finite": true,
+      "fs_value": 24.31,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 88,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB404.mat",
+      "filename": "OB404.mat",
+      "bearing_id": "OB4",
+      "load_w": 400,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 283728,
+      "finite": true,
+      "fs_value": 23.1,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 89,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB500.mat",
+      "filename": "OB500.mat",
+      "bearing_id": "OB5",
+      "load_w": 0,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 24.88,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 90,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB502.mat",
+      "filename": "OB502.mat",
+      "bearing_id": "OB5",
+      "load_w": 200,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 24.22,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 91,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB504.mat",
+      "filename": "OB504.mat",
+      "bearing_id": "OB5",
+      "load_w": 400,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512001,
+      "finite": true,
+      "fs_value": 22.89,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 92,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB600.mat",
+      "filename": "OB600.mat",
+      "bearing_id": "OB6",
+      "load_w": 0,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 94,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB602.mat",
+      "filename": "OB602.mat",
+      "bearing_id": "OB6",
+      "load_w": 200,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.12,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 96,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB604.mat",
+      "filename": "OB604.mat",
+      "bearing_id": "OB6",
+      "load_w": 400,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.99,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 95,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB700.mat",
+      "filename": "OB700.mat",
+      "bearing_id": "OB7",
+      "load_w": 0,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.83,
+      "mat_keys": [
+        "data",
+        "fs",
+        "rpm",
+        "ru"
+      ],
+      "auxiliary_shapes": {
+        "rpm": [
+          256000
+        ],
+        "ru": [
+          256000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 93,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB702.mat",
+      "filename": "OB702.mat",
+      "bearing_id": "OB7",
+      "load_w": 200,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 23.96,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 97,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB704.mat",
+      "filename": "OB704.mat",
+      "bearing_id": "OB7",
+      "load_w": 400,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 22.63,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 100,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB800.mat",
+      "filename": "OB800.mat",
+      "bearing_id": "OB8",
+      "load_w": 0,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.73,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 98,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB802.mat",
+      "filename": "OB802.mat",
+      "bearing_id": "OB8",
+      "load_w": 200,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 512000,
+      "finite": true,
+      "fs_value": 24.01,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    },
+    {
+      "archive_index": 99,
+      "path": "HUST bearing a practical dataset for ball bearing fault diagnosis/HUST bearing dataset/OB804.mat",
+      "filename": "OB804.mat",
+      "bearing_id": "OB8",
+      "load_w": 400,
+      "components": [
+        "outer",
+        "ball"
+      ],
+      "state": "OB",
+      "data_points": 256000,
+      "finite": true,
+      "fs_value": 22.53,
+      "mat_keys": [
+        "data",
+        "fs",
+        "ru_raw"
+      ],
+      "auxiliary_shapes": {
+        "ru_raw": [
+          350000
+        ]
+      },
+      "archive_member_size_verified": true,
+      "archive_member_crc32_verified": true,
+      "source_role_verified": true
+    }
+  ],
+  "cache": {
+    "path": "artifacts/hanoi_hust/compound_confirmation_features.npz",
+    "sha256": "ecf27980f2bd947ed770aaf8c714579513583a30a8b7d443bd51497ef73a254f"
+  },
+  "information_boundary": {
+    "source_numeric_files_opened": 0,
+    "compound_numeric_files_opened": 42,
+    "transient_numeric_files_opened": 0,
+    "window_level_independent_samples": 0
+  },
+  "provenance": {
+    "git_commit": "e94a0cc279e9a1b61e2238f83483076af2ed9048",
+    "builder": "src/run_hanoi_hust_compound_confirmation.py"
+  }
+}

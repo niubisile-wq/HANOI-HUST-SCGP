@@ -5,7 +5,7 @@
   "source": "paderborn_official",
   "qualification": {
     "status": "qualified_conditional",
-    "role": "primary_confirmatory_subset_pending_pipeline_wiring",
+    "role": "historical_unscored_15_code_registry_not_used_in_manuscript",
     "numeric_access_authorized": false
   },
   "protocol": {
@@ -63,9 +63,10 @@
     "path": "research/PADERBORN_SPLIT_DRIFT_AUDIT_20260727.md"
   },
   "registry_constraints": [
-    "This registry is the machine-readable entry point for the Paderborn primary confirmatory subset.",
+    "This historical 15-code registry was not numerically authorized, scored, or used for the manuscript result.",
     "All downstream baselines must refer to the same protocol version.",
     "The third-party split is not the frozen primary protocol.",
+    "The reported three-code boundary check is documented separately in artifacts/paderborn_three_code_boundary_registry.json.",
     "Any alternate split requires a separate registry entry and separate hash."
   ]
 }
