@@ -30,7 +30,7 @@
 |---|---|---:|---:|
 | record-grouped | fixed | 0.9585 | 0.7907 |
 | record-grouped | nested | 0.9728 | 0.8071 |
-| bearing-grouped | fixed | 0.8619 | 0.4900 |
+| bearing-grouped | fixed | 0.8597 | 0.4900 |
 | bearing-grouped | nested | 0.8033 | 0.4060 |
 
 以 bearing-grouped 减去 record-grouped 的拆分配对均值为：

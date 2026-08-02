@@ -21,6 +21,8 @@ Repeated evidential caveats were consolidated during the final language pass. Th
 ## Evidence and reproducibility checks
 
 - Primary G2 reconstruction audit: passed.
+- Factorial endpoint audit: passed; all 300 split-level record and bearing endpoints rebuilt from retained record predictions.
+- The three manuscript bearing-aggregate arrays match deterministic aggregation of the retained record predictions.
 - Six registered G2 cells present: passed.
 - 100 splits per G2 cell: passed.
 - Prediction-array SHA-256 hashes: passed.
@@ -32,10 +34,11 @@ Repeated evidential caveats were consolidated during the final language pass. Th
 - Unit probabilities, thresholded predictions, and headline metrics independently rebuilt: passed.
 - All 12 official archive hashes matched the frozen registry during the local audit; the raw archives remain outside the repository and release packages.
 - Canonical repository cross-hash audit: 128 existing path/SHA-256 references checked; mismatches: 0.
-- Automated tests: 29 passed.
+- Automated tests: 30 passed.
 - JSON files parsed: 83; failures: 0.
 - `CITATION.cff` parsed as CFF 1.2.0.
-- Citations: 46 unique citation keys and 46 bibliography entries; no missing or unused entries; bibliography follows first-appearance order.
+- Citations: 46 unique citation keys and 46 bibliography entries; no missing or unused entries; bibliography follows first-appearance order. All 45 DOI records and the official Paderborn URL were externally resolved and checked.
+- Abstract length: 168 words; single paragraph and below the target journal's approximately 200-word limit.
 - Placeholder scan: no TODO, TBD, FIXME, XXX, placeholder, or insertion markers in the manuscript, Supplementary Information, or README.
 - Authored-code/manuscript whitespace check: passed; publisher-supplied template files and intentional Markdown hard line breaks were excluded.
 
@@ -59,8 +62,8 @@ Repeated evidential caveats were consolidated during the final language pass. Th
 ## Final PDF hashes
 
 ```text
-61332c342465b9b5bd0ec051986c54bd9b6a1356ff2f84f1cfe32156815ab3c1  manuscript.pdf
-37b37ef4a411c86d5560d80da357b6ca7be6fce1e5e4f8916169dddd6226b95a  supplementary_information.pdf
+6dc317cd00f4b4a5bce8ad46e936e4cb236f6d4147348bd6c0f7c0d61c64995d  manuscript.pdf
+221853db150d6fca504573b68ec1e35b5adf24ef5c418bf817983ca9b3ebbf96  supplementary_information.pdf
 ```
 
-Public reproducibility release 2.1.0 is maintained at <https://github.com/niubisile-wq/HANOI-HUST-SCGP> and archived at <https://doi.org/10.5281/zenodo.21754415>. The project concept DOI is <https://doi.org/10.5281/zenodo.21695842>.
+Public reproducibility release 2.1.1 is maintained at <https://github.com/niubisile-wq/HANOI-HUST-SCGP>. The Zenodo concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version; the preceding v2.1.0 archive remains available at <https://doi.org/10.5281/zenodo.21754415>.

@@ -3,11 +3,11 @@
   "schema_version": 1,
   "paired_split_count": 100,
   "groupdro_result_sha256": "b920a28f8237fc55ed9f78fd5811983c0faf64e4636b781926af772605c6bdfa",
-  "logistic_result_sha256": "76a8e31f528d1e904678837f3fa2ceccab1a3cef862fb84a9d87f424d01cc305",
-  "observed_mean_auroc_difference": -0.017222222222222215,
-  "p_two_sided_sign_permutation": 0.00210998945005275,
+  "logistic_result_sha256": "cb894498439e99e48abf9d9a1818f5872e4c28f5d34d21a179e22fbd57e5b537",
+  "observed_mean_auroc_difference": -0.014999999999999993,
+  "p_two_sided_sign_permutation": 0.006254968725156374,
   "mean_groupdro_auroc": 0.8447222222222223,
-  "mean_logistic_auroc": 0.8619444444444446,
+  "mean_logistic_auroc": 0.8597222222222223,
   "split_rows": [
     {
       "split_id": 0,
@@ -270,26 +270,26 @@
     {
       "split_id": 43,
       "groupdro_auroc": 0.888888888888889,
-      "logistic_auroc": 0.9444444444444445,
-      "difference": -0.05555555555555558
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
     },
     {
       "split_id": 44,
       "groupdro_auroc": 0.888888888888889,
-      "logistic_auroc": 0.9444444444444445,
-      "difference": -0.05555555555555558
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
     },
     {
       "split_id": 45,
       "groupdro_auroc": 0.888888888888889,
-      "logistic_auroc": 0.9444444444444445,
-      "difference": -0.05555555555555558
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
     },
     {
       "split_id": 46,
       "groupdro_auroc": 0.888888888888889,
-      "logistic_auroc": 0.9444444444444445,
-      "difference": -0.05555555555555558
+      "logistic_auroc": 0.888888888888889,
+      "difference": 0.0
     },
     {
       "split_id": 47,

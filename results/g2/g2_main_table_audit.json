@@ -2,10 +2,10 @@
   "stage": "hanoi_hust_as_g2_main_table_audit",
   "schema_version": 1,
   "status": "passed",
-  "summary_sha256": "297f40a567ac590c7f7ce295ad3e240a6316ab18c72feb228bbd96b496f1061f",
-  "paired_split_sha256": "0f98d20cf5a093450d1abbeb696789f9bd0aa4fcc0a7dab7058db8ae1a219146",
+  "summary_sha256": "682841ffa9fd44039bc08319d2101e9881fe11989e35b7bea1731bd5cf532d8f",
+  "paired_split_sha256": "d66398ac73a6fc3844919d5a59c880719783a5f0ce59292758494dff66f51805",
   "table_path": "results/g2/g2_main_table.csv",
-  "table_sha256": "a9aaee442646afdb0a85f3045a45d9f904fab77526d0baca21b24c5a3fb7e586",
+  "table_sha256": "19ba41b9f9eadc5c1fe85e962f197909473dcaa7892a3562ef0eb64fdacf22ea",
   "cell_count": 6,
   "checks": {
     "all_six_cells_present": true,

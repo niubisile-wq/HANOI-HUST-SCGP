@@ -2,7 +2,7 @@
 
 Manuscript source, derived evidence, and reconstruction code for the Sealed Compound Generalization Protocol (SCGP) study in rotating-machinery fault diagnosis.
 
-Current reproducibility release: **2.1.0 (2026-08-02)**, archived on Zenodo at <https://doi.org/10.5281/zenodo.21754415>. The canonical development repository is <https://github.com/niubisile-wq/HANOI-HUST-SCGP>; the Zenodo concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version.
+Current reproducibility release: **2.1.1 (2026-08-02)**. The canonical development repository is <https://github.com/niubisile-wq/HANOI-HUST-SCGP>; the Zenodo concept DOI <https://doi.org/10.5281/zenodo.21695842> resolves to the latest archived version.
 
 ## Evidence boundary
 
@@ -60,13 +60,14 @@ The main reconstruction entry points are:
 
 ```powershell
 python src/audit_hanoi_hust_g2_main_table.py
+python src/audit_hanoi_hust_factorial_endpoints.py
 python src/analyze_hanoi_hust_g2_protocol.py
 python src/audit_paderborn_twelve_code_extension.py
 python src/audit_repository_cross_hashes.py
 python -m pytest -q
 ```
 
-The primary manuscript numbers can also be checked directly against `results/g2/factorial_endpoint_metrics.json` and the three corresponding record-prediction arrays in `results/g2/unit_level_predictions/`.
+The factorial endpoint audit rebuilds the primary manuscript numbers from `results/g2/factorial_endpoint_metrics.json` and the three corresponding record-prediction arrays in `results/g2/unit_level_predictions/`, and it verifies the synchronized bearing-aggregate arrays.
 
 All manuscript figures can be regenerated with:
 
@@ -86,4 +87,4 @@ python scripts/make_figure4.py
 
 Code is released under the MIT License. Dataset licenses and access terms remain those of the original providers. Cite the original dataset records, the associated manuscript, and the exact archived software release used for analysis:
 
-> Liu, Zixuan (2026). *Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization* (version 2.1.0). Zenodo. <https://doi.org/10.5281/zenodo.21754415>
+> Liu, Zixuan (2026). *Protocol-Dependent Performance in Rotating Machinery Fault Diagnosis: Evidence from Sealed Compound Generalization* (version 2.1.1). Zenodo. <https://doi.org/10.5281/zenodo.21695842>

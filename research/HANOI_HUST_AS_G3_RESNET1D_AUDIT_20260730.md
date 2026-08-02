@@ -24,7 +24,7 @@ Status: completed R2-style diagnostic baseline; not a primary model.
 | Exact-set accuracy | 0.1200 | 0.1531 |
 | Hamming loss | 0.4907 | 0.1662 |
 
-The result is below the fixed bearing-grouped logistic reference (AUROC 0.8619), MiniROCKET (0.7513), and WDCNN (0.6300). It is retained as a negative raw-waveform robustness result and is not used to replace the primary model.
+The result is below the fixed bearing-grouped logistic reference (AUROC 0.8597), MiniROCKET (0.7513), and WDCNN (0.6300). It is retained as a negative raw-waveform robustness result and is not used to replace the primary model.
 
 ## Reproducibility artifacts
 

@@ -23,7 +23,7 @@ Status: completed exploratory R2 baseline; not a claim of state-of-the-art perfo
 | Exact-set accuracy | 0.5560 | 0.1409 |
 | Hamming loss | 0.2600 | 0.0834 |
 
-The result is below the G2 record-grouped logistic reference (AUROC 0.9585) and below the G2 bearing-grouped fixed logistic reference (AUROC 0.8619). It is therefore a negative/diagnostic baseline, not the paper's primary model.
+The result is below the G2 record-grouped logistic reference (AUROC 0.9586) and below the G2 bearing-grouped fixed logistic reference (AUROC 0.8597). It is therefore a negative/diagnostic baseline, not the paper's primary model.
 
 ## Reproducibility artifacts
 

@@ -22,7 +22,7 @@ Status: completed R2-style domain-robustness comparator.
 | Exact-set accuracy | 0.4820 | 0.2091 |
 | Hamming loss | 0.2187 | 0.0953 |
 
-The AUROC is slightly below the fixed bearing-grouped logistic reference (0.8619), but the procedure provides a transparent source-only worst-domain robustness comparator. It must not be described as a performance improvement unless a prespecified paired uncertainty test supports that claim.
+The AUROC is slightly below the fixed bearing-grouped logistic reference (0.8597), but the procedure provides a transparent source-only worst-domain robustness comparator. It must not be described as a performance improvement unless a prespecified paired uncertainty test supports that claim.
 
 ## Reproducibility artifacts
 

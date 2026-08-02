@@ -61,6 +61,6 @@
   ],
   "predictions": {
     "path": "results/g2/unit_level_predictions/hanoi_hust_bearing_grouped_fixed_prespecified.npz",
-    "sha256": "76a8e31f528d1e904678837f3fa2ceccab1a3cef862fb84a9d87f424d01cc305"
+    "sha256": "cb894498439e99e48abf9d9a1818f5872e4c28f5d34d21a179e22fbd57e5b537"
   }
 }

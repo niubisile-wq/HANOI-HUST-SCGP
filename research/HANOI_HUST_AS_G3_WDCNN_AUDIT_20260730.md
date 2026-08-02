@@ -24,7 +24,7 @@ Status: completed R2-style diagnostic baseline; not a primary model.
 | Exact-set accuracy | 0.1160 | 0.1426 |
 | Hamming loss | 0.4853 | 0.1367 |
 
-The model is substantially below the fixed bearing-grouped logistic reference (AUROC 0.8619) and also below MiniROCKET (AUROC 0.7513). The failure is retained as evidence that an un-tuned compact raw-waveform network is not automatically superior to the frozen engineered-feature baseline.
+The model is substantially below the fixed bearing-grouped logistic reference (AUROC 0.8597) and also below MiniROCKET (AUROC 0.7513). The failure is retained as evidence that an un-tuned compact raw-waveform network is not automatically superior to the frozen engineered-feature baseline.
 
 ## Reproducibility artifacts
 

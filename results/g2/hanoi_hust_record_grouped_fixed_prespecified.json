@@ -64916,7 +64916,7 @@
   ],
   "predictions": {
     "path": "results/g2/unit_level_predictions/hanoi_hust_record_grouped_fixed_prespecified.npz",
-    "sha256": "222e984940b2c9fb6e4910c8f3a57ce2767174619bf6701660e7fea1bd6abfa3"
+    "sha256": "009bb92a3b8d71fc928adbdde1b87458ad8890510bb0d1ed35ffffbbfcc8a31d"
   },
   "record_predictions": {
     "path": "results/g2/unit_level_predictions/hanoi_hust_record_grouped_fixed_prespecified_record_predictions.npz",

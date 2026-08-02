@@ -3,7 +3,7 @@
   "description": "Reproducibility package for the Sealed Compound Generalization Protocol (SCGP), including manuscript-specific code, derived feature caches, split manifests, unit-level predictions, result files, and audit records. Raw third-party datasets are not redistributed.",
   "upload_type": "software",
   "access_right": "open",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "license": "MIT",
   "creators": [
     {

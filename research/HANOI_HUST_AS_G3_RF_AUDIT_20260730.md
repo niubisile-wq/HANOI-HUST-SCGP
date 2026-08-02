@@ -30,7 +30,7 @@
 | exact-set accuracy | 0.4580 | 0.1996 |
 | Hamming loss | 0.2700 | 0.1162 |
 
-与 G2 bearing-grouped fixed logistic 的 macro AUROC 均值 `0.8619` 相比，RF 当前结果较低。该阴性结果保留，不通过增加树数、修改测试拆分或删除不利拆分来修饰。
+与 G2 bearing-grouped fixed logistic 的 macro AUROC 均值 `0.8597` 相比，RF 当前结果较低。该阴性结果保留，不通过增加树数、修改测试拆分或删除不利拆分来修饰。
 
 ## 验收
 

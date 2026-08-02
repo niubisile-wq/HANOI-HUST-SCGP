@@ -77,7 +77,7 @@ All methods in Table~\ref{tab:s-g3} use the same 100 bearing-grouped outer split
 \toprule
 Method & AUROC & AUPR & Balanced accuracy & Macro-F1 & Exact set \\
 \midrule
-Fixed logistic reference & 0.862 & 0.835 & 0.742 & 0.704 & 0.490 \\
+Fixed logistic reference & 0.860 & 0.843 & 0.712 & 0.675 & 0.490 \\
 Random forest & 0.785 & 0.750 & 0.666 & 0.628 & 0.458 \\
 GroupDRO-style logistic & 0.845 & 0.825 & 0.721 & 0.680 & 0.482 \\
 MiniROCKET & 0.751 & 0.708 & 0.682 & 0.628 & 0.556 \\
@@ -87,6 +87,8 @@ InceptionTime-style & 0.569 & 0.565 & 0.516 & 0.370 & 0.120 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+For the paired GroupDRO comparison, the mean split-level AUROC difference (GroupDRO minus fixed logistic) was $-0.015$. A deterministic 200,000-draw sign-permutation calculation gave a two-sided $p$ value of 0.0063. Because all splits reuse the same 19 bearings, this value is a conditional resampling summary rather than evidence from 100 independent experiments.
 
 \section*{S4. Legacy NOACE comparator statistics}
 
@@ -213,7 +215,7 @@ Purpose & Entry point \\
 \endhead
 Primary G2 execution & \texttt{src/run\_hanoi\_hust\_g2\_protocol.py} \\
 Primary G2 audit & \texttt{src/audit\_hanoi\_hust\_g2\_main\_table.py} \\
-Factorial endpoint reconstruction & \texttt{results/g2/factorial\_endpoint\_metrics.json} and record-prediction arrays \\
+Factorial endpoint audit & \texttt{src/audit\_hanoi\_hust\_factorial\_endpoints.py} \\
 G3 model-family runs & \texttt{src/run\_hanoi\_hust\_g3\_*.py} \\
 Legacy NOACE ablation & \texttt{src/run\_hanoi\_hust\_noace\_ablation.py} \\
 Paderborn boundary run & \path{src/run_hanoi_hust_paderborn_external_lockbox.py} \\
